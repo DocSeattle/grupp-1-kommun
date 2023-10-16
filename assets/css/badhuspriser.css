@@ -1,0 +1,8 @@
+@import url("sitewide.css");
+
+.informationFlexTable {
+    display: flex;
+    place-items: center center;
+    text-align: left;
+    
+}
