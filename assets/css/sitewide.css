@@ -1,13 +1,29 @@
+
+/* Variabler som t.ex färger, fonter etc. */
 :root {
-    --siteColourPrimary: ;
-    --siteColourSecondary: ;
-    --siteColourAccent: ;
+    --backgroundColour: #e9e9e9;
+    --siteColourPrimary: #41b2d4;
+    --siteColourSecondary: #d4ca3d;
+    --siteColourAccent: #bbb;
+    --textColour: #000;
     --siteFontPrimary: Arial, Helvetica, sans-serif;
     --siteFontSecondary: Arial, Helvetica, sans-serif;
     --siteTransitionDefault: all 0.4s ease-in;
-
 }
 
+/* Animation klass för sid transitions.
+   gör det mer behagligt att byta sidor fort.
+*/
+.bodyAnimation {
+    animation-name: siteLoadTransition;
+    animation-duration: 0.4s; 
+    animation-timing-function: linear; 
+    animation-delay: 0; 
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards; 
+    animation-play-state: running;
+}
 
 @keyframes siteLoadTransition {
     0% {
