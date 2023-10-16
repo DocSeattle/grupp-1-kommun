@@ -1,3 +1,48 @@
-.PLACEHOLDER {
-    display: block;
+@import url("sitewide.css");
+
+main {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    place-items: center center;
+    flex-flow: column wrap;
+    gap: 2%;
 }
+
+section {
+    display: flex;
+    background-color: var(--backgroundColour);
+    color: var(--textColour);
+    padding: 0.5em;
+}
+
+section {
+    flex-flow: column wrap;
+}
+
+section > section {
+    flex-direction: row;
+    margin: auto;
+}
+
+.clr1 {
+    width: 250px;
+    height: 250px;
+    background-color: var(--siteColourPrimary);
+    text-align: center;
+
+}
+.clr2 {
+    width: 250px;
+    height: 250px;
+    background-color: var(--siteColourSecondary);
+    text-align: center;
+}
+.clr3 {
+    width: 250px;
+    height: 250px;
+    background-color: var(--siteColourAccent);
+    text-align: center;
+
+}
+
