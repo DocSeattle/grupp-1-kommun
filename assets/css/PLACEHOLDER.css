@@ -46,3 +46,18 @@ section > section {
 
 }
 
+.fontPrimary {
+    font-family: var(--siteFontPrimary);
+}
+
+.fontSecondary {
+    font-family: var(--siteFontSecondary);
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.big {
+    font-size: 48px;
+}
