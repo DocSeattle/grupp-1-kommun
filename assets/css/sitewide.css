@@ -2,9 +2,9 @@
 /* Variabler som t.ex färger, fonter etc. */
 :root {
     --backgroundColour: #e9e9e9;
-    --siteColourPrimary: #41b2d4;
-    --siteColourSecondary: #d4ca3d;
-    --siteColourAccent: #bbb;
+    --siteColourPrimary: #59b5d1;
+    --siteColourSecondary: #d4cd66;
+    --siteColourAccent: #61c96a;
     --textColour: #000;
     --siteFontPrimary: Arial, Helvetica, sans-serif;
     --siteFontSecondary: Arial, Helvetica, sans-serif;
