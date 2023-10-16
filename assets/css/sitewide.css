@@ -17,3 +17,203 @@
         opacity: 1;
     }
 }
+
+/*Ny font tillagd "onest"*/
+@font-face {font-family: onest;
+    src: url('/font/onest/Onest-VariableFont_wght.ttf');}
+
+/*Body html justeriengar*/
+body, html
+{padding: 0;
+margin: 0;}
+
+
+/*Gömmer tablet menyn, syns line 162*/
+.tablet-meny
+{display: none;}
+.ikontext
+{display: none;}
+
+/*hela headern meny, logo, namn*/
+header
+{display: flex;
+flex-direction: row;
+margin: 0 auto;
+width: 80%;
+min-width: 600px;
+height: 90px;}
+
+header img
+{max-width: 55px;
+margin-top: 25px;}
+
+header h1
+{margin: 0;
+font-size: 22px;
+margin-left: 15px;
+margin-top: 28px;
+color: #79C131;
+font-family: onest, sans-serif;
+font-weight: 900;}
+
+header p
+{padding-left: 16px;
+margin-top: -5px;
+font-size: 12px;
+color: #161616;
+letter-spacing: 2px;
+font-family: onest, sans-serif;
+font-weight: 400;}
+
+.companyname
+{min-width: 200px;}
+
+.companylogo
+{min-width: 50px;}
+
+/* top menu, knappar, hover*/
+.top-menu
+{width: 100%;
+text-align: right;}
+
+.top-menu nav
+{float: right;
+display: flex;
+height: 100%;
+gap: 0px;
+justify-content: space-between;}
+
+.top-menu button
+{font-size: 15px;
+font-family: onest, sans-serif;
+font-weight: 400;
+padding: 0px 25px 0px 25px;
+padding-top: 8px;
+text-decoration: none;
+color: #161616;
+height: 100%;
+border: 0;
+background-color: transparent;}
+
+.top-menu button:hover
+{background-color: #98e848;
+font-weight: 600;}
+
+/* Bilden på badhuset samt rubrik, text och knappar*/
+.main
+{display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-position: center;
+margin: 0;
+width: 100%;  
+height: 450px;
+background-repeat: no-repeat;}
+
+.main div
+{width: 600px;
+min-width: 600px;}
+
+.main h2
+{text-align: center;
+font-size: 45px;
+color: white;
+font-family: onest, sans-serif;
+font-weight: 900;
+letter-spacing: 1px;}
+
+.main p
+{text-align: center;
+font-size: 16px;
+font-family: onest, sans-serif;
+font-weight: 600;
+letter-spacing: 1px;
+color: white;
+margin-top: -20px;}
+
+/* De två knapparna på bakgrunden*/
+.header-button
+{width: 100%;
+margin-top: 50px;
+height: 80px;
+text-align: center;}
+
+#oppettider
+{font-size:14px;
+font-family: onest, sans-serif;
+font-weight: 400;
+letter-spacing: 0px;
+width: 160px;
+height: 40px;
+color: white;
+border: 0px;
+box-shadow: 0 1px 2px rgba(22, 22, 22, 0.5);
+border-radius: 15px;
+background-color: #79C131;
+margin-right: 20px;}
+
+#oppettider:hover
+{background-color: #98e848;
+color: #161616;
+font-weight: 600;}
+
+#aventyrsbadet
+{font-size:14px;
+font-family: onest, sans-serif;
+font-weight: 400;
+width: 160px;
+height: 40px;
+color: #79C131;
+border: 0px;
+box-shadow: 0 1px 2px rgba(22, 22, 22, 0.5);
+border-radius: 15px;
+background-color: white;}
+
+#aventyrsbadet:hover
+{background-color: #98e848;
+color: #161616;
+font-weight: 600;}
+
+/* 1024px @media meny */
+@media (max-width: 1024px)
+{.tablet-meny
+{display: block;}
+
+.ikontext
+{display: block;}
+
+.desktop-meny
+{display: none;}
+
+header
+{width: 70%;}
+
+.top-menu
+{right: 0;
+position: absolute;
+width: 100%;
+height: 90px;}
+
+.tablet-nav
+{padding-right: 20px;}
+
+.tablet-nav img
+{max-width: 40px;
+margin-right: 20px;
+margin-left: 20px;
+text-align: center;}
+
+.tablet-nav a
+{text-decoration: none;}
+
+.tablet-nav a:hover
+{background-color: #98e848;}
+
+.ikontext
+{text-align: center;
+font-size: 10px;
+font-family: onest, sans-serif;
+font-weight: 400;
+color: #161616;
+text-decoration: none;}}
