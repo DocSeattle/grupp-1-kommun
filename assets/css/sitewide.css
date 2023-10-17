@@ -29,7 +29,7 @@ margin: 0;}
 
 
 /*Gömmer tablet menyn, syns line 178*/
-.tablet-meny,.ikontext,#hamburger-button,#hamburger-box
+.tablet-meny,.ikontext,#hamburger-button
 {display: none;}
 
 /*hela headern meny, logo, namn*/
@@ -187,7 +187,7 @@ font-weight: 600;}
 {display: none;}
 
 header
-{width: 70%;}
+{width: 80%;}
 
 .top-menu
 {right: 0;
@@ -228,7 +228,7 @@ text-decoration: none;}}
 {display: block;}
 
 .tablet-nav
-{padding-right: 0px;}
+{margin-right: 0;}
 
 header
 {width: 100%;
@@ -249,12 +249,40 @@ height: 40px;
 margin: auto;
 padding: 0;}
 
-/* f */
+
 #hamburger-box
 {  position: absolute;
+    display: flex;
+    justify-content: left;
     top: 0;
     right: 0;
     width: 70%;
     height: 100%;
     z-index: 9999;
-    background-color: green;}
+    background-color: rgba(251, 217, 208, 0.9);}
+
+    #hamburger-box div
+    {width: 100%;
+    display: flex;
+    height: 50px;}
+
+#hamburger-box button
+    {display: flex;
+    padding-top: 6px;
+    padding-left: 10px;
+    flex-direction: row;
+    margin-bottom: 10px;
+    font-size: 28px;
+    font-family: onest, sans-serif;
+    background-color: transparent;
+    border: 0;}
+
+    #hamburger-box a
+    {text-decoration: none;}
+
+    #hamburger-box img
+    {width: 40px;
+    height: 40px;}
+
+    #hamburger-box button:hover
+    {font-weight: 900;}
