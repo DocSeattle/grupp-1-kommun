@@ -14,9 +14,16 @@
     </script>
 
 <script>
+    function hideHamburgerMenu()
+    {document.getElementById("hamburger-box").style.display = "none";}
+    </script>
+    
+
+<script>
     function hideElement()
     {document.getElementById("open-menu").style.display = "none";}
     </script>
+    
 
 <header>
     <div class="companylogo">
@@ -43,7 +50,7 @@
         <a href="https://www.google.se"><img src="/assets/img/header_nav/aventyrsbad_icon.png" class="tablet-meny"><div class="ikontext">äventyrsbad</div></a>
         <a href="https://www.google.se"><img src="/assets/img/header_nav/kontakta_icon.png" class="tablet-meny"><div class="ikontext">Kontakta</div></a>
         </nav>
-        <div id="hamburger-button"><button id="open-menu" onclick="showElement();hideElement();closeElement()"><img src="/assets/img/header_nav/menu.png"></button></div>
+        <div id="hamburger-button"><button id="open-menu" onclick="showElement()"><img src="/assets/img/header_nav/menu.png"></button></div>
 
     </header>
 
@@ -55,6 +62,7 @@
                 <div><img src="/assets/img/header_nav/simskola_icon.png"><a href="https://www.google.se"><button>Simskola</button></a></div>
                 <div><img src="/assets/img/header_nav/aventyrsbad_icon.png"><a href="https://www.google.se"><button>Äventyrsbad</button></a></div>
                 <div><img src="/assets/img/header_nav/kontakta_icon.png"><a href="https://www.google.se"><button>Kontakta oss</button></a></div>
+                <div class="close-hamburger" onclick="hideHamburgerMenu()"><button>STÄNG</button></div>
             </ul>
         </div>
 

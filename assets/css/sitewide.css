@@ -50,7 +50,7 @@ header h1
 font-size: 22px;
 margin-left: 15px;
 margin-top: 28px;
-color: #79C131;
+color: #0d369b;
 font-family: onest, sans-serif;
 font-weight: 900;}
 
@@ -58,7 +58,7 @@ header p
 {padding-left: 16px;
 margin-top: -5px;
 font-size: 12px;
-color: #161616;
+color: #0d369b;
 letter-spacing: 2px;
 font-family: onest, sans-serif;
 font-weight: 400;}
@@ -88,13 +88,15 @@ font-weight: 400;
 padding: 0px 25px 0px 25px;
 padding-top: 8px;
 text-decoration: none;
-color: #161616;
+color: #000405;
 height: 100%;
 border: 0;
-background-color: transparent;}
+background-color: transparent;
+cursor: pointer;}
 
 .top-menu button:hover
-{background-color: #98e848;
+{background-color: #0d369b;
+color: white;
 font-weight: 600;}
 
 /* Bilden på badhuset samt rubrik, text och knappar*/
@@ -116,7 +118,7 @@ min-width: 600px;}
 .main h2
 {text-align: center;
 font-size: 45px;
-color: white;
+color: #f1fbfe;
 font-family: onest, sans-serif;
 font-weight: 900;
 letter-spacing: 1px;}
@@ -127,7 +129,7 @@ font-size: 16px;
 font-family: onest, sans-serif;
 font-weight: 600;
 letter-spacing: 1px;
-color: white;
+color: #f1fbfe;
 margin-top: -20px;}
 
 /* De två knapparna på bakgrunden*/
@@ -139,38 +141,40 @@ text-align: center;}
 
 #oppettider
 {font-size:14px;
+cursor: pointer;
 font-family: onest, sans-serif;
 font-weight: 400;
 letter-spacing: 0px;
+width: 160px;
+height: 40px;
+color: #000405;
+border: 0px;
+box-shadow: 0 1px 2px rgba(22, 22, 22, 0.5);
+border-radius: 15px;
+background-color: #f1fbfe;
+margin-right: 20px;}
+
+#oppettider:hover
+{background-color: #0d369b;
+color: white;
+font-weight: 600;}
+
+#aventyrsbadet
+{font-size:14px;
+cursor: pointer;
+font-family: onest, sans-serif;
+font-weight: 400;
 width: 160px;
 height: 40px;
 color: white;
 border: 0px;
 box-shadow: 0 1px 2px rgba(22, 22, 22, 0.5);
 border-radius: 15px;
-background-color: #79C131;
-margin-right: 20px;}
-
-#oppettider:hover
-{background-color: #98e848;
-color: #161616;
-font-weight: 600;}
-
-#aventyrsbadet
-{font-size:14px;
-font-family: onest, sans-serif;
-font-weight: 400;
-width: 160px;
-height: 40px;
-color: #79C131;
-border: 0px;
-box-shadow: 0 1px 2px rgba(22, 22, 22, 0.5);
-border-radius: 15px;
-background-color: white;}
+background-color: #0d369b;}
 
 #aventyrsbadet:hover
-{background-color: #98e848;
-color: #161616;
+{background-color: white;
+color: #0d369b;
 font-weight: 600;}
 
 /* 1024px @media meny */
@@ -215,7 +219,7 @@ text-align: center;}
 font-size: 10px;
 font-family: onest, sans-serif;
 font-weight: 400;
-color: #161616;
+color: #000405;
 text-decoration: none;}}
 
 
@@ -231,7 +235,7 @@ min-width: 0px;}
 .main h2
 {text-align: center;
 font-size: 25px;
-color: white;
+color: #f1fbfe;
 font-family: onest, sans-serif;
 font-weight: 900;
 letter-spacing: 1px;}
@@ -245,7 +249,7 @@ font-size: 14px;
 font-family: onest, sans-serif;
 font-weight: 400;
 letter-spacing: 1px;
-color: white;
+color: #f1fbfe;
 margin-top: -20px;}
 
 #hamburger-button
@@ -279,13 +283,14 @@ padding: 0;}
 display: flex;
 top: 0;
 right: 0;
-width: 80%;
+width: 85%;
 height: 100%;
 z-index: 9999;
 background-color: rgba(251, 217, 208, 0.9);}
 
 #hamburger-box div
 {width: 100%;
+margin-left: -20px;
 display: flex;
 height: 50px;}
 
@@ -296,12 +301,22 @@ padding-left: 10px;
 flex-direction: row;
 margin-bottom: 10px;    
 font-size: 28px;
+cursor: pointer;
 font-family: onest, sans-serif;
 background-color: transparent;
 border: 0;}
 
 #hamburger-box a
 {text-decoration: none;}
+
+.close-hamburger
+{display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding-top: 45px;}
+
+
 
 #hamburger-box img
 {width: 40px;
@@ -319,13 +334,16 @@ height: 40px;}
 
 .main_h2_p p
 {font-size: 12px;
+display: flex;
 width: 100%;
 margin-top: 5px;}
 
 .header-button
 {display: flex;
 flex-direction: column;
-gap: 15px;}
+gap: 15px;
+padding-left: 18px;
+align-items: center;}
 
 
 #oppettider
@@ -336,7 +354,7 @@ margin: 0;
 letter-spacing: 0px;
 width: 160px;
 height: 40px;
-color: white;
+color: #f1fbfe;
 border: 0px;
 box-shadow: 0 1px 2px rgba(22, 22, 22, 0.5);
 border-radius: 15px;
@@ -349,7 +367,7 @@ font-weight: 400;
 letter-spacing: 0px;
 width: 160px;
 height: 40px;
-color: white;
+color: #f1fbfe;
 border: 0px;
 box-shadow: 0 1px 2px rgba(22, 22, 22, 0.5);
 border-radius: 15px;
