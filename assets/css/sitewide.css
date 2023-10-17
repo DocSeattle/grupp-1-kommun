@@ -28,10 +28,10 @@ body, html
 margin: 0;}
 
 
-/*Gömmer tablet menyn, syns line 162*/
-.tablet-meny
+/*Gömmer tablet menyn, syns line 178*/
+.tablet-meny,.ikontext
 {display: none;}
-.ikontext
+.hamburger-meny, .hamburger-text
 {display: none;}
 
 /*hela headern meny, logo, namn*/
@@ -177,6 +177,8 @@ font-weight: 600;}
 
 /* 1024px @media meny */
 @media (max-width: 1024px)
+
+
 {.tablet-meny
 {display: block;}
 
@@ -217,3 +219,43 @@ font-family: onest, sans-serif;
 font-weight: 400;
 color: #161616;
 text-decoration: none;}}
+
+
+/* 768px @media meny */
+@media (max-width: 768px)
+{.tablet-meny
+{display: none;}
+
+.ikontext
+{display: none;}
+
+.hamburger-meny, .hamburger-text
+{display: block;}
+
+.tablet-nav
+{padding-right: 0px;}
+
+header
+{width: 100%;
+min-width: 0px;}
+
+.hamburger
+{width: 100%;
+padding-right: 20px;
+padding-top: 25px;}
+
+.hamburger-nav
+{width: 35px;
+height: 35px;
+cursor: pointer;
+float: right;
+border: 0;}
+
+.hamburger-img
+{width: 35px;
+height: 35px;
+margin: 0px;
+padding: 0;}
+
+.companylogo
+{padding-left: 20px;}}
