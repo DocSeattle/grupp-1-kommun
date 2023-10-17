@@ -12,17 +12,21 @@
     padding: 100px 15%;
     background: #333;
     color: #efefef;
-    display: flex; 
+    display: flex;
+    flex-wrap: wrap; /* Lägg till detta för att hantera mindre skärmar */
 }
 
 /* stil för alla sektioner */
 .footer section {
     text-align: center;
+    flex: 1; /* Lägg till detta för att anpassa sektionerna på mindre skärmar */
+    max-width: 100%; /* Lägg till detta för att säkerställa att sektionerna inte överskrider skärmbredden */
 }
 
 /* nyheter */
 .sec-2{
     flex-grow: 2;
+    flex-basis: 100%; /* Lägg till detta för att ändra basbredden för .sec-2 på mindre skärmar */
 }
 
 /* stil för h3 i footer */
@@ -46,7 +50,7 @@
 
 /* mejl rutan */
 form input{
-    width: 400px;
+    width: 100%; /* Ändra bredden till 100% för att fylla hela skärmbredden på mindre skärmar */
     height: 45px;
     border-radius: 4px;
     text-align: center;
@@ -65,4 +69,33 @@ form button {
     padding: 10px 30px;
     font-size: 15px;
     cursor: pointer;
+}
+
+/* Media query för mindre skärmar (t.ex. mobil) */
+@media (max-width: 768px) {
+
+    h3 {
+        font-size: 25px;
+    }
+    .footer {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .footer a {
+        font-size: 18px;
+    }
+    
+    .sec-2 {
+        flex-basis: 100%; /* Anpassa .sec-2 på mindre skärmar */
+        width: 100%;
+    }
+    
+    form input {
+        width: 100%; /* Fyll hela skärmbredden på mindre skärmar */
+    }
+
+    form button {
+        margin: 20px;
+    }
 }
