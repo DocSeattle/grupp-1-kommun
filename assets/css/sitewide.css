@@ -1,9 +1,18 @@
+/* font imports */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+
 :root {
-    --siteColourPrimary: ;
-    --siteColourSecondary: ;
-    --siteColourAccent: ;
-    --siteFontPrimary: Arial, Helvetica, sans-serif;
-    --siteFontSecondary: Arial, Helvetica, sans-serif;
+    --text: #000405;
+    --background: #f1fbfe;
+    --primary: #0d369b;
+    --secondary: #fbd9d0;
+    --accent: #ebae14;
+    
+    --siteFontPrimary: 'IBM Plex Sans', sans-serif;
+    --siteFontSecondary:'IBM Plex Sans Condensed', sans-serif;
+    
     --siteTransitionDefault: all 0.4s ease-in;
 
 }
