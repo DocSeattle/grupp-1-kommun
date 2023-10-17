@@ -19,6 +19,9 @@ p {
     margin-left: 3%;
     margin-right: 10%;
 }
+form {
+    margin: 3%;
+}
 @media screen and (min-width: 1000px){
    body {
     margin-left: 15%;
@@ -32,6 +35,9 @@ p {
    img{
         height: 550px;
         width: auto;
+    }
+    form {
+        margin-left: 3%;
     }
     
 }
