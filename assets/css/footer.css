@@ -1,9 +1,5 @@
-@import url("sitewide.css");
+/* footer.css */
 
 body {
-    background-color: black;
-}
-h3 {
-    color: aqua;
-    background-color: blue;
+    background-color: aquamarine;
 }
