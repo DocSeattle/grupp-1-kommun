@@ -14,9 +14,9 @@
     </script>
 
 <script>
-        function hideElement()
-        {document.getElementById("hamburger-button").style.display = "none";}
-        </script>
+    function hideElement()
+    {document.getElementById("open-menu").style.display = "none";}
+    </script>
 
 <header>
     <div class="companylogo">
@@ -43,8 +43,7 @@
         <a href="https://www.google.se"><img src="/assets/img/header_nav/aventyrsbad_icon.png" class="tablet-meny"><div class="ikontext">äventyrsbad</div></a>
         <a href="https://www.google.se"><img src="/assets/img/header_nav/kontakta_icon.png" class="tablet-meny"><div class="ikontext">Kontakta</div></a>
         </nav>
-        <div id="hamburger-button"><button onclick="showElement();hideElement()"><img src="/assets/img/header_nav/menu.png"></button></div>
-        <div id="hamburger-button"><button onclick="showElement();hideElement()"><img src="/assets/img/"></button></div>
+        <div id="hamburger-button"><button id="open-menu" onclick="showElement();hideElement();closeElement()"><img src="/assets/img/header_nav/menu.png"></button></div>
 
     </header>
 

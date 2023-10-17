@@ -224,6 +224,30 @@ text-decoration: none;}}
 {.tablet-meny, .ikontext
 {display: none;}
 
+.main div
+{width: 90%;
+min-width: 0px;}
+
+.main h2
+{text-align: center;
+font-size: 30px;
+color: white;
+font-family: onest, sans-serif;
+font-weight: 900;
+letter-spacing: 1px;}
+
+.main_h2_p
+{width: 80%;}
+
+.main p
+{text-align: center;
+font-size: 14px;
+font-family: onest, sans-serif;
+font-weight: 400;
+letter-spacing: 1px;
+color: white;
+margin-top: -20px;}
+
 #hamburger-button
 {display: block;}
 
@@ -286,3 +310,10 @@ padding: 0;}
 
     #hamburger-box button:hover
     {font-weight: 900;}
+
+
+    /* 460px @media meny */
+
+    @media (max-width: 450px)
+    {.main_h2_p h2
+    {font-size: 20px;}}
