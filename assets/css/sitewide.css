@@ -230,7 +230,7 @@ min-width: 0px;}
 
 .main h2
 {text-align: center;
-font-size: 30px;
+font-size: 25px;
 color: white;
 font-family: onest, sans-serif;
 font-weight: 900;
@@ -275,45 +275,104 @@ padding: 0;}
 
 
 #hamburger-box
-{  position: absolute;
-    display: flex;
-    justify-content: left;
-    top: 0;
-    right: 0;
-    width: 70%;
-    height: 100%;
-    z-index: 9999;
-    background-color: rgba(251, 217, 208, 0.9);}
+{position: absolute;
+display: flex;
+top: 0;
+right: 0;
+width: 80%;
+height: 100%;
+z-index: 9999;
+background-color: rgba(251, 217, 208, 0.9);}
 
-    #hamburger-box div
-    {width: 100%;
-    display: flex;
-    height: 50px;}
+#hamburger-box div
+{width: 100%;
+display: flex;
+height: 50px;}
 
 #hamburger-box button
-    {display: flex;
-    padding-top: 6px;
-    padding-left: 10px;
-    flex-direction: row;
-    margin-bottom: 10px;
-    font-size: 28px;
-    font-family: onest, sans-serif;
-    background-color: transparent;
-    border: 0;}
+{display: flex;
+padding-top: 6px;
+padding-left: 10px;
+flex-direction: row;
+margin-bottom: 10px;    
+font-size: 28px;
+font-family: onest, sans-serif;
+background-color: transparent;
+border: 0;}
 
-    #hamburger-box a
-    {text-decoration: none;}
+#hamburger-box a
+{text-decoration: none;}
 
-    #hamburger-box img
-    {width: 40px;
-    height: 40px;}
+#hamburger-box img
+{width: 40px;
+height: 40px;}
 
-    #hamburger-box button:hover
-    {font-weight: 900;}
+#hamburger-box button:hover
+{font-weight: 900;}
 
 
-    /* 460px @media meny */
+/* 460px @media meny */
 
-    @media (max-width: 450px)
-    {.main_h2_p h2
-    {font-size: 20px;}}
+@media (max-width: 450px)
+{.main_h2_p h2
+{font-size: 20px;}
+
+.main_h2_p p
+{font-size: 12px;
+width: 100%;
+margin-top: 5px;}
+
+.header-button
+{display: flex;
+flex-direction: column;
+gap: 15px;}
+
+
+#oppettider
+{font-size:14px;
+font-family: onest, sans-serif;
+font-weight: 400;
+margin: 0;
+letter-spacing: 0px;
+width: 160px;
+height: 40px;
+color: white;
+border: 0px;
+box-shadow: 0 1px 2px rgba(22, 22, 22, 0.5);
+border-radius: 15px;
+background-color: #79C131;}
+
+#aventyrsbad
+{font-size:14px;
+font-family: onest, sans-serif;
+font-weight: 400;
+letter-spacing: 0px;
+width: 160px;
+height: 40px;
+color: white;
+border: 0px;
+box-shadow: 0 1px 2px rgba(22, 22, 22, 0.5);
+border-radius: 15px;
+background-color: #79C131;}
+
+#hamburger-button img
+{width: 25px;
+height: 25px;}
+
+#hamburger-box button
+{font-size: 16px;
+padding-top: 11px;}
+
+.companyname h1
+{font-size: 15px;
+padding-top: 5px;
+margin-left: 1px;}
+
+.companyname p
+{margin-left: -13px;
+font-size: 11px;
+padding-top: 2px;}
+
+.companylogo img
+{width: 45px;
+height: 45px;}}
