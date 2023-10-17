@@ -52,6 +52,7 @@
     flex-direction: column;
     max-width: 35%;
     max-height: 35%;
+    margin-bottom: 1%;
 }
 
 img.bildContainer {
