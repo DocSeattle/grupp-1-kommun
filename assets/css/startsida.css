@@ -1,0 +1,10 @@
+header {background-color: rgb(0, 255, 255); height: 30vh;}
+
+section #öppetider, #priser, #kontakt, #simskola {width: 65vh; padding: 1.2%;}
+/*
+#öppetider {width: 65vh;}
+#priser {width: 65vh;}
+#kontakt {width: 65vh;}
+#simskola {width: 65vh;}
+*/
+
