@@ -8,22 +8,6 @@
 
 <!--Funktion för att visa gömt elemnt, används till hamburgar menyn-->
 
-<script>
-    function showElement()
-    {document.getElementById("hamburger-box").style.display = "block";}
-    </script>
-
-<script>
-    function hideHamburgerMenu()
-    {document.getElementById("hamburger-box").style.display = "none";}
-    </script>
-    
-
-<script>
-    function hideElement()
-    {document.getElementById("open-menu").style.display = "none";}
-    </script>
-    
 
 <header>
     <div class="companylogo">
@@ -47,8 +31,16 @@
         <a href="/pages/badhus-openinghours.html"><img src="/assets/img/header_nav/oppettider_icon.png" class="tablet-meny"><div class="ikontext">Öppettider</div></a>
         <a href="/pages/simskola.html"><img src="/assets/img/header_nav/simskola_icon.png" class="tablet-meny"><div class="ikontext">Simskola</div></a>
         <a href="/pages/kontakt.html"><img src="/assets/img/header_nav/kontakta_icon.png" class="tablet-meny"><div class="ikontext">Kontakta</div></a>
-        </nav>
+        <a href="#hamburger-container"><img id="nav-hamburger-ikon" src="/assets/img/header_nav/menu.png"></a>
+    </nav>
 
+    <div id="hamburger-container">
+        <div class="close-ham"><a href="#"><img src="/assets/img/header_nav/close.png"></a>STÄNG</div>
+        <div class="hamburger-buttons-container"><button><a class="text-hamburger-buttons" href="/pages/badhus-priser-schema.html">PRISER</a><button></div>
+        <div class="hamburger-buttons-container"><button><a class="text-hamburger-buttons" href="/pages/badhus-openinghours.html">ÖPPETTIDER</a><button></div>
+        <div class="hamburger-buttons-container"><button><a class="text-hamburger-buttons" href="/pages/simskola.html">SIMSKOLA</a><button></div>
+        <div class="hamburger-buttons-container"><button><a class="text-hamburger-buttons" href="/pages/kontakt.html">KONTAKT</a><button></div>
+    </div>
 
     </header>
 
@@ -67,7 +59,6 @@
                 </div>
             </div>
             </div>
-
 
     <body>
     </body>
