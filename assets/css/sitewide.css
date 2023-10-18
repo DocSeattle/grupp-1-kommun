@@ -1,4 +1,4 @@
-
+@import url(/assets/css/badhuspriser.css);
 
 :root {
     --siteColourPrimary: ;
@@ -31,7 +31,7 @@ margin: 0;}
 
 
 /*Gömmer tablet menyn, syns line 178*/
-.tablet-meny,.ikontext,#hamburger-button
+.tablet-meny,.ikontext
 {display: none;}
 
 /*hela headern meny, logo, namn*/
@@ -103,7 +103,7 @@ color: white;
 font-weight: 600;}
 
 /* Bilden på badhuset samt rubrik, text och knappar*/
-.main
+.main2
 {display: flex;
 flex-direction: column;
 justify-content: center;
@@ -114,11 +114,11 @@ width: 100%;
 height: 450px;
 background-repeat: no-repeat;}
 
-.main div
+.main2 div
 {width: 600px;
 min-width: 600px;}
 
-.main h2
+.main2 h2
 {text-align: center;
 font-size: 45px;
 color: #f1fbfe;
@@ -126,7 +126,7 @@ font-family: onest, sans-serif;
 font-weight: 900;
 letter-spacing: 1px;}
 
-.main p
+.main2 p
 {text-align: center;
 font-size: 16px;
 font-family: onest, sans-serif;
@@ -162,7 +162,7 @@ margin-right: 20px;}
 color: white;
 font-weight: 600;}
 
-#aventyrsbadet
+#nav-simskola
 {font-size:14px;
 cursor: pointer;
 font-family: onest, sans-serif;
@@ -175,7 +175,7 @@ box-shadow: 0 1px 2px rgba(22, 22, 22, 0.5);
 border-radius: 15px;
 background-color: #0d369b;}
 
-#aventyrsbadet:hover
+#nav-simskola:hover
 {background-color: white;
 color: #0d369b;
 font-weight: 600;}
@@ -231,11 +231,11 @@ text-decoration: none;}}
 {.tablet-meny, .ikontext
 {display: none;}
 
-.main div
+.main2 div
 {width: 90%;
 min-width: 0px;}
 
-.main h2
+.main2 h2
 {text-align: center;
 font-size: 25px;
 color: #f1fbfe;
@@ -246,7 +246,7 @@ letter-spacing: 1px;}
 .main_h2_p
 {width: 80%;}
 
-.main p
+.main2 p
 {text-align: center;
 font-size: 14px;
 font-family: onest, sans-serif;
@@ -254,9 +254,6 @@ font-weight: 400;
 letter-spacing: 1px;
 color: #f1fbfe;
 margin-top: -20px;}
-
-#hamburger-button
-{display: block;}
 
 .tablet-nav
 {margin-right: 0;}
@@ -267,67 +264,6 @@ min-width: 0px;}
 
 .companylogo
 {padding-left: 20px;}}
-
-#hamburger-button
-{width: 80px;
-height: 100%;
-float: right;
-text-align: center;}
-
-#hamburger-button img
-{width: 40px;
-height: 40px;
-margin: auto;
-padding: 0;}
-
-
-#hamburger-box
-{position: absolute;
-z-index: 9999;
-display: flex;
-top: 0;
-right: 0;
-width: 85%;
-height: 100%;
-z-index: 9999;
-background-color: rgba(251, 217, 208, 0.9);}
-
-#hamburger-box div
-{width: 100%;
-margin-left: -20px;
-display: flex;
-height: 50px;}
-
-#hamburger-box button
-{display: flex;
-padding-top: 6px;
-padding-left: 10px;
-flex-direction: row;
-margin-bottom: 10px;    
-font-size: 28px;
-cursor: pointer;
-font-family: onest, sans-serif;
-background-color: transparent;
-border: 0;}
-
-#hamburger-box a
-{text-decoration: none;}
-
-.close-hamburger
-{display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding-top: 45px;}
-
-
-
-#hamburger-box img
-{width: 40px;
-height: 40px;}
-
-#hamburger-box button:hover
-{font-weight: 900;}
 
 
 /* 460px @media meny */
@@ -362,28 +298,7 @@ color: #f1fbfe;
 border: 0px;
 box-shadow: 0 1px 2px rgba(22, 22, 22, 0.5);
 border-radius: 15px;
-background-color: #79C131;}
-
-#aventyrsbad
-{font-size:14px;
-font-family: onest, sans-serif;
-font-weight: 400;
-letter-spacing: 0px;
-width: 160px;
-height: 40px;
-color: #f1fbfe;
-border: 0px;
-box-shadow: 0 1px 2px rgba(22, 22, 22, 0.5);
-border-radius: 15px;
-background-color: #79C131;}
-
-#hamburger-button img
-{width: 25px;
-height: 25px;}
-
-#hamburger-box button
-{font-size: 16px;
-padding-top: 11px;}
+background-color: black;}
 
 .companyname h1
 {font-size: 15px;
