@@ -24,7 +24,7 @@ form {
     margin: 3%;
 }
 @media screen and (min-width: 1000px){
-   body {
+   main {
     margin-left: 15%;
     margin-right: 15%;
    }
