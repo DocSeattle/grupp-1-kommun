@@ -5,11 +5,9 @@
     flex-flow: column nowrap;
 }
 
-
 #lista {
     display: flex;
     flex-direction: column;
-
 }
 
 #text {
@@ -22,8 +20,9 @@
 }
 
 #text h1 {
-    margin-bottom: 0;
+    margin-bottom: 0; 
 }
+
 
 #gruppering1 {
     display: flex;
