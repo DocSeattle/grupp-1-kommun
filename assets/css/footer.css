@@ -49,7 +49,7 @@
 }
 
 /* mejl rutan */
-form input{
+.form-footer input{
     width: 100%; /* Ändra bredden till 100% för att fylla hela skärmbredden på mindre skärmar */
     height: 45px;
     border-radius: 4px;
@@ -61,7 +61,7 @@ form input{
 }
 
 /* knappen för nyheter */
-form button {
+.form-footer button {
     background: transparent;
     border: 2px solid #fff;
     color: #fff;
