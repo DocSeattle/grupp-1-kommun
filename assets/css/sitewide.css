@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
 
-
 :root {
     --text: #000405;
     --background: #f1fbfe;
@@ -71,7 +70,8 @@ flex-direction: row;
 margin: 0 auto;
 width: 80%;
 min-width: 600px;
-height: 90px;}
+height: 90px;
+z-index: 9999;}
 
 header img
 {max-width: 55px;
@@ -312,6 +312,7 @@ padding: 0;}
 
 #hamburger-box
 {position: absolute;
+z-index: 9999;
 display: flex;
 top: 0;
 right: 0;
@@ -360,7 +361,7 @@ height: 40px;}
 
 /* 460px @media meny */
 
-@media (max-width: 450px)
+@media only screen and (max-width: 450px)
 {.main_h2_p h2
 {font-size: 20px;}
 
