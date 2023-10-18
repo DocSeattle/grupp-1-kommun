@@ -1,5 +1,5 @@
 @import url("/assets/css/sitewide.css");
-@import url("/assets/css/footer.css")
+@import url("/assets/css/footer.css");
 
 main {
     margin: 2%;
@@ -10,13 +10,16 @@ main {
 img {
     width: 100%;
 }
+.psimskola{
+    font-size: 0.8rem;
+}
 #h2simskola {
     margin-left: 3%;
 }
 .h3simskola {
     margin-left: 3%;
 }
-p {
+.psimskola {
     margin-left: 3%;
     margin-right: 10%;
 }
@@ -40,10 +43,15 @@ p {
         width: auto;
     }
     li {
+        
         margin-left: 1%;
     }
     #formsimskola {
         margin-left: 3%;
+    }
+    .psimskola{
+        
+        font-size: 1rem;
     }
     
 }
