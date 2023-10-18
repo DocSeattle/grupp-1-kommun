@@ -1,25 +1,26 @@
-@import url("sitewide.css");
+@import url("/assets/css/sitewide.css");
+@import url("/assets/css/footer.css")
 
 main {
     margin: 2%;
 }
-h1 {
+#h1simskola {
     text-align: center;
 }
 img {
     width: 100%;
 }
-h2 {
+#h2simskola {
     margin-left: 3%;
 }
-h3 {
+.h3simskola {
     margin-left: 3%;
 }
 p {
     margin-left: 3%;
     margin-right: 10%;
 }
-form {
+#formsimskola {
     max-width: 100%;
     margin: 3%;
 }
@@ -32,12 +33,16 @@ form {
         display: flex;
         align-items: center;
         justify-content: center;
+        
     }
-   img{
+    #imgcenter img{
         height: 550px;
         width: auto;
     }
-    form {
+    li {
+        margin-left: 1%;
+    }
+    #formsimskola {
         margin-left: 3%;
     }
     
