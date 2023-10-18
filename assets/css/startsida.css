@@ -1,10 +1,111 @@
-header {background-color: rgb(0, 255, 255); height: 30vh;}
+@import url("sitewide.css");
 
-section #öppetider, #priser, #kontakt, #simskola {width: 65vh; padding: 1.2%;}
-/*
-#öppetider {width: 65vh;}
-#priser {width: 65vh;}
-#kontakt {width: 65vh;}
-#simskola {width: 65vh;}
-*/
+#contentWrapper {
+    display: flex;
+    flex-flow: column nowrap;
+}
 
+#lista {
+    display: flex;
+    flex-direction: column;
+}
+
+#text {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 70%;
+    width: 60%;
+    place-self: center end;
+}
+
+#text h1 {
+    margin-bottom: 0; 
+}
+
+
+#gruppering1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* Bilderna */
+/* Bilderna */
+/* Bilderna */
+
+/* display: flex gör att man lättare kan stapla de på olika sätt */
+#bilder {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    overflow: hidden;
+    max-width: 70%;
+    place-content: center center;
+    gap: 1%;
+}
+
+.bildContainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 45%;
+    max-height: 35%;
+    margin-bottom: 2%;
+}
+
+img.bildContainer {
+    max-width: 35%;
+}
+
+.bildContainer {
+    filter: grayscale(1);
+}
+
+.bildContainer:focus,
+.bildContainer:hover {
+    filter: grayscale(0);
+    transition: 0.15s all linear;
+}
+
+.bildContainer .bildContainerLink,
+.bildContainer .bildContainerLink:visited {
+    cursor: pointer;
+    font-family: var(--siteFontPrimary);
+    font-weight: bold;
+    text-decoration: none;
+    background-color: var(--accent);
+    margin: 0;
+    padding: 1em;
+    color: darkblue;
+
+}
+
+.bildContainer img.bildContainerLink {
+    padding: 0;
+}
+
+.bildContainer .bildContainerLink:focus,
+.bildContainer .bildContainerLink:hover {
+    filter: brightness(1.1);
+    transition: all 0.15s linear;
+}
+
+.bildContainer .bildContainerLink:active {
+    background-color: var(--accent);
+    filter: brightness(0.9);
+}
+
+/* Mjuka kanter för två första bilderna */
+.bildContainer:nth-of-type(1) .startsidaBild {
+    border-top-left-radius: 15px;
+}
+
+.bildContainer:nth-of-type(2) .startsidaBild {
+    border-top-right-radius: 15px;
+}
+
+/* Bilderna */
+/* Bilderna */
+/* Bilderna */
