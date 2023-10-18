@@ -1,6 +1,4 @@
 *{
-    margin: 0;
-    padding: 0;
     font-family: 'poppins', sans-serif;
     box-sizing: border-box;
 }
@@ -74,7 +72,7 @@
 /* Media query för mindre skärmar (t.ex. mobil) */
 @media (max-width: 768px) {
 
-    h3 {
+    .h3-footer{
         font-size: 25px;
     }
     .footer {
@@ -91,11 +89,11 @@
         width: 100%;
     }
     
-    form input {
+    .form-footer input {
         width: 100%; /* Fyll hela skärmbredden på mindre skärmar */
     }
 
-    form button {
+    .form-footer button {
         margin: 20px;
     }
 }
