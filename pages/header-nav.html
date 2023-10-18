@@ -6,6 +6,25 @@
     <title>Grupp 1 Kommun</title>
 </head>
 
+<!--Funktion för att visa gömt elemnt, används till hamburgar menyn-->
+
+<script>
+    function showElement()
+    {document.getElementById("hamburger-box").style.display = "block";}
+    </script>
+
+<script>
+    function hideHamburgerMenu()
+    {document.getElementById("hamburger-box").style.display = "none";}
+    </script>
+    
+
+<script>
+    function hideElement()
+    {document.getElementById("open-menu").style.display = "none";}
+    </script>
+    
+
 <header>
     <div class="companylogo">
         <img src="/assets/img/header_nav/ducklogo.png">
@@ -31,15 +50,20 @@
         </nav>
 
 
+    </header>
+
+    <body>
+
+        <div class="main2" style="background-image: url(/assets/img/header_nav/swim_girl_background.jpg);">
             <div class="main_h2_p">
             
-                <h2>VÄLKOMMEN TILL DUCKYY!</h2>
+                <h2>VÄLKOMMEN TILL DUCKY!</h2>
                     <p>En av Sveriges roligaste Äventyrsbad, vi garanterar dig och din familj
                     en upplevelse ni sent kommer glömma!</p>
             
                 <div class="header-button">
                     <a href="/pages/badhus-openinghours.html"><button id="oppettider">Våra öppetider</button></a>
-                    <a href="/pages/simskola.html"><button id="nav-simskola">Simskolan</button></a>
+                    <a href="/pages/Simskola.html"><button id="nav-simskola">Simskolan</button></a>
                 </div>
             </div>
             </div>
