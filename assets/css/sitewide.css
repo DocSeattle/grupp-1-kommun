@@ -203,7 +203,7 @@ margin-top: 50px;
 height: 80px;
 text-align: center;}
 
-#oppettider
+#nav-oppettider
 {font-size:14px;
 cursor: pointer;
 font-family: onest, sans-serif;
@@ -218,7 +218,7 @@ border-radius: 15px;
 background-color: #f1fbfe;
 margin-right: 20px;}
 
-#oppettider:hover
+#nav-oppettider:hover
 {background-color: #0d369b;
 color: white;
 font-weight: 600;}
@@ -354,7 +354,7 @@ padding-left: 18px;
 align-items: center;}
 
 
-#oppettider
+#nav-oppettider
 {font-size:14px;
 font-family: onest, sans-serif;
 font-weight: 400;
