@@ -1,0 +1,44 @@
+@import url("sitewide.css");
+
+main {
+    margin: 2%;
+}
+h1 {
+    text-align: center;
+}
+img {
+    width: 100%;
+}
+h2 {
+    margin-left: 3%;
+}
+h3 {
+    margin-left: 3%;
+}
+p {
+    margin-left: 3%;
+    margin-right: 10%;
+}
+form {
+    max-width: 100%;
+    margin: 3%;
+}
+@media screen and (min-width: 1000px){
+   body {
+    margin-left: 15%;
+    margin-right: 15%;
+   }
+    #imgcenter{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+   img{
+        height: 550px;
+        width: auto;
+    }
+    form {
+        margin-left: 3%;
+    }
+    
+}

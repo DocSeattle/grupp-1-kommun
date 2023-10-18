@@ -1,0 +1,64 @@
+@import url("sitewide.css");
+*{
+    box-sizing: border-box;
+}
+main{
+    margin: 2%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+} 
+td, th {
+    border: 1px solid #dddd;
+    text-align: left;
+    padding: 8px;
+}
+tr{
+    text-align: center;
+}
+tr:nth-child(even) {
+    background-color: #bddfe1;
+}
+
+#openinghours{
+    margin-top: 50px;
+}
+#table-pris-motionssim{
+    overflow-x:auto;
+}
+
+#side-menu {
+    /* Göm sidonavigationsmenyn på skärmar smalare än 1000px */
+    display: none;
+}
+
+
+@media screen and (min-width: 500px){
+    body{
+        margin: 0 2%;
+    }
+    table{
+        min-width: 400px;
+        width: auto;
+    }
+    #table-pris-motionssim{
+        overflow-x:unset;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    body{
+        margin: 0 15%;
+    }
+    section{
+        padding-left: 15px;
+    }
+    #openinghours{
+        margin-top: 0;
+    }
+    main{
+        display: flex;
+    }
+}
