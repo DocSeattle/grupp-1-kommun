@@ -39,7 +39,8 @@ flex-direction: row;
 margin: 0 auto;
 width: 80%;
 min-width: 600px;
-height: 90px;}
+height: 90px;
+z-index: 9999;}
 
 header img
 {max-width: 55px;
@@ -280,6 +281,7 @@ padding: 0;}
 
 #hamburger-box
 {position: absolute;
+z-index: 9999;
 display: flex;
 top: 0;
 right: 0;
