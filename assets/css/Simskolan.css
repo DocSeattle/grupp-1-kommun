@@ -7,6 +7,9 @@ main {
 #h1simskola {
     text-align: center;
 }
+body{
+    margin 0
+}
 img {
     width: 100%;
 }
@@ -52,6 +55,9 @@ img {
     .psimskola{
         
         font-size: 1rem;
+    }
+    body {
+        margin: 0;
     }
     
 }
