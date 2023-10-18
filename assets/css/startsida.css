@@ -59,10 +59,6 @@ img.bildContainer {
     max-width: 35%;
 }
 
-.bildContainer {
-    filter: grayscale(1);
-}
-
 .bildContainer:focus,
 .bildContainer:hover {
     filter: grayscale(0);
