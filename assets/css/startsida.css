@@ -17,12 +17,14 @@
     max-width: 70%;
     width: 60%;
     place-self: center end;
+    margin-bottom: 3vh;             /* Har lagt till margin på texterna */
 }
 
 #text h1 {
-    margin-bottom: 0; 
-}
+    margin-top: 4vh;
+    margin-bottom: 4vh; 
 
+}
 
 #gruppering1 {
     display: flex;
@@ -31,9 +33,6 @@
 }
 
 /* Bilderna */
-/* Bilderna */
-/* Bilderna */
-
 /* display: flex gör att man lättare kan stapla de på olika sätt */
 #bilder {
     margin: auto;
@@ -59,10 +58,6 @@ img.bildContainer {
     max-width: 35%;
 }
 
-.bildContainer {
-    filter: grayscale(1);
-}
-
 .bildContainer:focus,
 .bildContainer:hover {
     filter: grayscale(0);
@@ -79,7 +74,6 @@ img.bildContainer {
     margin: 0;
     padding: 1em;
     color: darkblue;
-
 }
 
 .bildContainer img.bildContainerLink {
@@ -88,7 +82,7 @@ img.bildContainer {
 
 .bildContainer .bildContainerLink:focus,
 .bildContainer .bildContainerLink:hover {
-    filter: brightness(1.1);
+    filter: brightness(1.2);
     transition: all 0.15s linear;
 }
 
@@ -105,7 +99,4 @@ img.bildContainer {
 .bildContainer:nth-of-type(2) .startsidaBild {
     border-top-right-radius: 15px;
 }
-
-/* Bilderna */
-/* Bilderna */
 /* Bilderna */
