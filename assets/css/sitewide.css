@@ -1,6 +1,14 @@
 @import url(/assets/css/badhuspriser.css);
 
 :root {
+    --text: #000405;
+    --background: #f1fbfe;
+    --primary: #0d369b;
+    --secondary: #fbd9d0;
+    --accent: #ebae14;
+}
+/* Variabler som t.ex färger, fonter etc. */
+:root {
     --siteColourPrimary: ;
     --siteColourSecondary: ;
     --siteColourAccent: ;
@@ -264,7 +272,6 @@ min-width: 0px;}
 
 .companylogo
 {padding-left: 20px;}}
-
 
 /* 460px @media meny */
 

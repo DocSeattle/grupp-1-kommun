@@ -1,4 +1,5 @@
-@import url("sitewide.css");
+@import url(/assets/css/sitewide.css);
+@import url("footer.css");
 *{
     box-sizing: border-box;
 }
@@ -34,9 +35,11 @@ tr:nth-child(even) {
     display: none;
 }
 
-
+body{
+    margin: 0;
+}
 @media screen and (min-width: 500px){
-    body{
+    main{
         margin: 0 2%;
     }
     table{
@@ -49,7 +52,8 @@ tr:nth-child(even) {
 }
 
 @media screen and (min-width: 1000px){
-    body{
+
+    main{
         margin: 0 15%;
     }
     section{

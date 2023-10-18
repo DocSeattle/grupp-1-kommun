@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/grupp-1-kommun/assets/css/Simskolan.css">
+    <link rel="stylesheet" href="/assets/css/Simskolan.css">
     <title>Simskola</title>
 </head>
 <body>
     <main>
         <section>
-            <h1>Simskola</h1>
+            <h1 id="h1simskola">Simskola</h1>
         </section>
         <section>
             <article id="imgcenter">
@@ -18,10 +18,10 @@
         </section>
         <section>
             <article>
-                <h2>Rubber Duckies Simskola</h2>
-                <p>Vi erbjuder simskola på <strong>Rubber Duckies badhus</strong> 
+                <h2 id="h2simskola">Rubber Duckies Simskola</h2>
+                <p class="psimskola">Vi erbjuder simskola på <strong>Rubber Duckies badhus</strong> 
                     på <strong>Gummiankgatan 23 </strong>. </p>
-                <p>Våra simlärare är utbildade genom SLS - Svenska 
+                <p class="psimskola">Våra simlärare är utbildade genom SLS - Svenska 
                     livräddningssällskapet. Vi vill att alla barn i 
                     simskolan ska få god och ökad vattenvana och arbetar 
                     hela tiden med säkerhet och självlivräddningsövningar.
@@ -29,20 +29,20 @@
                     ledare som alltid är tillsammans med barn och vi följer
                     en kursplan som är i linje med barnets utveckling. 
                 </p>
-                <p><strong>Privatlektioner</strong></p>
-                <p>
+                <p class="psimskola"><strong>Privatlektioner</strong></p>
+                <p class="psimskola">
                     Vi erbjuder även privatlektioner för dig som vill lära
                     dig simma oavsett ålder. Du får jobba på din teknik och
                     få en mer energisnål simning. För mer informartion
                     kontakta oss på mail: <strong>Kontaktbadhus@rubberduckies.se</strong>
                 </p>
-                <h3>Simskola Rubber Duckies badhus</h3>
-                <p>
+                <h3 class="h3simskola">Simskola Rubber Duckies badhus</h3>
+                <p class="psimskola">
                     På simskolan i Rubber Duckies badhus simmar vi i en 
                     multibassäng där vattnet är cirka 29 grader. Vi erbjuder
                     simkurser från babysim till vuxensim. 
                 </p>
-                <ul>
+                <ul id="ulsimskola">
                     <li>Vecka 3 påbörjas babysim.</li>
                     <li>Vecka 5 påbörjas simskola 5-7år.</li>
                     <li>Vecka 7 påbörjas simskola 7-10år.</li>
@@ -50,8 +50,8 @@
                     <li>Vecka 13 påbörjas simskola 13-17år.</li>
                     <li>Vecka 15 påbörjas vuxensim.</li>
                 </ul>
-                <h3>Anmälan simskola</h3>
-                <form id="form" name="form" method="post" action=" ">
+                <h3 class="h3simskola">Anmälan simskola</h3>
+                <form id="formsimskola" name="form" method="post" action=" ">
 
                     Deltagares namn:<br>
                     <input type="text" name="fnamn" id="fnamn" /> <br>
@@ -73,6 +73,32 @@
             </article>
         </section>
     </main>
-    
+    <footer class="footer">
+        <!-- länkar -->
+        <section class="sec-1">
+            <h3>Länkar</h3>
+            <a href="index.html">Hem</a>
+            <a href="badhus-priser-schema.html">Priser</a>
+            <a href="badhus-openinghours.html">Öppettider</a>
+            <a href="Simskola.html">Simskola</a>
+            <a href="kontakt.html">Kontakta oss</a>
+        </section>
+        <!-- nyheter -->
+        <section class="sec-2">
+             <h3>Nyheter</h3>
+             <form> 
+                <input type="email" placeholder="Your Email Address" required>
+                <br>
+                <button type="submit">Prenumerera</button>
+             </form>
+        </section>
+        <!-- kontakt -->
+        <section class="sec-3">
+             <h3>Kontakt</h3>
+             <p>Nummer: 076292409</p>
+             <p>Adress: </p>
+             <p>Kommun: Rubber Duckies</p>
+        </section>
+    </footer>
 </body>
 </html>
