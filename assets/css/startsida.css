@@ -41,6 +41,7 @@
     flex-direction: row;
     flex-wrap: wrap;
 
+    overflow: hidden;
     max-width: 70%;
     place-content: center center;
     gap: 1%;
@@ -49,13 +50,23 @@
 .bildContainer {
     display: flex;
     flex-direction: column;
-    max-width: 35%;
+    max-width: 45%;
     max-height: 35%;
-    margin-bottom: 1%;
+    margin-bottom: 2%;
 }
 
 img.bildContainer {
     max-width: 35%;
+}
+
+.bildContainer {
+    filter: grayscale(1);
+}
+
+.bildContainer:focus,
+.bildContainer:hover {
+    filter: grayscale(0);
+    transition: 0.15s all linear;
 }
 
 .bildContainer .bildContainerLink,
@@ -68,6 +79,7 @@ img.bildContainer {
     margin: 0;
     padding: 1em;
     color: darkblue;
+
 }
 
 .bildContainer img.bildContainerLink {
