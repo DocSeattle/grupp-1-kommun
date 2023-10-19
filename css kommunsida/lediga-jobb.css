@@ -6,26 +6,34 @@ body {
     /* display: flex;
     flex-direction: column;
     align-items: center; */
+    box-sizing: border-box;
+}
+main{
+    margin:0 2%
 }
 .huvudrubrik{
     margin: 10px;
 }
 .collapsible {
     width: 100%;
-    background-color: #fff;
+    background-color: #c2dafa;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     overflow: hidden;
     margin-bottom: 10px;
 }
 
+.collapsible p, h3{
+    padding: 5px;
+
+}
 .toggle-label {
-    background-color: #3498db;
-    color: white;
+    background-color: #e3f4ff;
+    color: rgb(0, 0, 0);
     padding: 10px;
     cursor: pointer;
     transition: background-color 0.3s;
-    display: block;
+    display: inline-block;
     width: 100vw;
 }
 
