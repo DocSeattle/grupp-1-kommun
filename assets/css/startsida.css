@@ -11,6 +11,7 @@
 }
 
 #text {
+    font-size: 1.7vh;
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -21,9 +22,9 @@
 }
 
 #text h1 {
+    font-size: 4vh;
     margin-top: 4vh;
     margin-bottom: 4vh; 
-
 }
 
 #gruppering1 {
@@ -70,10 +71,10 @@ img.bildContainer {
     font-family: var(--siteFontPrimary);
     font-weight: bold;
     text-decoration: none;
-    background-color: var(--accent);
+    background-color:#0d369b;
     margin: 0;
     padding: 1em;
-    color: darkblue;
+    color: rgb(255, 255, 255);
 }
 
 .bildContainer img.bildContainerLink {
