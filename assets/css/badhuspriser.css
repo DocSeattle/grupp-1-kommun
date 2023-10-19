@@ -3,12 +3,9 @@
 *{
     box-sizing: border-box;
 }
-header{
-    border-bottom: solid black;
-}
+
 main{
     margin: 2%;
-
 }
 
 table {
