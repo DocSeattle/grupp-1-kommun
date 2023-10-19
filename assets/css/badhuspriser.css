@@ -3,6 +3,15 @@
 *{
     box-sizing: border-box;
 }
+h1, h2, h3, h4{
+    font-family:var(--siteFontPrimary) ;
+}
+p, table{
+    font-family: var(--siteFontSecondary);
+}
+h2, h3, h4{
+    color: var(--primary);
+}
 
 main{
     margin: 2%;
@@ -21,7 +30,7 @@ tr{
     text-align: center;
 }
 tr:nth-child(even) {
-    background-color: #bddfe1;
+    background-color: var(--background);
 }
 
 #openinghours{
@@ -39,9 +48,20 @@ tr:nth-child(even) {
 body{
     margin: 0;
 }
+#huvudrubrik{
+    background-color: var(--primary);
+    color: white;
+    font-size: var(--font-size);
+    text-align: center;
+    font-size: 2rem;
+    padding: 4% 2%;
+    margin: 0;
+      
+}
+
 @media screen and (min-width: 500px){
     main{
-        margin: 0 2%;
+        margin: 0 15%;
     }
     table{
         min-width: 400px;
@@ -58,12 +78,15 @@ body{
         margin: 0 15%;
     }
     section{
-        padding-left: 15px;
+        padding-left: 0;
     }
     #openinghours{
         margin-top: 0;
     }
     main{
         display: flex;
+    }
+    #huvudrubrik{
+        padding:  2% 0;          
     }
 }
