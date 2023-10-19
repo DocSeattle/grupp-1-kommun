@@ -6,17 +6,15 @@
 h1, h2, h3, h4{
     font-family:var(--siteFontPrimary) ;
 }
-p, table{
+p, table, .sec-1{
     font-family: var(--siteFontSecondary);
 }
 h2, h3, h4{
     color: var(--primary);
 }
-
 main{
     margin: 2%;
 }
-
 table {
     border-collapse: collapse;
     width: 100%;
@@ -32,19 +30,16 @@ tr{
 tr:nth-child(even) {
     background-color: var(--background);
 }
-
 #openinghours{
     margin-top: 50px;
 }
 #table-pris-motionssim{
     overflow-x:auto;
 }
-
 #side-menu {
     /* Göm sidonavigationsmenyn på skärmar smalare än 1000px */
     display: none;
 }
-
 body{
     margin: 0;
 }
@@ -56,7 +51,6 @@ body{
     font-size: 2rem;
     padding: 4% 2%;
     margin: 0;
-      
 }
 
 @media screen and (min-width: 500px){
