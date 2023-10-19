@@ -30,6 +30,61 @@
 @font-face {font-family: onest;
     src: url('/font/onest/Onest-VariableFont_wght.ttf');}
 
+
+    /* Hamburgar menyn */
+
+#nav-hamburger-ikon
+{display: none;}
+
+#hamburger-container
+{display: none;}
+
+#hamburger-container
+{  position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background-color: rgb(251, 217, 208, 0.9);}
+
+.close-ham
+{background-color: white;
+height: 80px;}
+
+.hamburger-buttons-container
+{width: 100%;
+height: 70px;
+border-top: 1px solid black;}
+
+.hamburger-buttons-container button
+{width: 100%;
+height: 100%;}
+
+.close-ham
+{display: flex;
+flex-direction: column;
+text-align: center;
+padding-bottom: 25px;}
+
+.close-ham img
+{width: 30px;
+height: 30px;
+padding-bottom: 10px;}
+
+.text-hamburger-buttons
+{font-size: 18px;
+text-decoration: none;
+color: black;
+font-family: onest, sans-serif;
+font-weight: 600;
+letter-spacing: 1px;}
+
+#hamburger-container:target
+{display: block;}
+
+
+
 /*Body html justeriengar*/
 body, html
 {padding: 0;
@@ -148,7 +203,7 @@ margin-top: 50px;
 height: 80px;
 text-align: center;}
 
-#oppettider
+#nav-oppettider
 {font-size:14px;
 cursor: pointer;
 font-family: onest, sans-serif;
@@ -163,7 +218,7 @@ border-radius: 15px;
 background-color: #f1fbfe;
 margin-right: 20px;}
 
-#oppettider:hover
+#nav-oppettider:hover
 {background-color: #0d369b;
 color: white;
 font-weight: 600;}
@@ -269,7 +324,15 @@ header
 min-width: 0px;}
 
 .companylogo
-{padding-left: 20px;}}
+{padding-left: 20px;}
+
+/* visar hamburgarmenyn */
+
+#nav-hamburger-ikon
+{display: block;}}
+
+
+
 
 /* 460px @media meny */
 
@@ -291,7 +354,7 @@ padding-left: 18px;
 align-items: center;}
 
 
-#oppettider
+#nav-oppettider
 {font-size:14px;
 font-family: onest, sans-serif;
 font-weight: 400;
