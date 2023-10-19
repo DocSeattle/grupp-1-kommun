@@ -3,9 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Lediga Jobb</title>
+    <link rel="stylesheet" href="/css kommunsida/lediga-jobb.css">
 </head>
 <body>
+    <nav></nav>
+    <!-- <h1>Leiga jobb</h1>
+    <p>Här hittar du lediga jobb som finns i vår kommun. </p> -->
+    <main>
+        <section class="huvudrubrik">
+            <h2>Lediga jobb</h2>
+            <p>Här hittar du alla ledig jobb som finns i vår kommun.</p>
+        </section>
+        
+        <div class="collapsible">
+            <input type="checkbox" id="toggle1">
+            <label for="toggle1" class="toggle-label">Jobbannons 1: Webutvecklare</label>
+            <div class="content">
+                <p>
+                    Vi söker en erfaren webutvecklare med kunskap inom HTML, CSS och JavaScript.
+                    Ansök nu!
+                </p>
+                <div class="container">
+                    <form>
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                        
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                        
+                        <label for="country">Country</label>
+                        <select id="country" name="country">
+                        <option value="australia">Australia</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                        </select>
+
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                    
+                        <label for="CV">CV</label>
+                        <input type="file" id="myFile" name="filename">
+
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>    
+            </div>
+        </div>
+    <div class="collapsible">
+            <input type="checkbox" id="toggle3">
+            <label for="toggle3" class="toggle-label">Jobbannons 1: Webutvecklare</label>
+            <div class="content">
+                <p>
+                    Vi söker en erfaren webutvecklare med kunskap inom HTML, CSS och JavaScript.
+                    Ansök nu!
+                </p>
+                <div class="container">
+                    <form>
+                  
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                    
+
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                    </select>
+                      
+                      
+                  
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                  
+                    <label for="CV">CV</label>
+                    <input type="file" id="myFile" name="filename">
+                    
+                    <input type="submit" value="Submit">
+                  
+                    </form>
+                </div>    
+            </div>
+        </div>
+        <div class="collapsible">
+            <input type="checkbox" id="toggle2">
+            <label for="toggle2" class="toggle-label">Jobbannons 2: Grafisk Designer</label>
+            <div class="content">
+                <p>
+                    Vi letar efter en kreativ grafisk designer med färdigheter inom Adobe Creative Suite.
+                    Skicka in din ansökan idag!
+                </p>
+            </div>
+        </div>
     
+        <!-- Lägg till fler jobbannonser här -->
+    </main>
+    <footer></footer>
 </body>
 </html>
