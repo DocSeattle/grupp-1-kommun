@@ -71,10 +71,10 @@ img.bildContainer {
     font-family: var(--siteFontPrimary);
     font-weight: bold;
     text-decoration: none;
-    background-color: var(--accent);
+    background-color:#0d369b;
     margin: 0;
     padding: 1em;
-    color: darkblue;
+    color: rgb(255, 255, 255);
 }
 
 .bildContainer img.bildContainerLink {
