@@ -4,45 +4,95 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/css/startsida.css">
+    <link rel="stylesheet" href="/assets/css/footer.css">
     <title>Grupp 1 Kommun</title>
 </head>
 
+<header>
+    <div class="companylogo">
+        <a href="/pages/startsida.html"><img src="/assets/img/header_nav/ducklogo.png"></a>
+    </div>
+    <div class="companyname">
+        <a href="/pages/startsida.html" style="text-decoration: none;"><h1>Rubbie Duckys</h1></a>
+        <p>Äventyrsbadet</p>
+    </div>
+    
+       <!-- nav för desktop -->
+    <div class="top-menu">
+        <nav>
+        <a href="/pages/badhus-priser-schema.html"><button class="desktop-meny">Priser</button>
+        <a href="/pages/badhus-openinghours.html"><button class="desktop-meny">Öppettider</button></a>
+        <a href="/pages/simskola.html"><button class="desktop-meny">Simskola</button></a>
+        <a href="/pages/kontakt.html"><button class="desktop-meny">Kontakta</button></a>
+        </nav>
+    
+    <!-- nav för tablet -->
+        <nav class="tablet-nav">
+        <a href="/pages/badhus-priser-schema.html"><img src="/assets/img/header_nav/priser_icon.png" class="tablet-meny"><div class="ikontext">Priser</div></a>
+        <a href="/pages/badhus-openinghours.html"><img src="/assets/img/header_nav/oppettider_icon.png" class="tablet-meny"><div class="ikontext">Öppettider</div></a>
+        <a href="/pages/simskola.html"><img src="/assets/img/header_nav/simskola_icon.png" class="tablet-meny"><div class="ikontext">Simskola</div></a>
+        <a href="/pages/kontakt.html"><img src="/assets/img/header_nav/kontakta_icon.png" class="tablet-meny"><div class="ikontext">Kontakta</div></a>
+        <a href="#hamburger-container"><img id="nav-hamburger-ikon" src="/assets/img/header_nav/menu.png"></a>
+    </nav>
+
+    <!-- hamburgar menyn -->
+
+    <div id="hamburger-container">
+        <div class="close-ham"><a href="#"><img src="/assets/img/header_nav/close.png"></a>STÄNG</div>
+        <div class="hamburger-buttons-container"><button><a class="text-hamburger-buttons" href="/pages/badhus-priser-schema.html">PRISER</a><button></div>
+        <div class="hamburger-buttons-container"><button><a class="text-hamburger-buttons" href="/pages/badhus-openinghours.html">ÖPPETTIDER</a><button></div>
+        <div class="hamburger-buttons-container"><button><a class="text-hamburger-buttons" href="/pages/simskola.html">SIMSKOLA</a><button></div>
+        <div class="hamburger-buttons-container"><button><a class="text-hamburger-buttons" href="/pages/kontakt.html">KONTAKT</a><button></div>
+    </div>
+
+    </header>
+
 <body>
+
+    <div class="main2" style="background-image: url(/assets/img/header_nav/swim_girl_background.jpg);">
+        <div class="main_h2_p">
+        
+            <h2>VÄLKOMMEN TILL DUCKY!</h2>
+                <p>En av Sveriges roligaste Äventyrsbad, vi garanterar dig och din familj
+                en upplevelse ni sent kommer glömma!</p>
+        
+            <div class="header-button">
+                <a href="/pages/badhus-openinghours.html"><button id="nav-oppettider">Våra öppetider</button></a>
+                <a href="/pages/Simskola.html"><button id="nav-simskola">Simskolan</button></a>
+            </div>
+        </div>
+        </div>
+
     <article id="contentWrapper">
             
             <section id="text">
                 <h1>Ducky Simhall</h1>
-
-                <h2>Välkommen till Ducky simhall i Rubbie Duckys kommun. I simhallen hittar du en 25-meters bassäng
+                <h2>I simhallen hittar du en 25-meters bassäng
                 och en undervisningsbassäng. En storfavorit hos barnen är äventyrsplasken, en barnpool för barn
                 upp till 5 år.
                 </h2>
             </section>
 
-             <!-- Det lokala badhuset vill ha en egen webbplats.
-            Den ska vara grafisk och inbjudande till ett dop i poolen. Det måste finnas tydliga öppettider 
-            och priser då det är den mest ställda frågan via telefon. Det ska också finnas kontaktuppgifter 
-            och en sida där man kan anmäla sig till olika simskolegrupper. -->
-
-
             <article id="gruppering1">
                 <section id="bilder">
                     <!-- Bild med länk -->
                     <article class="bildContainer">
-                        <img class="bildContainerLink startsidaBild" href="#" src="/assets/img/startsida/oppetider.jpg" alt="öppettider" id="oppetider" class="startsidaBild">
-                        <a class="bildContainerLink" href="#"> Öppettider </a>
+                        <img class="bildContainerLink startsidaBild" src="/assets/img/startsida/oppetider.jpg" alt="öppettider" id="oppetider" class="startsidaBild">
+                        <a class="bildContainerLink" href="badhus-openinghours.html"> Öppettider</a>
+                        
                     </article>
                     <article class="bildContainer">
                         <img class="bildContainerLink startsidaBild" src="/assets/img/startsida/priser.jpg" alt="priser" id="priser" class="startsidaBild">
-                        <a class="bildContainerLink" href="#" > Priser </a>
+                        <a class="bildContainerLink" href="badhus-priser-schema.html" > Priser </a>
+
                     </article>
                     <article class="bildContainer">
                         <img class="bildContainerLink" src="/assets/img/startsida/kontakt.jpg" alt="kontakt" id="kontakt" class="startsidaBild">
-                        <a class="bildContainerLink" href="#" > Kontakt </a>
+                        <a class="bildContainerLink" href="kontakt.html" > Kontakt </a>
                     </article>
                     <article class="bildContainer">
                         <img class="bildContainerLink" src="/assets/img/startsida/simskola.jpg" alt="simskola" id="simskola" class="startsidaBild">
-                        <a class="bildContainerLink" href="#" > Simskola </a>
+                        <a class="bildContainerLink" href="Simskola.html" > Simskola </a>
                     </article>
                 </section>
             </article>
@@ -50,6 +100,35 @@
 </body>
 
 
-<!-- Här ligger Mustafas footer  -->
+<!-- Har lagt till Mustafas footer här -->
+
+
+<footer class="footer">
+    <!-- länkar -->
+    <section class="sec-1">
+        <h3>Länkar</h3>
+        <a href="index.html">Hem</a>
+        <a href="badhus-priser-schema.html">Priser</a>
+        <a href="badhus-openinghours.html">Öppettider</a>
+        <a href="Simskola.html">Simskola</a>
+        <a href="kontakt.html">Kontakta oss</a>
+    </section>
+    <!-- nyheter -->
+    <section class="sec-2">
+         <h3>Nyheter</h3>
+         <form> 
+            <input type="email" placeholder="Your Email Address" required>
+            <br>
+            <button type="submit">Prenumerera</button>
+         </form>
+    </section>
+    <!-- kontakt -->
+    <section class="sec-3">
+         <h3>Kontakt</h3>
+         <p>Nummer: 076292409</p>
+         <p>Adress: Gummiankgatan 23 </p>
+         <p>Kommun: Rubber Duckies</p>
+    </section>
+</footer>
 
 </html>

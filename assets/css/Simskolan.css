@@ -1,49 +1,75 @@
 @import url("/assets/css/sitewide.css");
-@import url("/assets/css/footer.css")
+@import url("/assets/css/footer.css");
 
 main {
     margin: 2%;
 }
-#h1simskola {
-    text-align: center;
-}
 img {
     width: 100%;
 }
+#h1simskola {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #0d369b;
+}
+body{
+    margin: 0;
+}
+.psimskola{
+    font-size: 0.8rem;
+}
 #h2simskola {
     margin-left: 3%;
+    color: #0d369b;
 }
 .h3simskola {
     margin-left: 3%;
+    color: #0d369b;
 }
-p {
+.psimskola {
     margin-left: 3%;
     margin-right: 10%;
 }
 #formsimskola {
     max-width: 100%;
     margin: 3%;
+    border: solid black;
+    width: 380px;
+    padding: 10px;
+    border-radius: 5%;
 }
 @media screen and (min-width: 1000px){
    main {
     margin-left: 15%;
     margin-right: 15%;
    }
-    #imgcenter{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        
-    }
-    #imgcenter img{
-        height: 550px;
-        width: auto;
-    }
+   }
     li {
+        
         margin-left: 1%;
     }
     #formsimskola {
         margin-left: 3%;
     }
-    
+    .psimskola{
+        
+        font-size: 1rem;
+    }
+    body {
+        margin: 0;
+    }
+    #formsimskola {
+        border: solid black;
+        width: 380px;
+        padding: 10px;
+        border-radius: 5%;
+        border-width: 2px;
 }
+#inputbutton{
+    background-color: #0d369b;
+    color: white;
+    border: solid #0d369b;
+    border-radius: 5%;
+}
+    
+
