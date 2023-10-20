@@ -111,7 +111,7 @@ margin-top: 25px;}
 
 header h1
 {margin: 0;
-font-size: 22px;
+font-size: 21px;
 margin-left: 15px;
 margin-top: 28px;
 color: #0d369b;
@@ -129,8 +129,8 @@ font-weight: 400;}
 
 .companyname
 {min-width: 200px;
-position: relative;
-z-index: 9;}
+    position: relative;
+    z-index: 9;}
 
 .companylogo
 {min-width: 50px;
