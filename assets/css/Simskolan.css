@@ -4,7 +4,7 @@
 main {
     margin: 2%;
 }
-img {
+#imgbody {
     width: 100%;
 }
 #h1simskola {
@@ -47,7 +47,6 @@ body{
     margin-left: 15%;
     margin-right: 15%;
    }
-   }
     li {
         
         margin-left: 1%;
@@ -71,21 +70,22 @@ body{
         padding: 10px;
         border-radius: 5%;
         border-width: 2px;
-}
-#inputbutton{
-    background-color: #0d369b;
-    color: white;
-    border: solid #0d369b;
-    border-radius: 5%;
-}
-#h1simskola{
-    font-family: var(--siteFontPrimary);
-}
-#h2simskola{
-    font-family: var(--siteFontPrimary);
-}
-.h3simskola{
-    font-family: var(--siteFontPrimary);
+    }
+    #inputbutton{
+        background-color: #0d369b;
+        color: white;
+        border: solid #0d369b;
+        border-radius: 5%;
+    }
+    #h1simskola{
+        font-family: var(--siteFontPrimary);
+    }
+    #h2simskola{
+        font-family: var(--siteFontPrimary);
+    }
+    .h3simskola{
+        font-family: var(--siteFontPrimary);
+    }
 }
     
 
