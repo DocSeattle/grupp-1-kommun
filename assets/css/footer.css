@@ -4,13 +4,16 @@
 
 /* stil footer */
 .footer {
-    margin-top: 151px;
+    margin-top: 50px;
     width: 100%;
-    padding: 100px 15%;
-    background: #333;
-    color: #efefef;
+    padding: 50px 15%;
+    background: #0d369b;
+    color: white;
     display: flex;
     flex-wrap: wrap; /* Lägg till detta för att hantera mindre skärmar */
+}
+.h3-footer{
+    color: white;
 }
 
 /* stil för alla sektioner */

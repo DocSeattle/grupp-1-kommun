@@ -5,98 +5,159 @@
     <link rel="stylesheet" href="/assets/css/badhuspriser.css">
     <title>Priser</title>
 </head>
+
 <body>
-    <nav>
-
-    </nav>
-
+    <header>
+        <div class="companylogo">
+            <a href="/pages/startsida.html"><img src="/assets/img/header_nav/ducklogo.png"></a>
+        </div>
+        <div class="companyname">
+            <a href="/pages/startsida.html" style="text-decoration: none;"><h1>Rubbie Duckys</h1></a>
+            <p>Äventyrsbadet</p>
+        </div>
+        
+           <!-- nav för desktop -->
+        <div class="top-menu">
+            <nav>
+            <a href="/pages/badhus-priser-schema.html"><button class="desktop-meny">Priser</button>
+            <a href="/pages/badhus-openinghours.html"><button class="desktop-meny">Öppettider</button></a>
+            <a href="/pages/simskola.html"><button class="desktop-meny">Simskola</button></a>
+            <a href="/pages/kontakt.html"><button class="desktop-meny">Kontakta</button></a>
+            </nav>
+        
+        <!-- nav för tablet -->
+            <nav class="tablet-nav">
+            <a href="/pages/badhus-priser-schema.html"><img src="/assets/img/header_nav/priser_icon.png" class="tablet-meny"><div class="ikontext">Priser</div></a>
+            <a href="/pages/badhus-openinghours.html"><img src="/assets/img/header_nav/oppettider_icon.png" class="tablet-meny"><div class="ikontext">Öppettider</div></a>
+            <a href="/pages/simskola.html"><img src="/assets/img/header_nav/simskola_icon.png" class="tablet-meny"><div class="ikontext">Simskola</div></a>
+            <a href="/pages/kontakt.html"><img src="/assets/img/header_nav/kontakta_icon.png" class="tablet-meny"><div class="ikontext">Kontakta</div></a>
+            <a href="#hamburger-container"><img id="nav-hamburger-ikon" src="/assets/img/header_nav/menu.png"></a>
+        </nav>
+    
+        <!-- hamburgar menyn -->
+    
+        <div id="hamburger-container">
+            <div class="close-ham"><a href="#"><img src="/assets/img/header_nav/close.png"></a>STÄNG</div>
+            <div class="hamburger-buttons-container"><button><a class="text-hamburger-buttons" href="/pages/badhus-priser-schema.html">PRISER</a><button></div>
+            <div class="hamburger-buttons-container"><button><a class="text-hamburger-buttons" href="/pages/badhus-openinghours.html">ÖPPETTIDER</a><button></div>
+            <div class="hamburger-buttons-container"><button><a class="text-hamburger-buttons" href="/pages/simskola.html">SIMSKOLA</a><button></div>
+            <div class="hamburger-buttons-container"><button><a class="text-hamburger-buttons" href="/pages/kontakt.html">KONTAKT</a><button></div>
+        </div>
+    </header>
+    <section>
+        <h1 id="huvudrubrik">Priser</h1>                
+    </section>
     <main>
-        <section>
-            <article>
-                <h2>Priser</h2>                
-                <p>Här hittar du alla priser och entréavgifter, oavsett om du vill kasta dig utför en vattenrutschbana eller köra längder i bassängen.</p>
-                <h3>Priser för äventyrsbad </h3>
-                <p>Priser på äventyrsbadet beroende på ålder.</p>
-                <!-- Tabell: prislista äventyrsbad -->
+        <section>           
+            <p>Här hittar du alla priser och entréavgifter, oavsett om du vill kasta dig utför en vattenrutschbana eller köra längder i bassängen.</p>
+            <h2>Priser för äventyrsbad </h2>
+            <p>Priser på äventyrsbadet beroende på ålder.</p>
+            <!-- Tabell: prislista äventyrsbad -->
+            <table>
+                <tr>
+                    <th>Ålder</th>
+                    <th>Pris</th>                        
+                </tr>
+                <tr>
+                    <td>0-2 år</td>
+                    <td>Gratis</td>
+                </tr>
+                <tr>
+                    <td>Barn, 3-11år</td>
+                    <td>50kr</td>
+                </tr>
+                <tr>
+                    <td>Ungdom, 12-17år</td>
+                    <td>80kr</td>
+                </tr>  
+                <tr>
+                    <td>Student, endast vid uppvisande av giltig studentlegitimation </td>
+                    <td>110kr</td>
+                </tr>                  
+                <tr>
+                    <td>Vuxen, 18år och uppåt</td>
+                    <td>140kr</td>
+                </tr>                    
+            </table>
+            <h2>Priser för motionssimning</h2>
+            <p>Prislista för motionssimning</p>
+            <div id="table-pris-motionssim">
+                <!-- Tabell: prislista motionssim -->
                 <table>
                     <tr>
-                        <th>Ålder</th>
-                        <th>Pris</th>                        
+                        <th></th>
+                        <th>Barn och ungdom, 3-17 år</th>
+                        <th>Vuxen, 18 år och äldre</th>
+                        <th>Pensionär och student</th>
                     </tr>
-                    <tr>
-                        <td>0-2 år</td>
-                        <td>Gratis</td>
-                    </tr>
-                    <tr>
-                        <td>Barn, 3-11år</td>
-                        <td>50kr</td>
-                    </tr>
-                    <tr>
-                        <td>Ungdom, 12-17år</td>
-                        <td>80kr</td>
-                    </tr>  
-                    <tr>
-                        <td>Student, endast vid uppvisande av giltig studentlegitimation </td>
-                        <td>110kr</td>
-                    </tr>                  
-                    <tr>
-                        <td>Vuxen, 18år och uppåt</td>
-                        <td>140kr</td>
+                    <tr>         
+                        <th>10-klippkort</th>
+                        <td>225kr</td>
+                        <td>450kr</td>
+                        <td>405kr</td>
                     </tr>                    
+                    <tr>
+                        <th>Halvårskort</th>
+                        <td>715kr</td>
+                        <td>1000kr</td>
+                        <td>900kr</td>
+                    </tr>                    
+                    <tr>
+                        <th>Årskort</th>
+                        <td>1020kr</td>
+                        <td>1900kr</td>
+                        <td>1700kr</td>
+                    </tr>
+                    <tr>                        
+                        <th>Enkelbiljett, vardag</th>
+                        <td>25kr</td>
+                        <td>50kr</td>
+                        <td>45kr</td>
+                    </tr>
+                    <tr>                                                            
+                        <th>Enkelbiljett, helg</th>
+                        <td>35kr</td>
+                        <td>60kr</td>
+                        <td>55kr</td>
+                    </tr>
                 </table>
-                <h3>Priser för motionssimning</h3>
-                <p>Prislista för motionssimning</p>
-                <div id="table-pris-motionssim">
-                    <!-- Tabell: prislista motionssim -->
-                    <table>
-                        <tr>
-                            <th></th>
-                            <th>Barn och ungdom, 3-17 år</th>
-                            <th>Vuxen, 18 år och äldre</th>
-                            <th>Pensionär och student</th>
-                        </tr>
-                        <tr>         
-                            <th>10-klippkort</th>
-                            <td>225kr</td>
-                            <td>450kr</td>
-                            <td>405kr</td>
-                        </tr>                    
-                        <tr>
-                            <th>Halvårskort</th>
-                            <td>715kr</td>
-                            <td>1000kr</td>
-                            <td>900kr</td>
-                        </tr>                    
-                        <tr>
-                            <th>Årskort</th>
-                            <td>1020kr</td>
-                            <td>1900kr</td>
-                            <td>1700kr</td>
-                        </tr>
-                        <tr>                        
-                            <th>Enkelbiljett, vardag</th>
-                            <td>25kr</td>
-                            <td>50kr</td>
-                            <td>45kr</td>
-                        </tr>
-                        <tr>                                                            
-                            <th>Enkelbiljett, helg</th>
-                            <td>35kr</td>
-                            <td>60kr</td>
-                            <td>55kr</td>
-                        </tr>
-                    </table>
-                </div>
-                <p>Pensionärsrabatt gäller för dig som är 65 år eller äldre eller kan visa upp ett intyg på att du gått i pension. Studentrabatt gäller för dig som kan visa upp giltig studentlegitimation.</p>
-                <h4>Klippkort</h4>
-                <p>Klippkort har en giltighetstid på ett år från det datum som du köper det.</p>
-
-            </article>
+            </div>
+            <p>Pensionärsrabatt gäller för dig som är 65 år eller äldre eller kan visa upp ett intyg på att du gått i pension. Studentrabatt gäller för dig som kan visa upp giltig studentlegitimation.</p>
+            <h3>Klippkort</h3>
+            <p>Klippkort har en giltighetstid på ett år från det datum som du köper det.</p>
         </section>
     </main>
     
-    <footer>
+    <footer class="footer">
+        <!-- länkar -->
+        <section class="sec-1">
+            <h3 class="h3-footer">Länkar</h3>
 
+            <a href="index.html">Hem</a>
+            <a href="badhus-priser-schema.html">Priser</a>
+            <a href="badhus-openinghours.html">Öppettider</a>
+            <a href="Simskola.html">Simskola</a>
+            <a href="kontakt.html">Kontakta oss</a>
+        </section>
+        <!-- nyheter -->
+        <section class="sec-2">
+             <h3 class="h3-footer">Nyheter</h3>
+             <form class="form-footer"> 
+                <input type="email" placeholder="Your Email Address" required>
+                <br>
+                <button type="submit">Prenumerera</button>
+             </form>
+        </section>
+        <!-- kontakt -->
+        <section class="sec-3">
+             <h3 class="h3-footer">Kontakt</h3>
+             <p>Nummer: 076292409</p>
+             <p>Adress: Gummiankgatan 23 </p>
+             <p>Kommun: Rubber Duckies</p>
+             <p> Öppettider: Mån - Fredag: 11:00-19:00</p>
+             <p>Lördag & Söndag: 10:00-20:00 </p>
+             <p>Torsdag: Stängt</p>
+        </section>
     </footer>
 </body>
 </html>
