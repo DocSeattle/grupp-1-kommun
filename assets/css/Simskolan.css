@@ -4,13 +4,14 @@
 main {
     margin: 2%;
 }
-img {
+#imgbody {
     width: 100%;
 }
 #h1simskola {
     text-align: center;
     font-size: 2.5rem;
-    color: #0d369b;
+    color: var(--primary);
+    font-family: var(--siteFontPrimary);
 }
 body{
     margin: 0;
@@ -20,21 +21,24 @@ body{
 }
 #h2simskola {
     margin-left: 3%;
-    color: #0d369b;
+    color: var(--primary);
+    font-family: var(--siteFontPrimary);
 }
 .h3simskola {
     margin-left: 3%;
-    color: #0d369b;
+    color: var(--primary);
+    font-family: var(--siteFontPrimary);
 }
 .psimskola {
     margin-left: 3%;
     margin-right: 10%;
+    font-family: var(--siteFontSecondary);
 }
 #formsimskola {
     max-width: 100%;
     margin: 3%;
     border: solid black;
-    width: 380px;
+    width: 350px;
     padding: 10px;
     border-radius: 5%;
 }
@@ -43,17 +47,19 @@ body{
     margin-left: 15%;
     margin-right: 15%;
    }
-   }
     li {
         
         margin-left: 1%;
+        font-family: var(--siteFontSecondary);
     }
     #formsimskola {
         margin-left: 3%;
+        font-family: var(--siteFontSecondary);
     }
     .psimskola{
         
         font-size: 1rem;
+        font-family: var(--siteFontSecondary);
     }
     body {
         margin: 0;
@@ -64,12 +70,22 @@ body{
         padding: 10px;
         border-radius: 5%;
         border-width: 2px;
-}
-#inputbutton{
-    background-color: #0d369b;
-    color: white;
-    border: solid #0d369b;
-    border-radius: 5%;
+    }
+    #inputbutton{
+        background-color: #0d369b;
+        color: white;
+        border: solid #0d369b;
+        border-radius: 5%;
+    }
+    #h1simskola{
+        font-family: var(--siteFontPrimary);
+    }
+    #h2simskola{
+        font-family: var(--siteFontPrimary);
+    }
+    .h3simskola{
+        font-family: var(--siteFontPrimary);
+    }
 }
     
 

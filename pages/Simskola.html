@@ -8,10 +8,10 @@
 </head>
 <header>
     <div class="companylogo">
-        <a href="/pages/startsida.html"><img src="/assets/img/header_nav/ducklogo.png"></a>
+        <a href="/index.html"><img src="/assets/img/header_nav/ducklogo.png"></a>
     </div>
     <div class="companyname">
-        <a href="/pages/startsida.html" style="text-decoration: none;"><h1>Rubbie Duckys</h1></a>
+        <a href="/index.html" style="text-decoration: none;"><h1>Rubbie Duckys</h1></a>
         <p>Äventyrsbadet</p>
     </div>
     
@@ -20,16 +20,16 @@
         <nav>
         <a href="/pages/badhus-priser-schema.html"><button class="desktop-meny">Priser</button>
         <a href="/pages/badhus-openinghours.html"><button class="desktop-meny">Öppettider</button></a>
-        <a href="/pages/simskola.html"><button class="desktop-meny">Simskola</button></a>
-        <a href="/pages/kontakt.html"><button class="desktop-meny">Kontakta</button></a>
+        <a href="/pages/Simskola.html"><button class="desktop-meny">Simskola</button></a>
+        <a href="/pages/kontakt.html"><button class="desktop-meny">Kontakt</button></a>
         </nav>
     
     <!-- nav för tablet -->
         <nav class="tablet-nav">
         <a href="/pages/badhus-priser-schema.html"><img src="/assets/img/header_nav/priser_icon.png" class="tablet-meny"><div class="ikontext">Priser</div></a>
         <a href="/pages/badhus-openinghours.html"><img src="/assets/img/header_nav/oppettider_icon.png" class="tablet-meny"><div class="ikontext">Öppettider</div></a>
-        <a href="/pages/simskola.html"><img src="/assets/img/header_nav/simskola_icon.png" class="tablet-meny"><div class="ikontext">Simskola</div></a>
-        <a href="/pages/kontakt.html"><img src="/assets/img/header_nav/kontakta_icon.png" class="tablet-meny"><div class="ikontext">Kontakta</div></a>
+        <a href="/pages/Simskola.html"><img src="/assets/img/header_nav/simskola_icon.png" class="tablet-meny"><div class="ikontext">Simskola</div></a>
+        <a href="/pages/kontakt.html"><img src="/assets/img/header_nav/kontakta_icon.png" class="tablet-meny"><div class="ikontext">Kontakt</div></a>
         <a href="#hamburger-container"><img id="nav-hamburger-ikon" src="/assets/img/header_nav/menu.png"></a>
     </nav>
 
@@ -39,15 +39,14 @@
         <div class="close-ham"><a href="#"><img src="/assets/img/header_nav/close.png"></a>STÄNG</div>
         <div class="hamburger-buttons-container"><button><a class="text-hamburger-buttons" href="/pages/badhus-priser-schema.html">PRISER</a><button></div>
         <div class="hamburger-buttons-container"><button><a class="text-hamburger-buttons" href="/pages/badhus-openinghours.html">ÖPPETTIDER</a><button></div>
-        <div class="hamburger-buttons-container"><button><a class="text-hamburger-buttons" href="/pages/simskola.html">SIMSKOLA</a><button></div>
+        <div class="hamburger-buttons-container"><button><a class="text-hamburger-buttons" href="/pages/Simskola.html">SIMSKOLA</a><button></div>
         <div class="hamburger-buttons-container"><button><a class="text-hamburger-buttons" href="/pages/kontakt.html">KONTAKT</a><button></div>
     </div>
-
 </header>
 <body>
     <section>
         <article>
-        <img src="/assets/img/header_nav/swim_girl_background.jpg" alt="Barn som simmar">
+        <img id="imgbody" src="/assets/img/header_nav/swim_girl_background.jpg" alt="Barn som simmar">
         </article>
     </section>
     <main>
@@ -68,7 +67,7 @@
                     ledare som alltid är tillsammans med barn och vi följer
                     en kursplan som är i linje med barnets utveckling. 
                 </p>
-                <p class="psimskola"><strong>Privatlektioner</strong></p>
+                <h3 class="h3simskola">Privatlektioner</h3>
                 <p class="psimskola">
                     Vi erbjuder även privatlektioner för dig som vill lära
                     dig simma oavsett ålder. Du får jobba på din teknik och
@@ -102,7 +101,7 @@
                     <input type="text" name="epost" id="epost" /> <br>
                     
                     Meddelande (Speciella önskemål eller behov):<br>
-                    <textarea name="meddelande" id="meddelande" cols="45" rows="5"></textarea> <br>
+                    <textarea name="meddelande" id="meddelande" cols="35" rows="5"></textarea> <br>
                     
                     <input id="inputbutton" type="submit" name="skicka" id="skicka" value="Skicka anmälan" />
                     
@@ -115,7 +114,7 @@
     <footer class="footer">
         <!-- länkar -->
         <section class="sec-1">
-            <h3>Länkar</h3>
+            <h3 class="h3-footer">Länkar</h3>
             <a href="index.html">Hem</a>
             <a href="badhus-priser-schema.html">Priser</a>
             <a href="badhus-openinghours.html">Öppettider</a>
@@ -124,8 +123,8 @@
         </section>
         <!-- nyheter -->
         <section class="sec-2">
-             <h3>Nyheter</h3>
-             <form> 
+             <h3 class="h3-footer">Nyheter</h3>
+             <form class="form-footer"> 
                 <input type="email" placeholder="Your Email Address" required>
                 <br>
                 <button type="submit">Prenumerera</button>
@@ -133,10 +132,13 @@
         </section>
         <!-- kontakt -->
         <section class="sec-3">
-             <h3>Kontakt</h3>
+             <h3 class="h3-footer">Kontakt</h3>
              <p>Nummer: 076292409</p>
-             <p>Adress: </p>
+             <p>Adress: Gummiankgatan 23 </p>
              <p>Kommun: Rubber Duckies</p>
+             <p> Öppettider: Mån - Fredag: 11:00-19:00</p>
+             <p>Lördag & Söndag: 10:00-20:00 </p>
+             <p>Torsdag: Stängt</p>
         </section>
     </footer>
 </body>

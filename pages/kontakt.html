@@ -7,29 +7,68 @@
     <title>Kontaktsida</title>
 </head>
 <body>
+    <header>
+        <div class="companylogo">
+            <a href="/index.html"><img src="/assets/img/header_nav/ducklogo.png"></a>
+        </div>
+        <div class="companyname">
+            <a href="/index.html" style="text-decoration: none;"><h1>Rubbie Duckys</h1></a>
+            <p>Äventyrsbadet</p>
+        </div>
+        
+           <!-- nav för desktop -->
+        <div class="top-menu">
+            <nav>
+            <a href="/pages/badhus-priser-schema.html"><button class="desktop-meny">Priser</button>
+            <a href="/pages/badhus-openinghours.html"><button class="desktop-meny">Öppettider</button></a>
+            <a href="/pages/Simskola.html"><button class="desktop-meny">Simskola</button></a>
+            <a href="/pages/kontakt.html"><button class="desktop-meny">Kontakt</button></a>
+            </nav>
+        
+        <!-- nav för tablet -->
+            <nav class="tablet-nav">
+            <a href="/pages/badhus-priser-schema.html"><img src="/assets/img/header_nav/priser_icon.png" class="tablet-meny"><div class="ikontext">Priser</div></a>
+            <a href="/pages/badhus-openinghours.html"><img src="/assets/img/header_nav/oppettider_icon.png" class="tablet-meny"><div class="ikontext">Öppettider</div></a>
+            <a href="/pages/Simskola.html"><img src="/assets/img/header_nav/simskola_icon.png" class="tablet-meny"><div class="ikontext">Simskola</div></a>
+            <a href="/pages/kontakt.html"><img src="/assets/img/header_nav/kontakta_icon.png" class="tablet-meny"><div class="ikontext">Kontakt</div></a>
+            <a href="#hamburger-container"><img id="nav-hamburger-ikon" src="/assets/img/header_nav/menu.png"></a>
+        </nav>
+    
+        <!-- hamburgar menyn -->
+    
+        <div id="hamburger-container">
+            <div class="close-ham"><a href="#"><img src="/assets/img/header_nav/close.png"></a>STÄNG</div>
+            <div class="hamburger-buttons-container"><button><a class="text-hamburger-buttons" href="/pages/badhus-priser-schema.html">PRISER</a><button></div>
+            <div class="hamburger-buttons-container"><button><a class="text-hamburger-buttons" href="/pages/badhus-openinghours.html">ÖPPETTIDER</a><button></div>
+            <div class="hamburger-buttons-container"><button><a class="text-hamburger-buttons" href="/pages/Simskola.html">SIMSKOLA</a><button></div>
+            <div class="hamburger-buttons-container"><button><a class="text-hamburger-buttons" href="/pages/kontakt.html">KONTAKT</a><button></div>
+        </div>
+    
+    </header>
+    <section>
+        <h1 id="kontakt-huvudrubrik">Kontaktinformation</h1>
+    </section>
     <main class="container">
         <section class="contact-info">
-            <h2>Kontaktinformation</h2>
+            
             <ul>
                 <li><strong>Adress:</strong> Gummiankgatan 23</li>
                 <li><strong>Telefon:</strong> 076292409</li>
-                <li><strong>E-post:</strong>  Gummi@outlook.com</li>
+                <li><strong>E-post:</strong>  Kontaktbadhus@rubberduckies.se</li>
             </ul>
 
             <h3>Kontakta oss</h3>
             <br>
             <p>
-                Kontaktcenter är vägen in till x kommun. Här kan du få svar direkt på många frågor och även vissa ärenden helt lösta. Om vi inte kan ge dig svaret på din fråga vägleder vi dig vidare.
-                Vi är till för alla x, företagare, besökare eller andra som vill komma i kontakt med kommunen. Du når oss via telefon, i vår reception eller via e-post.
+                Kontaktcenter är vägen in till Rubber Duckies kommun. Här kan du få svar direkt på många frågor och även vissa ärenden helt lösta. Om vi inte kan ge dig svaret på din fråga vägleder vi dig vidare.
+                Vi är till för alla besökare som vill komma i kontakt med badhuset. Du når oss via telefon, i vår reception eller via e-post.
             </p>
-            <p>
-                För svar på vanliga frågor fyll i formuläret.
-            </p>
-            <p>Eller besök oss på Gummiankgatan 23. Öppettider hittar du <a href="badhus-openinghours.html">Här</a></p>
+
+            <p> Besök oss på Gummiankgatan 23. Öppettider hittar du <a href="badhus-openinghours.html">här</a></p>
         </section>
 
         <section class="contact-form">
-            <h2>Fyll i formuläret nedan</h2>
+            <h2>Här kan du ställa din fråga</h2>
             <form>
                 <div class="form-group">
                     <input type="text" id="name" name="name" placeholder="Namn" required>
@@ -41,7 +80,7 @@
                     <textarea id="message" name="message" placeholder="Meddelande" required></textarea>
                 </div>
                 
-                <button type="submit">Skicka</button>
+                <button id=kontakt-knapp type="submit">Skicka</button>
             </form>
         </section>
     </main>
@@ -70,6 +109,9 @@
              <p>Nummer: 076292409</p>
              <p>Adress: Gummiankgatan 23 </p>
              <p>Kommun: Rubber Duckies</p>
+             <p> Öppettider: Mån - Fredag: 11:00-19:00</p>
+             <p>Lördag & Söndag: 10:00-20:00 </p>
+             <p>Torsdag: Stängt</p>
         </section>
     </footer>
 </body>

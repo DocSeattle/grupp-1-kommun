@@ -1,4 +1,5 @@
 @import url("sitewide.css");
+@import url("footer.css");
 
 #contentWrapper {
     display: flex;
@@ -18,13 +19,15 @@
     max-width: 70%;
     width: 60%;
     place-self: center end;
-    margin-bottom: 3vh;             /* Har lagt till margin på texterna */
+    margin-bottom: 3vh;            
+    font-family: var(--siteFontSecondary);
 }
 
 #text h1 {
     font-size: 4vh;
     margin-top: 4vh;
     margin-bottom: 4vh; 
+    font-family:var(--siteFontPrimary) ;
 }
 
 #gruppering1 {
@@ -88,7 +91,6 @@ img.bildContainer {
 }
 
 .bildContainer .bildContainerLink:active {
-    background-color: var(--accent);
     filter: brightness(0.9);
 }
 
@@ -101,3 +103,4 @@ img.bildContainer {
     border-top-right-radius: 15px;
 }
 /* Bilderna */
+
