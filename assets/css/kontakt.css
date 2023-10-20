@@ -86,7 +86,7 @@ input, textarea {
 }
 
 /* knappen */
-button {
+#kontakt-knapp {
     background-color: #0d369b;
     color: #fff;
     padding: 0.5rem 1rem;
