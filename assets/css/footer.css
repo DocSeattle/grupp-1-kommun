@@ -10,7 +10,9 @@
     background: #0d369b;
     color: white;
     display: flex;
-    flex-wrap: wrap; /* Lägg till detta för att hantera mindre skärmar */
+    flex-wrap: wrap;
+    font-family: var(--siteFontSecondary);
+    /* Lägg till detta för att hantera mindre skärmar */
 }
 .h3-footer{
     color: white;
