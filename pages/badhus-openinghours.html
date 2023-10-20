@@ -6,95 +6,135 @@
     <title>Öppettider</title>
 </head>
 
+
 <body>
+    <header>
+        <div class="companylogo">
+            <a href="/pages/startsida.html"><img src="/assets/img/header_nav/ducklogo.png"></a>
+        </div>
+        <div class="companyname">
+            <a href="/pages/startsida.html" style="text-decoration: none;"><h1>Rubbie Duckys</h1></a>
+            <p>Äventyrsbadet</p>
+        </div>
+        
+           <!-- nav för desktop -->
+        <div class="top-menu">
+            <nav>
+            <a href="/pages/badhus-priser-schema.html"><button class="desktop-meny">Priser</button>
+            <a href="/pages/badhus-openinghours.html"><button class="desktop-meny">Öppettider</button></a>
+            <a href="/pages/simskola.html"><button class="desktop-meny">Simskola</button></a>
+            <a href="/pages/kontakt.html"><button class="desktop-meny">Kontakta</button></a>
+            </nav>
+        
+        <!-- nav för tablet -->
+            <nav class="tablet-nav">
+            <a href="/pages/badhus-priser-schema.html"><img src="/assets/img/header_nav/priser_icon.png" class="tablet-meny"><div class="ikontext">Priser</div></a>
+            <a href="/pages/badhus-openinghours.html"><img src="/assets/img/header_nav/oppettider_icon.png" class="tablet-meny"><div class="ikontext">Öppettider</div></a>
+            <a href="/pages/simskola.html"><img src="/assets/img/header_nav/simskola_icon.png" class="tablet-meny"><div class="ikontext">Simskola</div></a>
+            <a href="/pages/kontakt.html"><img src="/assets/img/header_nav/kontakta_icon.png" class="tablet-meny"><div class="ikontext">Kontakta</div></a>
+            <a href="#hamburger-container"><img id="nav-hamburger-ikon" src="/assets/img/header_nav/menu.png"></a>
+        </nav>
+    
+        <!-- hamburgar menyn -->
+    
+        <div id="hamburger-container">
+            <div class="close-ham"><a href="#"><img src="/assets/img/header_nav/close.png"></a>STÄNG</div>
+            <div class="hamburger-buttons-container"><button><a class="text-hamburger-buttons" href="/pages/badhus-priser-schema.html">PRISER</a><button></div>
+            <div class="hamburger-buttons-container"><button><a class="text-hamburger-buttons" href="/pages/badhus-openinghours.html">ÖPPETTIDER</a><button></div>
+            <div class="hamburger-buttons-container"><button><a class="text-hamburger-buttons" href="/pages/simskola.html">SIMSKOLA</a><button></div>
+            <div class="hamburger-buttons-container"><button><a class="text-hamburger-buttons" href="/pages/kontakt.html">KONTAKT</a><button></div>
+        </div>
+    </header>
+    <section>
+        <h1 id="huvudrubrik">Öppettider</h1>
+    </section>
     <main>
         <section id="openinghours">
-            <article>
-                <h2>Öppettider</h2>
-                <p>Här hittar du våra ordinarie öppettider</p>
-                <h3 id="reception">Reception</h3>
-                <p>Måndag-Fredag 07.00-20.00</p>
-                <p>Lördag-Söndag 08.00-18.00</p>
-                <h3 id="h3-aventyrsbad">Äventyrsbadet</h3>
-            <!-- Tabell: öppettider äventyrsbad -->
-                <table>
-                    <tr>
-                        <th>Dag</th>
-                        <th>Tider</th>
-                    </tr>
-                    <tr>
-                        <td>Måndag</td>
-                        <td>11:00-19:00</td>
-                    </tr>
-                    <tr>
-                        <td>Tidsag</td>
-                        <td>Stängt</td>
-                    </tr>
-                    <tr>
-                        <td>Onsdag</td>
-                        <td>11:00-19:00</td>
-                    </tr>
-                    <tr>
-                        <td>Torsdag</td>
-                        <td>11:00-19:00</td>
-                    </tr>
-                    <tr>
-                        <td>Fredag</td>
-                        <td>11:00-19:00</td>
-                    </tr>
-                    <tr>
-                        <td>Lördag</td>
-                        <td>10:00-20:00</td>
-                    </tr>
-                    <tr>
-                        <td>Söndag</td>
-                        <td>10:00-20:00</td>
-                    </tr>
-                </table>
-                <h3 id="h3-motionssim">Motionssim</h3>
-            <!-- Tabell: öppettider motionssim -->
-                <table>
-                    <tr>
-                        <th>Dag</th>
-                        <th>Tider</th>
-                    </tr>
-                    <tr>
-                        <td>Måndag</td>
-                        <td>06:30-20:00</td>
-                    </tr>
-                    <tr>
-                        <td>Tidsag</td>
-                        <td>06:30-20:00</td>
-                    </tr>
-                    <tr>
-                        <td>Onsdag</td>
-                        <td>12:00-19:00</td>
-                    </tr>
-                    <tr>
-                        <td>Torsdag</td>
-                        <td>06:30-19:00</td>
-                    </tr>
-                    <tr>
-                        <td>Fredag</td>
-                        <td>06:30-19:00</td>
-                    </tr>
-                    <tr>
-                        <td>Lördag</td>
-                        <td>08:00-15:00</td>
-                    </tr>
-                    <tr>
-                        <td>Söndag</td>
-                        <td>08:00-15:00</td>
-                    </tr>
-                </table>
-                <p>Tiderna visar när insläppet till motionssimmet är öppet. Vid stängning får du vara kvar i poolen ytterligare 30 minuter. Senast en timme efter att motionssimmet stängt ska du vara färdigduschad och ombytt.</p>
-            </article>
+            <p>Här hittar du priser för motionssim och äventyrsbadet. Vissa dagar öppnar bassängen för motionssimmet före receptionen.
+
+            </p>
+            <h2 id="reception">Reception</h2>
+            <p>Måndag-Fredag 07.00-20.00</p>
+            <p>Lördag-Söndag 08.00-18.00</p>
+            <h2 id="h2-aventyrsbad">Äventyrsbadet</h2>
+        <!-- Tabell: öppettider äventyrsbad -->
+            <table>
+                <tr>
+                    <th>Dag</th>
+                    <th>Tider</th>
+                </tr>
+                <tr>
+                    <td>Måndag</td>
+                    <td>11:00-19:00</td>
+                </tr>
+                <tr>
+                    <td>Tidsag</td>
+                    <td>Stängt</td>
+                </tr>
+                <tr>
+                    <td>Onsdag</td>
+                    <td>11:00-19:00</td>
+                </tr>
+                <tr>
+                    <td>Torsdag</td>
+                    <td>11:00-19:00</td>
+                </tr>
+                <tr>
+                    <td>Fredag</td>
+                    <td>11:00-19:00</td>
+                </tr>
+                <tr>
+                    <td>Lördag</td>
+                    <td>10:00-20:00</td>
+                </tr>
+                <tr>
+                    <td>Söndag</td>
+                    <td>10:00-20:00</td>
+                </tr>
+            </table>
+            <h2 id="h2-motionssim">Motionssim</h2>
+        <!-- Tabell: öppettider motionssim -->
+            <table>
+                <tr>
+                    <th>Dag</th>
+                    <th>Tider</th>
+                </tr>
+                <tr>
+                    <td>Måndag</td>
+                    <td>06:30-20:00</td>
+                </tr>
+                <tr>
+                    <td>Tidsag</td>
+                    <td>06:30-20:00</td>
+                </tr>
+                <tr>
+                    <td>Onsdag</td>
+                    <td>12:00-19:00</td>
+                </tr>
+                <tr>
+                    <td>Torsdag</td>
+                    <td>06:30-19:00</td>
+                </tr>
+                <tr>
+                    <td>Fredag</td>
+                    <td>06:30-19:00</td>
+                </tr>
+                <tr>
+                    <td>Lördag</td>
+                    <td>08:00-15:00</td>
+                </tr>
+                <tr>
+                    <td>Söndag</td>
+                    <td>08:00-15:00</td>
+                </tr>
+            </table>
+            <p>Tiderna visar när insläppet till motionssimmet är öppet. Vid stängning får du vara kvar i poolen ytterligare 30 minuter. Senast en timme efter att motionssimmet stängt ska du vara färdigduschad och ombytt.</p>
         </section>
     </main>
     <footer class="footer">
         <!-- länkar -->
         <section class="sec-1">
-            <h3>Länkar</h3>
+            <h3 class="h3-footer">Länkar</h3>
             <a href="index.html">Hem</a>
             <a href="badhus-priser-schema.html">Priser</a>
             <a href="badhus-openinghours.html">Öppettider</a>
@@ -103,8 +143,8 @@
         </section>
         <!-- nyheter -->
         <section class="sec-2">
-             <h3>Nyheter</h3>
-             <form> 
+             <h3 class="h3-footer">Nyheter</h3>
+             <form class="form-footer"> 
                 <input type="email" placeholder="Your Email Address" required>
                 <br>
                 <button type="submit">Prenumerera</button>
@@ -112,10 +152,13 @@
         </section>
         <!-- kontakt -->
         <section class="sec-3">
-             <h3>Kontakt</h3>
+             <h3 class="h3-footer">Kontakt</h3>
              <p>Nummer: 076292409</p>
              <p>Adress: Gummiankgatan 23 </p>
              <p>Kommun: Rubber Duckies</p>
+             <p> Öppettider: Mån - Fredag: 11:00-19:00</p>
+             <p>Lördag & Söndag: 10:00-20:00 </p>
+             <p>Torsdag: Stängt</p>
         </section>
     </footer>
 </body>

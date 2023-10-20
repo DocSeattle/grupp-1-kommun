@@ -12,6 +12,9 @@
     display: flex;
     flex-wrap: wrap; /* Lägg till detta för att hantera mindre skärmar */
 }
+.h3-footer{
+    color: white;
+}
 
 /* stil för alla sektioner */
 .footer section {

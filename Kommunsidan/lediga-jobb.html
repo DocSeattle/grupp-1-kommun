@@ -7,18 +7,21 @@
     <link rel="stylesheet" href="/css kommunsida/lediga-jobb.css">
 </head>
 <body>
-    <nav></nav>
-    <!-- <h1>Leiga jobb</h1>
-    <p>Här hittar du lediga jobb som finns i vår kommun. </p> -->
+    <nav></nav>    
+
     <main>
         <section class="huvudrubrik">
             <h2>Lediga jobb</h2>
-            <p>Här hittar du alla ledig jobb som finns i vår kommun.</p>
+            <h3>Söker du efter lediga jobb i Rubber Duckies kommun? Här på vår sida hittar du alla lediga jobb du kan söka både med och utan utbildningskrav, allt från tekniker till säljare. Bläddra bland yrken och sök jobbet idag!</h3>
         </section>
         
         <div class="collapsible">
+            
             <input type="checkbox" id="toggle1">
-            <label for="toggle1" class="toggle-label">Jobbannons 1: Webutvecklare</label>
+            <label for="toggle1" class="toggle-label">
+                <h3>fmlaöml arkgn böspma vaälmv,a</h3>
+                <p>ldkf lkmdsfk öpf vök åa ö öpvk a övöakvm ak b</p>
+            </label>
             <div class="content">
                 <p>
                     Vi söker en erfaren webutvecklare med kunskap inom HTML, CSS och JavaScript.
@@ -26,11 +29,14 @@
                 </p>
                 <div class="container">
                     <form>
-                        <label for="fname">First Name</label>
-                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                        <label for="fname">Förnamn</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Ditt namn..">
                         
-                        <label for="lname">Last Name</label>
-                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                        <label for="lname">Efternman</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Ditt efternamn..">
+
+                        <label for="email">E-postadress</label>
+                        <input type="text" id="email" name="email" placeholder="E-postadress..">
                         
                         <label for="country">Country</label>
                         <select id="country" name="country">
@@ -39,20 +45,22 @@
                         <option value="usa">USA</option>
                         </select>
 
-                        <label for="subject">Subject</label>
-                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                        <label for="personligt-brev">Personligt brev</label>
+                        <textarea id="personligt-brev" name="personligt-brev" placeholder="Skriv här.." style="height:200px"></textarea>
                     
                         <label for="CV">CV</label>
                         <input type="file" id="myFile" name="filename">
-
-                        <input type="submit" value="Submit">
+                        <br>
+                        <input type="submit" value="Skicka">
                     </form>
                 </div>    
             </div>
         </div>
     <div class="collapsible">
+        <p>ldkf lkmdsfk öpf vök åa ö öpvk a övöakvm ak b</p>
+            <h3>fmlaöml arkgn böspma vaälmv,a</h3>
             <input type="checkbox" id="toggle3">
-            <label for="toggle3" class="toggle-label">Jobbannons 1: Webutvecklare</label>
+            <label for="toggle3" class="toggle-label">Frontend utvecklare sökes till Spaceducks</label>
             <div class="content">
                 <p>
                     Vi söker en erfaren webutvecklare med kunskap inom HTML, CSS och JavaScript.
@@ -100,7 +108,8 @@
                 </p>
             </div>
         </div>
-    
+
+        
         <!-- Lägg till fler jobbannonser här -->
     </main>
     <footer></footer>
