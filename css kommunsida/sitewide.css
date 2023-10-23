@@ -6,6 +6,7 @@
     --siteColourPrimary:#FFD700 ;
     --siteColourSecondary:#F7DC6F ;
     --siteColourAccent:#F1C40F ;
+    --borderColor: #FFD700;
     --siteFontPrimary: Arial, Helvetica, sans-serif;
     --siteFontSecondary: Arial, Helvetica, sans-serif;
     --siteTransitionDefault: all 0.4s ease-in;
