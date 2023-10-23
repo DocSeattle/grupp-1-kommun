@@ -1,0 +1,12 @@
+/* Variabler som t.ex färger, fonter etc. */
+:root {
+    --text: #000405;
+    --textLight: #ffffff;
+    --background: #FCFCFC;
+    --siteColourPrimary:#FFD700 ;
+    --siteColourSecondary:#F7DC6F ;
+    --siteColourAccent:#F1C40F ;
+    --siteFontPrimary: Arial, Helvetica, sans-serif;
+    --siteFontSecondary: Arial, Helvetica, sans-serif;
+    --siteTransitionDefault: all 0.4s ease-in;
+}
