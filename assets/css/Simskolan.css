@@ -9,16 +9,14 @@ main {
 }
 #h1simskola {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: var(--primary);
     font-family: var(--siteFontPrimary);
 }
 body{
     margin: 0;
 }
-.psimskola{
-    font-size: 0.8rem;
-}
+
 #h2simskola {
     margin-left: 3%;
     color: var(--primary);
@@ -42,13 +40,21 @@ body{
     padding: 10px;
     border-radius: 5%;
 }
+#inputbutton{
+    background-color: #0d369b;
+    color: white;
+    border: solid #0d369b;
+}
+#ulsimskola li{
+    font-size: 1.1rem;
+}
+
 @media screen and (min-width: 1000px){
    main {
     margin-left: 15%;
     margin-right: 15%;
    }
     li {
-        
         margin-left: 1%;
         font-family: var(--siteFontSecondary);
     }
@@ -57,12 +63,13 @@ body{
         font-family: var(--siteFontSecondary);
     }
     .psimskola{
-        
-        font-size: 1rem;
         font-family: var(--siteFontSecondary);
     }
     body {
         margin: 0;
+    }
+    #ulsimskola li{
+        font-size: 1rem;
     }
     #formsimskola {
         border: solid black;
