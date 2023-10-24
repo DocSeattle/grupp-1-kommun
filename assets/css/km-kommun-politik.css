@@ -22,11 +22,28 @@ main h1, main h2, main h3, main h4, main h5, main h6
 #mainContainer:nth-of-type(2) h2 {
     margin-top: 0;
 }
+#mainContainer:nth-of-type(2) h2,
+#mainContainer:nth-of-type(2) p,
+#mainContainer:nth-of-type(3) h2,
+#mainContainer:nth-of-type(3) p {
+    margin-left: 7px;
+}
+#mainContainer p {
+    margin-top: 0;
+    margin-bottom: 0.25em;
+}
 
+#mainContainer:nth-of-type(2) article {
+    border-left: medium solid var(--accent);
+}
 
 #mainContainer:nth-of-type(3) {
     flex-flow: row-reverse nowrap;
     place-items: center end;
+}
+
+#mainContainer:nth-of-type(3) article {
+    border-left: medium solid var(--accent);
 }
 
 #mainContainer #topItem {
