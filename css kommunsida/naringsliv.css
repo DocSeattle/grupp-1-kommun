@@ -23,10 +23,11 @@ main{
     border-right: solid #FFD700 2px;
 }
 #innehall3 {
+    margin-top: 5%;
     padding-left: 1%;
     padding-right: 1%;
     border-left: solid #FFD700 2px;
-    border-bottom: solid #FFD700 2px;
+    border-top: solid #FFD700 2px;
 }
 .collapsible1 {
     width: 100%;
@@ -156,7 +157,7 @@ input[type=text], select, textarea {
     }
     #innehall3 {
         border-left: solid #FFD700 2px;
-        border-bottom: solid #FFD700 2px;
+        border-top: solid #FFD700 2px;
     }
     #lankforetag{
         color: black;
