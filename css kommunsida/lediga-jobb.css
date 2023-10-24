@@ -1,4 +1,4 @@
-
+@import url(sitewide.css);
 body {
     font-family: Arial, sans-serif;
     background-color: #f7f7f7;
@@ -11,12 +11,24 @@ body {
 main{
     margin:0 2%
 }
-.huvudrubrik{
-    margin: 10px;
+#huvudrubrik{
+    background-color: var(--siteColourPrimary);
+    color: var(--text);
+    font-size: var(--font-size);
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 4% 2%;
+    margin: 0px;
 }
+#beskrivning{
+    margin: 0 2%;
+    padding:20px 0;
+
+}
+
 .collapsible {
     width: 100%;
-    background-color: #c2dafa;
+    border: solid var(--siteColourSecondary);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     overflow: hidden;
@@ -28,17 +40,29 @@ main{
 
 }
 .toggle-label {
-    background-color: #e3f4ff;
+    background-color: var(--siteColourPrimary);
     color: rgb(0, 0, 0);
     padding: 10px;
     cursor: pointer;
     transition: background-color 0.3s;
     display: inline-block;
-    width: 100vw;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .toggle-label:hover {
-    background-color: #2980b9;
+    background-color: var(--siteColourPrimary);
+}
+.infoJobb, .infoJobb p{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    justify-content: space-between;
+}
+.jobbRubrik{
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 10px 0;
 }
 
 /* Dölj inmatningsrutan */
@@ -63,17 +87,17 @@ input[type=text], select, textarea {
     width: 100%; 
     padding: 12px;
     border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
+    border-radius: 4px; 
     box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical 
   }
   
   /* Style the submit button with a specific background color etc */
   input[type=submit] {
-    background-color: #04AA6D;
-    color: white;
+    background-color: var(--siteColourAccent);
+    color: var(--text);
     padding: 12px 20px;
     margin-top: 10px;
 
@@ -84,7 +108,7 @@ input[type=text], select, textarea {
   
   /* When moving the mouse over the submit button, add a darker green color */
   input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: var(--siteColourPrimary);
   }
   
   /* Add a background color and some padding around the form */
@@ -98,17 +122,23 @@ input[type=text], select, textarea {
     display: block;
 }
 
+
+
 @media screen and (min-width: 500px){
-    main{
-        margin: 0 2%;
-    }
+
 }
 
 @media screen and (min-width: 1000px){
-
+    
     main{
         margin: 0 15%;
         /* display: flex; */
+    }
+    #huvudrubrik{
+        padding:  2% 0;          
+    }
+    #beskrivning{
+        margin: 0 15%;
     }
     section{
         padding-left: 0px;
