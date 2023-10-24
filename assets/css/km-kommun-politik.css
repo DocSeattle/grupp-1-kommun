@@ -1,0 +1,70 @@
+@import url('sitewide.css');
+
+
+main {
+    font-family: var(--fontPrimary)
+}
+main h1, main h2, main h3, main h4, main h5, main h6 
+{
+    font-family: var(--fontSecondary)
+}
+
+#mainContainer {
+    max-width: 70%;
+    margin: auto auto;
+    display: flex;    
+    flex-flow: row nowrap;
+    place-items: start end;
+    margin-top: 2%;
+
+}
+
+#mainContainer:nth-of-type(2) h2 {
+    margin-top: 0;
+}
+
+#mainContainer img {
+    object-fit: cover;
+}
+
+#mainContainer:nth-of-type(3) {
+    flex-flow: row-reverse nowrap;
+    place-items: center end;
+}
+
+#mainContainer #topItem {
+    width: 45%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+
+#mainContainer:first-of-type {
+    gap: 10%;
+    place-items: center center;
+    margin: auto auto;
+}
+
+@media only screen and (max-width: 1000px) {
+    #mainContainer {
+        max-width: 95%;
+    }
+    #mainContainer img {
+        width: 30%;
+    }
+}
+
+#infoKultur {
+    margin-left: auto;
+    max-width: 65%;
+    width: 60%;
+}
+
+#infoVerksamheter {
+    margin-right: auto;
+    max-width: 65%;
+    width: 60%;
+}
+
+#infoKultur article {
+    width: 90%;
+}
