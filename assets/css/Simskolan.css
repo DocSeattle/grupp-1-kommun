@@ -11,7 +11,7 @@ main {
     text-align: center;
     font-size: 2rem;
     color: var(--primary);
-    font-family: var(--siteFontPrimary);
+    font-family: var(--fontSecondary);
 }
 body{
     margin: 0;
@@ -20,17 +20,17 @@ body{
 #h2simskola {
     margin-left: 3%;
     color: var(--primary);
-    font-family: var(--siteFontPrimary);
+    font-family: var(--fontSecondary);
 }
 .h3simskola {
     margin-left: 3%;
     color: var(--primary);
-    font-family: var(--siteFontPrimary);
+    font-family: var(--fontSecondary);
 }
 .psimskola {
     margin-left: 3%;
     margin-right: 10%;
-    font-family: var(--siteFontSecondary);
+    font-family: var(--fontPrimary);
 }
 #formsimskola {
     max-width: 100%;
@@ -56,14 +56,14 @@ body{
    }
     li {
         margin-left: 1%;
-        font-family: var(--siteFontSecondary);
+        font-family: var(--fontPrimary);
     }
     #formsimskola {
         margin-left: 3%;
-        font-family: var(--siteFontSecondary);
+        font-family: var(--fontPrimary);
     }
     .psimskola{
-        font-family: var(--siteFontSecondary);
+        font-family: var(--fontPrimary);
     }
     body {
         margin: 0;
@@ -85,13 +85,13 @@ body{
         border-radius: 5%;
     }
     #h1simskola{
-        font-family: var(--siteFontPrimary);
+        font-family: var(--fontSecondary);
     }
     #h2simskola{
-        font-family: var(--siteFontPrimary);
+        font-family: var(--fontSecondary);
     }
     .h3simskola{
-        font-family: var(--siteFontPrimary);
+        font-family: var(--fontSecondary);
     }
 }
     

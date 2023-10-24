@@ -15,8 +15,7 @@
             <h3>Söker du efter lediga jobb i Rubber Duckies kommun? Här på vår sida hittar du alla lediga jobb du kan söka både med och utan utbildningskrav, allt från tekniker till säljare. Bläddra bland yrken och sök jobbet idag!</h3>
         </section>
         
-        <div class="collapsible">
-            
+        <section class="collapsible">   
             <input type="checkbox" id="toggle1">
             <label for="toggle1" class="toggle-label">
                 <h3>fmlaöml arkgn böspma vaälmv,a</h3>
@@ -38,11 +37,20 @@
                         <label for="email">E-postadress</label>
                         <input type="text" id="email" name="email" placeholder="E-postadress..">
                         
-                        <label for="country">Country</label>
-                        <select id="country" name="country">
-                        <option value="australia">Australia</option>
-                        <option value="canada">Canada</option>
-                        <option value="usa">USA</option>
+                        <label for="education">Utblidingsnivå</label>
+                        <select id="education" name="education">
+
+                        <option value="choose">Välj utbildningsnivå</option>
+                        <option value="none">Ingen utbildning</option>
+                        <option value="grundskola">Grundskolenivå</option>
+                        <option value="gymnasie">Gymnasieexamen</option>
+                        <option value="yrkesexamen">Yrkeshögskoleexamen</option>
+                        <option value="hogskoleexamen">Högskoleexamen</option>
+                        <option value="kandidatexamen">Kandidatexamen</option>
+                        <option value="magisterexamen">Magisterexamen</option>
+                        <option value="masterexamen">Masterexamen</option>
+                        <option value="doktorsexamen">Doktorsexamen</option>
+
                         </select>
 
                         <label for="personligt-brev">Personligt brev</label>
@@ -50,67 +58,13 @@
                     
                         <label for="CV">CV</label>
                         <input type="file" id="myFile" name="filename">
-                        <br>
+                        <br><br>
                         <input type="submit" value="Skicka">
                     </form>
                 </div>    
             </div>
-        </div>
-    <div class="collapsible">
-        <p>ldkf lkmdsfk öpf vök åa ö öpvk a övöakvm ak b</p>
-            <h3>fmlaöml arkgn böspma vaälmv,a</h3>
-            <input type="checkbox" id="toggle3">
-            <label for="toggle3" class="toggle-label">Frontend utvecklare sökes till Spaceducks</label>
-            <div class="content">
-                <p>
-                    Vi söker en erfaren webutvecklare med kunskap inom HTML, CSS och JavaScript.
-                    Ansök nu!
-                </p>
-                <div class="container">
-                    <form>
-                  
-                    <label for="fname">First Name</label>
-                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                    
-                    <label for="lname">Last Name</label>
-                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        </section>
 
-                    
-
-                    <label for="country">Country</label>
-                    <select id="country" name="country">
-                    <option value="australia">Australia</option>
-                    <option value="canada">Canada</option>
-                    <option value="usa">USA</option>
-                    </select>
-                      
-                      
-                  
-                    <label for="subject">Subject</label>
-                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-                  
-                    <label for="CV">CV</label>
-                    <input type="file" id="myFile" name="filename">
-                    
-                    <input type="submit" value="Submit">
-                  
-                    </form>
-                </div>    
-            </div>
-        </div>
-        <div class="collapsible">
-            <input type="checkbox" id="toggle2">
-            <label for="toggle2" class="toggle-label">Jobbannons 2: Grafisk Designer</label>
-            <div class="content">
-                <p>
-                    Vi letar efter en kreativ grafisk designer med färdigheter inom Adobe Creative Suite.
-                    Skicka in din ansökan idag!
-                </p>
-            </div>
-        </div>
-
-        
-        <!-- Lägg till fler jobbannonser här -->
     </main>
     <footer></footer>
 </body>

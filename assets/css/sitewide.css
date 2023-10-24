@@ -1,20 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=IBM+Plex+Sans+Condensed:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
 :root {
     --text: #000405;
     --background: #f1fbfe;
     --primary: #0d369b;
     --secondary: #fbd9d0;
     --accent: #ebae14;
-}
-/* Variabler som t.ex färger, fonter etc. */
-:root {
-    --siteColourPrimary: ;
-    --siteColourSecondary: ;
-    --siteColourAccent: ;
-    --siteFontPrimary: Arial, Helvetica, sans-serif;
-    --siteFontSecondary: Arial, Helvetica, sans-serif;
+    --fontPrimary: 'IBM Sans Plexed', sans-serif;
+    --fontSecondary: 'IBM Sans Condensed', sans-serif;
     --siteTransitionDefault: all 0.4s ease-in;
 
 }
+/* Variabler som t.ex färger, fonter etc. */
 
 
 @keyframes siteLoadTransition {
