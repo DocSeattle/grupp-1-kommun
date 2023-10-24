@@ -11,7 +11,7 @@
     color: white;
     display: flex;
     flex-wrap: wrap;
-    font-family: var(--siteFontSecondary);
+    font-family: var(--fontPrimary);
     /* Lägg till detta för att hantera mindre skärmar */
 }
 .h3-footer{
