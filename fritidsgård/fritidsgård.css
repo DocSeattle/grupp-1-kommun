@@ -1,0 +1,57 @@
+
+*{margin: 0; padding: 0;}
+
+body {background-color: rgb(227, 138, 13);}
+header {padding-bottom: 3%;}
+img {width: 100%; height: 30vh;}
+
+
+/* Ändrar allt i "containern" aka text-klasserna i bannern + bilden */
+.container {          
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 4vh;
+  }
+  /* Bottom left text */
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+  /* Top left text */
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  /* Top right text */
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+  /* Bottom right text */
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+.lila-bakgrund {background-color: rgb(170, 20, 190); width: 100%;}
+
+#formöppetider {border: solid black;
+    width: 380px;
+    padding: 10px;
+    border-radius: 5%;
+    border-width: 2px;
+}
+/*form {margin: 0 auto;}*/  /* För att centrerar rutan */

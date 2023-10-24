@@ -1,0 +1,12 @@
+#header {background-color: aquamarine;}
+#bu-rubrik {text-align: center; background-color: aqua; padding: 2%; width: 80%;}
+
+#skolor {border: solid black;
+    position: relative;
+    width: 80%;
+    padding: 10px;
+    border-radius: 5%;
+    border-width: 2px;
+    text-align: center;
+    align-items: center;
+}

@@ -20,14 +20,14 @@
     width: 60%;
     place-self: center end;
     margin-bottom: 3vh;            
-    font-family: var(--siteFontSecondary);
+    font-family: var(--fontPrimary);
 }
 
 #text h1 {
     font-size: 4vh;
     margin-top: 4vh;
     margin-bottom: 4vh; 
-    font-family:var(--siteFontPrimary) ;
+    font-family:var(--fontSecondary) ;
 }
 
 #gruppering1 {
@@ -71,7 +71,7 @@ img.bildContainer {
 .bildContainer .bildContainerLink,
 .bildContainer .bildContainerLink:visited {
     cursor: pointer;
-    font-family: var(--siteFontPrimary);
+    font-family: var(--fontPrimary);
     font-weight: bold;
     text-decoration: none;
     background-color:#0d369b;
