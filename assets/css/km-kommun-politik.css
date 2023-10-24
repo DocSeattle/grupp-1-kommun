@@ -23,9 +23,6 @@ main h1, main h2, main h3, main h4, main h5, main h6
     margin-top: 0;
 }
 
-#mainContainer img {
-    object-fit: cover;
-}
 
 #mainContainer:nth-of-type(3) {
     flex-flow: row-reverse nowrap;
@@ -33,9 +30,11 @@ main h1, main h2, main h3, main h4, main h5, main h6
 }
 
 #mainContainer #topItem {
+    margin-top: 1%;
     width: 45%;
     padding-left: 2.5%;
     padding-right: 2.5%;
+    border-left: medium solid var(--accent);
 }
 
 #mainContainer:first-of-type {
@@ -53,11 +52,7 @@ main h1, main h2, main h3, main h4, main h5, main h6
     }
 }
 
-@media only screen and (max-width: 500px) {
-    img {
-        display: hidden;
-    }
-}
+
 
 #infoKultur {
     margin-left: auto;
@@ -73,4 +68,33 @@ main h1, main h2, main h3, main h4, main h5, main h6
 
 #infoKultur article {
     width: 90%;
+}
+
+
+@media only screen and (max-width: 500px) {
+    #mainContainer img {
+        display: none;
+    }
+    #mainContainer {
+        max-width: 100%;
+        place-items: start center;
+    }
+
+    #mainContainer:first-of-type {
+        gap: 2%;
+    }
+    #mainContainer #topItem {
+        width: 50%;
+        height: 195px;
+        align-self: start;
+    }
+
+    #mainContainer .small {
+        width: 100%;
+        margin: auto auto;
+    }
+    #mainContainer h2,
+    #mainContainer p {
+        width: 95%;
+    }
 }
