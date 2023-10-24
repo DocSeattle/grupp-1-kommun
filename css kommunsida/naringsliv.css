@@ -129,9 +129,9 @@ input[type=text], select, textarea {
     text-decoration: none;
     border-radius: 10px;
 }
-#lankforetag{
-    color: black;
+.buttontext{
     text-decoration: none;
+    color: black;
 }
 .lankregler{
     color: #1e00c5;
@@ -157,6 +157,22 @@ input[type=text], select, textarea {
     #innehall3 {
         border-left: solid #FFD700 2px;
         border-bottom: solid #FFD700 2px;
+    }
+    #lankforetag{
+        color: black;
+        text-decoration: none;
+    }
+    .button{
+        background-color: #FFD700;
+        color: black;
+        border: solid #FFD700 4px;
+        display: inline-block;
+        text-decoration: none;
+        border-radius: 10px;
+    }
+    .buttontext{
+        text-decoration: none;
+        color: black;
     }
     
 }
