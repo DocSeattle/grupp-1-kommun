@@ -1,0 +1,12 @@
+@import url("/css kommunsida/sitewide.css");
+body{
+    margin: 0;
+}
+main {
+    margin: 0 2%;
+}
+.rubrik{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #FFD700;
+}
