@@ -53,6 +53,12 @@ main h1, main h2, main h3, main h4, main h5, main h6
     }
 }
 
+@media only screen and (max-width: 500px) {
+    img {
+        display: hidden;
+    }
+}
+
 #infoKultur {
     margin-left: auto;
     max-width: 65%;
