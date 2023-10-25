@@ -111,17 +111,7 @@ input[type=text], select, textarea {
   input[type=submit]:hover {
     background-color: #45a049;
   }
-  
-  /* Add a background color and some padding around the form */
-  .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-  }
 
-.fileuppload{
-    display: block;
-}
 .button{
     background-color: #FFD700;
     color: black;
@@ -156,8 +146,8 @@ input[type=text], select, textarea {
         border-right: solid #FFD700 3px;
     }
     #innehall3 {
-        border-left: solid #FFD700 2px;
-        border-top: solid #FFD700 2px;
+        border-left: solid #FFD700 3px;
+        border-top: solid #FFD700 3px;
     }
     #lankforetag{
         color: black;
