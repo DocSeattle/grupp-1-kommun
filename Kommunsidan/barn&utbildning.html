@@ -7,33 +7,72 @@
     <link rel="stylesheet" href="/css kommunsida/barn&utbildning.css">
 </head>
 
-
 <body>
-<!-- Utbildningsförvaltningen vill visa upp vilka skolor som finns i kommunen 
-    för att familjer och studerande enkelt ska kunna hitta information om vilka utbildningar som finns.
-    Skolorna vill att de invånare som letar efter en skola enkelt ska kunna klicka 
-    sig vidare in på deras hemsida. -->
-
-    <h2 id="header">header</h2>
-    <h2 id="header">header</h2>
-    <h2 id="header">header</h2>
-    <br>
-
+    <section id="section1">
     <h1 id="bu-rubrik">Skolor</h1>
+    <h2 id="skol-info">I kommunen hittar du alltifrån förskola till kulturskola. Oavsett skola lägger vi ett stort fokus 
+        på elevernas kunskapsutveckling. Samtliga skolor använder sig utav samma löroplattform. Du kan enkelt göra
+        dig bekant med plattformen i länken nedan.</h2>
+        <a href="https://www.ist.com/se/">Läroplattform</a> <!-- Länk till Läroplattformen -->
 
-    <article id="skolor">
+    </section>
 
-        <section id="förskola">
-            <h2>Förskola</h2>
-            <h3>här står text om förskolan</h3>
+
+    <section id="articlecontainer">
+
+    <form id="form-förskola">  <!-- Border runt text -->
+        <section id="förskola"> 
+            <h1>Rubbieskolan – Förskoleklass, 1-5 år</h1>
+            <img src="\assets\img\barn&utbildning\förskola.jpg" alt="bild-förskola">
         </section>
-        
-        <section id="grundskola">Grundskola</section>
-        <section id="gymnasie">Gmnasie</section>
-        <section id="komvux">Komvux</section>
-        <section id="kulturskola">Kulturskola</section>
+        <a href="rubbieskolan">Rubbieskolans hemsida</a> <!-- Länk till hemsidan -->
+    </form>
 
-    </article>
+
+    <form action="form-grundskola">
+        <section id="grundskola">
+            <h1>Duckieskolan – Grundskola, åk 1-9</h1>
+            <img src="\assets\img\barn&utbildning\grundskola.jpg" alt="bild-grundskola">
+        </section>
+        <a href="rubbieskolan">Duckieskolans hemsida</a> <!-- Länk till hemsidan -->
+    </form>
+
+
+
+
+    <form action="form-gymnasieskola">
+        <section id="gymnasieskola">
+            <h1>Gymnasieskola</h1>
+            <img src="\assets\img\barn&utbildning\gymnasieskola.jpg" alt="bild-gymnasieskola">
+        </section>
+        <a href="rubbieskolan">Gymnasieskolans hemsida</a> <!-- Länk till hemsidan -->
+    </form>
+
+
+    <form action="form-komvuxskola">
+        <section id="gymnasieskola">
+            <h1>Komvuxskola</h1>
+            <img src="\assets\img\barn&utbildning\komvux.jpg" alt="bild-komvuxskola">
+        </section>
+        <a href="rubbieskolan">Komvuxskolans hemsida</a> <!-- Länk till hemsidan -->
+    </form>
+    </section>
+
+    <form action="form-kulturskola">
+        <section id="kulturskola">
+            <h1>Kulturskolan - ??</h1>
+            <video width="40%" height="auto" controls>
+                <source src="\assets\img\barn&utbildning\kulturskola.mp4" type="video/mp4">
+                <source src="\assets\img\barn&utbildning\kulturskola.mp4" type="video/ogg">
+              Din webbläsare kan ej spela upp denna video.
+              </video>
+        </section>
+        <a href="rubbieskolan">Kulturskolans hemsida</a> <!-- Länk till hemsidan -->
+    </form>
+
+    
+    
+    
 </body>
 
 </html>
