@@ -53,6 +53,18 @@ body{
     margin: 0;
 }
 
+#rubrikBild{
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 15vw; /* height of container */
+    overflow: hidden;
+}
+#rubrikBild img{
+    width: 100%;
+    margin-top: -10%;
+}
+
+
 @media screen and (min-width: 500px){
     main{
         margin: 0 15%;
@@ -83,4 +95,9 @@ body{
     #huvudrubrik{
         padding:  2% 0;          
     }
+    #rubrikBild img{
+        width: 100%;
+        margin-top: -180px;
+    }
+
 }
