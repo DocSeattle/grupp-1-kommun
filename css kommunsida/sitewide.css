@@ -350,7 +350,11 @@ border: none;
 border-radius: 5px;
 padding: 15px;
 margin-left: 10px;
-cursor: pointer;}}
+cursor: pointer;}
+
+
+.nyheter-container
+{flex-wrap: wrap;}}
 
 
 /* hamburgar menyn boxen */
@@ -709,6 +713,7 @@ border: 1px solid #1F2021;}
 .populara-sidor-rubrik-mobile
 {display: none;}
 
+
 .populara-sidor-knapp-mobile
 {padding-left: 6px;
 padding-right: 6px;
@@ -732,3 +737,64 @@ height: 400px;
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;}
+
+/* Startsidan */
+
+.nyheter-container
+{display: flex;
+flex-direction: row;
+justify-content: space-between;
+gap: 10px;
+width: 70%;
+height: 100%;
+text-align: center;
+margin: auto;
+background-color: transparent;
+margin-top: 50px;}
+
+.nyheter-container-img
+{display: flex;
+flex-direction: column;
+justify-content: left;
+width: 100%;
+height: 100%;
+border-radius: 15px;
+background-color: #f5f4f3;
+min-height: 435px;
+border: 2px solid #ffd700;
+box-shadow: 3px 3px 7px #00000057;}
+
+.nyheter-container-img:last-child
+{margin-right: 0px;}
+
+.nyheter-container-img:hover
+{box-shadow: 2px 2px 7px #0000008b;}
+
+.nyheter-img img
+{width: 100%;}
+
+.nyheter-text
+{font-size: 13px;
+margin-right: 10px;
+margin-left: 10px;
+margin-bottom: 20px;}
+
+.nyheter-rubrik
+{font-size: 14px;
+margin-right: 10px;
+margin-left: 10px;}
+
+.nyheter-datum
+{font-size: 11px;}
+
+
+
+
+
+
+
+
+.expand
+{width: 100%;
+height: 500px;
+background-color: white;}
