@@ -2,6 +2,7 @@
 @import url("/css-kommunsida/footer.css");
 body{
     margin: 0;
+    font-family: var(--fontPrimary)
 }
 main{
     margin: 0 3%;
