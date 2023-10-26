@@ -2,7 +2,7 @@
 @import url(/css-kommunsida/sitewide.css);
 @import url(/css-kommunsida/footer.css);
 body {
-    font-family: Arial, sans-serif;
+    font-family: var(--siteFontPrimary);    
     background-color: #f7f7f7;
     margin: 0;
 
