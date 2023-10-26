@@ -15,7 +15,7 @@
 body
 {margin: 0;
 padding: 0;
-font-family: var(--fontPrimary)}
+font-family: var(--siteFontPrimary)}
 
 html{scroll-behavior: smooth;}
 
