@@ -10,10 +10,8 @@ body {
 }
 .header-background{
     max-height: 10vh;
-    /* display: none; */
     border-bottom: solid var(--siteColourPrimary);
     border-top: solid var(--siteColourPrimary);
-
 }
 main{
     margin:0 2%
@@ -26,12 +24,14 @@ main{
     font-size: 1.8rem;
     padding: 4% 2%;
     margin: 0px;
-    text-decoration: underline;
-    text-decoration-color: var(--siteColourPrimary);
+
 }
 #beskrivning{
     margin: 0 2%;
     padding:20px 0;
+    border-top: solid var(--siteColourPrimary);
+    border-width: 3px ;
+
 
 }
 
