@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css kommunsida/km-kultur-fritid.css">
+    <link rel="stylesheet" href="/css kommunsida/km-modal.css">
+    <title>Ducky's Kultur & Fritid</title>
+</head>
+
+<body>
+    <nav></nav>
+    <main>
+        <section id="mainContainer">
+            <article id="topItem">
+                <h2>Badhuset</h2>
+                <p>Vårat badhus har en helt egen sida där du kan få all information om vad lokalen erbjuder, dess priser och öppettider</p>
+                <input class="topButton" type="button" href="#" value="Till Simhallen">
+            </article>
+            <article id="topItem">
+                <h2>Fritidsgården</h2>
+                <p>Ducky's Fritidsgård har också en egen sida, clicka på knappen för att komma dit & få mer information om dem.</p>
+                <input class="topButton" type="button" href="#" value="Till Fritidsgården">
+            </article>
+        </section>
+        <section id="mainContainer">
+                <article class="km-imgContainer">
+                    <img id="img1" src="/assets/img/stad-bild.jpg">
+                </article >
+           
+            <section id="infoKultur" class="small">
+                <article>
+                    <h2>Kultur & Fritid</h2>
+                    <p>I Ducky's kommun finns det många sysselsättningar för allt och alla att hållas med.</p>
+                    <p>Nedan finns mer information om en mängd av dessa.</p>
+                    <p>Allt emellan föreningsverksamheter, bibliotek, vandringsleder finns och du är varmt välkommen att delta i alla dessa aktiviteter!</p>
+                </article>
+               <article>
+                    <h2>Biblioteket</h2>
+                    <p>Vi har ett bibliotek som är öppet alla dagar mellan 10:00 och 17:00.</p>
+                    <p>Biblioteket beställer gärna in böcker som inte finns där, såväl som vissa spel till äldre konsoller m.m.</p>
+               </article>
+               <article>
+                <h2>Lekplats</h2>
+                <p>Ducky har en nybyggd lekplats för familjer med barn att aktivera sig.</p>
+                <p>Lekplatsen har också två grillplatser och cykelställningar för att man ska enkelt kunna spendera dagen med sin familj.</p>
+               </article>
+            </section>
+
+        </section>
+
+        <section id="mainContainer">
+            <article class="km-imgContainer">
+                <img src="/assets/img/skog-väg.jpg">
+            </article >
+            <section id="infoVerksamheter" class="small">
+                <article id="vandringsLeder">
+                    <h2>Vandrings & Motions Leder</h2>
+                    <p>Vi har en mängd vandringsleder runt Ducky.</p>
+                    <p>Dessa leder en igenom centrum ut till skogar, genom skogar till Idrottshallen och badhuset m.m.
+                    </p>
+                    <p>Utöver det har vi också kartor för att planera sina rutter. Dessa finns att ladda ner nedan.</p>
+                    &nbsp;<input class="topButton" type="button" value="kartor" href="/assets/img/PLACEHOLDER.png">
+                </article>
+                <article id="infoIdrott">
+                    <h2>Ducky's Idrottshall</h2>
+                    <p>Vi erbjuder också att hyra idrottshallen i kommunen. Klicka på knappen för att få mer info.</p>
+                    <div class="modal-container">
+                        <input id="modal-toggle" type="checkbox">
+                        <button>Hyr Idr.Hallen</button>
+                        <div class="modal-backdrop">
+                            <div class="modal-content">
+                                <label class="modal-close" for="modal-toggle">x</label>
+                                <h2 id="modalHeading">Ducky's Idrottshall</h2>
+                                <hr />
+                                <p>Ducky's Idrottshall är öppen för alla att hyra.
+                                </p>
+                                <p>Idrottshallen finns att hyra alla dagar förutom söndagar mellan
+                                    klockan 08:00 och 21:00.
+                                </p>
+                                <form>
+                                    <input type="text" placeholder="E-Mail" id="fEmail">
+                                    <input type="date" id="fTime">
+                                    <input type="text" placeholder="Aktivitet" id="fActivity">
+                                    <input type="submit" value="Skicka!">
+                                </form>
+                                <label class="modal-close button" for="modal-toggle">Stäng</label>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <h2>Föreningsverksamheter</h2>
+                    <p>Vi har ett antal föreningsverksamheter som erbjuder aktiviteter;</p>
+                    <ul id="verksamheterLista">
+                        <li><a href="">Ducky's Bollklub</a></li>
+                        <li><a href="">Ducky's Simförening</a></li>
+                        <li><a href="">Ducky's Simskola</a></li>
+                        <li><a href="">Ducky's Bokklubb</a></li>
+                        <li><a href="">Ducky's Vandrarklubb</a></li>
+                    </ul>
+                </article>
+            </section>
+        </section>
+
+
+    </main>
+    <footer></footer>
+</body>
+</html>

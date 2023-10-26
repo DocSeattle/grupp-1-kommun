@@ -15,12 +15,14 @@
     font-size: 1.7vh;
     display: flex;
     flex-direction: column;
-    margin: auto;
     max-width: 70%;
-    width: 60%;
     place-self: center end;
     margin-bottom: 3vh;            
     font-family: var(--fontPrimary);
+}
+
+#text h2{
+    font-size: 1.4rem;
 }
 
 #text h1 {
@@ -45,7 +47,6 @@
     flex-wrap: wrap;
 
     overflow: hidden;
-    max-width: 70%;
     place-content: center center;
     gap: 1%;
 }
@@ -58,9 +59,9 @@
     margin-bottom: 2%;
 }
 
-img.bildContainer {
-    max-width: 35%;
-}
+.bildContainerLink{
+    width: 100%;
+}    
 
 .bildContainer:focus,
 .bildContainer:hover {
@@ -75,7 +76,7 @@ img.bildContainer {
     font-weight: bold;
     text-decoration: none;
     background-color:#0d369b;
-    margin: 0;
+    margin: -2px;
     padding: 1em;
     color: rgb(255, 255, 255);
 }
@@ -103,4 +104,42 @@ img.bildContainer {
     border-top-right-radius: 15px;
 }
 /* Bilderna */
+.ssl{
+    margin:0 2%;
+    font-family: var(--fontSecondary);
+    border: solid var(--primary);
+    border-width: 3px;
+    border-radius: 15px;
 
+}
+.ssl p, h3{
+    margin: 5px
+}
+.ssl h3{
+    color: var(--primary);
+}
+.ssl a{
+    text-decoration: none;
+}
+.ssl a:visited{
+    color: #0d369b;
+}
+.ssl a:hover{
+    color: rgb(18, 26, 71);
+}
+
+@media screen and (min-width: 500px){
+    #bilder {
+        max-width: 70%;
+    }
+
+    .ssl{
+        margin: 0 18%;
+    }
+
+}
+
+@media screen and (min-width: 1000px){
+
+
+}

@@ -1,12 +1,96 @@
-#header {background-color: aquamarine;}
-#bu-rubrik {text-align: center; background-color: aqua; padding: 2%; width: 80%;}
-
-#skolor {border: solid black;
-    position: relative;
-    width: 80%;
-    padding: 10px;
-    border-radius: 5%;
-    border-width: 2px;
-    text-align: center;
-    align-items: center;
+@import url(sitewide.css);
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+#section1{
+    text-align: center;  
+    padding-bottom: 2%;
+}
+
+#bu-rubrik {
+   text-align: center;
+   background-color: #FFD700; 
+   padding: 3%;
+}
+
+#skol-info{
+    text-align: center;
+    display: flex;
+}
+
+#articlecontainer{
+    place-content: center center;
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+}
+
+form {
+    border: solid #FFD700; /* Border runt text */
+    width: 75%;
+    padding: 10px;
+    border-width: 12px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 1%;
+}
+
+img{
+    width: 40%; 
+    height: auto;
+}
+
+.collapsible{
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.collapsible p, h3{
+    padding: 5px;
+
+}
+.toggle-label{
+    color: rgb(0, 0, 0);
+    padding: 0px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+/* Dölj inmatningsrutan */
+input[type="checkbox"] {
+    display: none;
+}
+
+/* Visa innehållet när inmatningsrutan är icheckad */
+input[type="checkbox"]:checked + label + .content {
+    display: block;
+    padding-bottom: 10px;
+
+}
+
+.content{
+    display :none;
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin: 0 15%;
+}
+  
+.grupp1{
+    display: flex; 
+    flex-direction: row;
+}
+
+.grupp1 img{
+    width: 90%; 
+    height: auto;
+}
+  
+
