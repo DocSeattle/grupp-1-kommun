@@ -51,7 +51,6 @@ img {width: 100%; height: 30vh;}
 #formöppetider {border: solid black;
     width: 380px;
     padding: 10px;
-    border-radius: 5%;
     border-width: 2px;
 }
-/*form {margin: 0 auto;}*/  /* För att centrerar rutan */
+/* form {margin: 0 auto;}  För att centrerar rutan */

@@ -194,7 +194,7 @@
 <div id="sok">
 
     <form action="#sok-rutan-resultat" method="get" class="sok-rutan">
-        <input type="text" placeholder="Vad leter du efter?" name="search" class="search-box">
+        <input type="text" placeholder="Vad letar du efter?" name="search" class="search-box">
         <button type="submit" class="search-button">SÖK</button>
     </form>
 
@@ -220,41 +220,6 @@
 <!-- BAKGRUND * DETTA NEDANFÖR SKA ENDAST VARA MED PÅ STARTSIDAN -->
 <div class="header-background" style="background-image: url(/assets/img/nav-head-kommunsida/ducky_bakgrundsbild.png);">
     
-<!-- MAIN SÖK RUTAN MED POPULÄRA SIDOR -->
-    <div class="sok-main">
-
-        <div class="populara-sidor">
-            <div class="populara-sidor-rubrik">Populära sidor:</div>
-            <div class="populara-sidor-knapp"><a href="/Kommunsidan/naringsliv.html">Näringsliv</a></div>
-            <div class="populara-sidor-knapp"><a href="https://badhus.webdevmisikangas.se" target="_new">Badhus</a></div>
-            <div class="populara-sidor-knapp"><a href="/Kommunsidan/kultur-fritid.html">Vandringsleder</a></div>
-            <div class="populara-sidor-knapp"><a href="/Kommunsidan/lediga-jobb.html">Lediga jobb</a></div>
-        </div>
-
-        <form action="#sok-rutan-resultat" method="get" class="sok-rutan-main">
-            <input type="text" placeholder="Vad leter du efter?" name="search" class="search-box-main">
-            <button type="submit" class="search-main-button">SÖK</button>
-        </form>
-        
-    </div>
-
-    <!-- MOBILE SÖK RUTAN MED POPULÄRA SIDOR -->
-    <div class="sok-main-mobile2">
-
-        <div class="populara-sidor-mobile">
-            <div class="populara-sidor-rubrik-mobile">Populära sidor:</div>
-            <div class="populara-sidor-knapp-mobile"><a href="/Kommunsidan/naringsliv.html">Näringsliv</a></div>
-            <div class="populara-sidor-knapp-mobile"><a href="https://badhus.webdevmisikangas.se" target="_new">Badhus</a></div>
-            <div class="populara-sidor-knapp-mobile"><a href="/Kommunsidan/kultur-fritid.html">Vandringsleder</a></div>
-            <div class="populara-sidor-knapp-mobile"><a href="/Kommunsidan/lediga-jobb.html">Lediga jobb</a></div>
-        </div>
-
-        <form action="#sok-rutan-resultat" method="get" class="sok-rutan-main-mobile">
-            <input type="text" placeholder="Vad leter du efter?" name="search" class="search-box-main-mobile">
-            <button type="submit" class="search-main-button-mobile">SÖK</button>
-        </form>
-        
-    </div>
 </div>
     <h1 class="rubrik">Näringsliv</h1>
     <main>
@@ -470,12 +435,42 @@
             </p>
             </div>
         </section>
-    
-
-
     </main>
-
+    <!-- skapar en footer med 3 olika sektioner -->
+    <div id="footer-anchor">
+        <footer class="footer">
+            <!-- länkar -->
+            <section class="sec-1">
+                <h3 class="h3-footer">Länkar</h3>
+                <a href="/Kommunsidan/index.html">Hem</a>
+                <a href="/Kommunsidan/barn&utbildning.html">Barn & Utbildning</a>
+                <a href="/Kommunsidan/kultur-fritid.html">Kultur & Fritid</a>
+                <a href="/Kommunsidan/kommun-politik.html">Kommun & Politik</a>
+                <a href="/Kommunsidan/naringsliv.html">Närningsliv</a>
+                <a href="/Kommunsidan/lediga-jobb.html">Lediga jobb</a>
     
-    
-</body>
+            </section>
+            <!-- nyheter -->
+            <section class="sec-2">
+                 <h3 class="h3-footer">Nyheter</h3>
+                 <form class="form-footer"> 
+                    <input type="email" placeholder="Your Email Address" required>
+                    <br>
+                    <button type="submit">Prenumerera</button>
+                 </form>
+            </section>
+            <!-- kontakt -->
+            <section class="sec-3">
+                 <h3 class="h3-footer">Kontakt</h3>
+                 <p>Nummer: 076287459</p>
+                 <p>Adress: 123 Kvackvägen<br>
+                    Ankdammen<br>
+                    Gummihamn, Sjöland</p>
+                 <p>Kommun: Rubber Duckies</p>
+                 <p>Epost: kontaktkommun@rubberduckies.se</p>
+                 <p> Öppettider: Måndag-Fredag 09:00-16:00</p>
+                 <p>Telefontid: Måndag-Fredag 08:00-17:00</p>
+            </section>
+        </footer>
+    </body>
 </html>
