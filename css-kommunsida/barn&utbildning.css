@@ -1,7 +1,14 @@
 @import url(sitewide.css);
+@import url(footer.css);
 body {
     margin: 0;
-    font-family: var(--fontPrimary);
+    font-family: var(--siteFontPrimary);
+}
+
+.header-background{
+    max-height: 10vh;
+    border-bottom: solid var(--siteColourPrimary);
+    border-top: solid var(--siteColourPrimary);
 }
 
 #section1{
@@ -11,9 +18,10 @@ body {
 
 #bu-rubrik {
    text-align: center;
-   background-color: #FFD700; 
-   padding: 3%;
+   padding-top: 2%;
    margin-top: 0;
+   text-decoration: underline; 
+   text-decoration-color: #FFD700;
 }
 
 #skol-info{
@@ -32,7 +40,7 @@ body {
     border: solid #FFD700; /* Border runt text */
     width: 75%;
     padding: 10px;
-    border-width: 12px;
+    border-width: 10px;
     text-align: center;
     margin: auto;
     margin-bottom: 1%;
