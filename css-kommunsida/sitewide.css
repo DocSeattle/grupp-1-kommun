@@ -1,5 +1,5 @@
-
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=IBM+Plex+Sans+Condensed:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
 
 /* Variabler som t.ex färger, fonter etc. */
 :root {
@@ -10,11 +10,11 @@
     --siteColourSecondary:#F7DC6F ;
     --siteColourAccent:#F1C40F ;
     --borderColor: #FFD700;
-
     --fontPrimary: 'IBM Sans Plexed', sans-serif;
     --fontSecondary: 'IBM Sans Condensed', sans-serif;
     --siteTransitionDefault: all 0.4s ease-in;
-} 
+}
+
 
 body
 {margin: 0;
@@ -353,11 +353,11 @@ border: none;
 border-radius: 5px;
 padding: 15px;
 margin-left: 10px;
-cursor: pointer;
+cursor: pointer;}
 
 
 .nyheter-container
-{flex-wrap: wrap;}
+{flex-wrap: wrap;}}
 
 
 /* hamburgar menyn boxen */
@@ -716,6 +716,7 @@ border: 1px solid #1F2021;}
 .populara-sidor-rubrik-mobile
 {display: none;}
 
+
 .populara-sidor-knapp-mobile
 {padding-left: 6px;
 padding-right: 6px;
@@ -738,7 +739,6 @@ width: 100%;
 height: 400px;
 background-repeat: no-repeat;
 background-size: cover;
-
 background-position: center;}
 
 /* Startsidan */
