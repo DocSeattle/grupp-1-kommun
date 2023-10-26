@@ -1,12 +1,12 @@
-@import url('/assets/css/sitewide.css');
+@import url('/css-kommunsida/sitewide.css');
 
 
 main {
-    font-family: var(--fontPrimary)
+    font-family: var(--siteFontPrimary)
 }
 main h1, main h2, main h3, main h4, main h5, main h6 
 {
-    font-family: var(--fontSecondary)
+    font-family: var(--siteFontSecondary)
 }
 
 .topButton {
@@ -22,7 +22,7 @@ main h1, main h2, main h3, main h4, main h5, main h6
     text-decoration: none;
     transition: background 0.1s ease-out 0s,
      box-shadow 0.15s cubic-bezier(0.47, 0.03, 0.49, 1.38) 0s;
-    background: var(--primary);
+    background: var(--siteColourPrimary);
     cursor: pointer;
     height: 32px;
     line-height: 32px;
@@ -30,10 +30,10 @@ main h1, main h2, main h3, main h4, main h5, main h6
     vertical-align: middle;
     width: auto;
     font-size: 14px;
-    color: rgb(255, 255, 255);
+    color: #000;
 }
 .topButton:hover {
-    background: var(--secondary);
+    background: var(--siteColourSecondary);
     text-decoration: inherit;
     transition-duration: 0s, 0.15s;
     color: #000;
@@ -50,7 +50,7 @@ main h1, main h2, main h3, main h4, main h5, main h6
 }
 
 #mainContainer h2 {
-    background-color: var(--accent);
+    background-color: var(--siteColourAccent);
     padding-left: 7px;
     border-top-left-radius: 10px;
 }
@@ -60,11 +60,13 @@ main h1, main h2, main h3, main h4, main h5, main h6
     width: 45%;
     padding-left: 2.5%;
     padding-right: 2.5%;
-    border-left: medium solid var(--accent);
+    border-left: medium solid var(--siteColourAccent);
 }
 
 #mainContainer #topItem h2 {
     background-color: #fff;
+    padding:0
+    
 }
 
 #mainContainer:first-of-type {
@@ -92,7 +94,7 @@ main h1, main h2, main h3, main h4, main h5, main h6
     border-radius: 5px;
 }
 #mainContainer:nth-of-type(2) section article {
-    border-left: medium solid var(--accent);
+    border-left: medium solid var(--siteColourAccent);
     border-top-left-radius: 10px;
 }
 
@@ -102,7 +104,7 @@ main h1, main h2, main h3, main h4, main h5, main h6
 }
 
 #mainContainer:nth-of-type(3) article {
-    border-left: medium solid var(--accent);
+    border-left: medium solid var(--siteColourAccent);
     border-top-left-radius: 10px;
 }
 
