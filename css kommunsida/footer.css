@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+}
+
+/* stil footer */
+.footer {
+    margin-top: 50px;
+    width: 100%;
+    padding: 50px 15%;
+    background: #f5f4f3;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: var(--fontPrimary);
+    /* Lägg till detta för att hantera mindre skärmar */
+}
+.h3-footer{
+    color: black;
+}
+
+/* stil för alla sektioner */
+.footer section {
+    text-align: center;
+    flex: 1; /* Lägg till detta för att anpassa sektionerna på mindre skärmar */
+    max-width: 100%; /* Lägg till detta för att säkerställa att sektionerna inte överskrider skärmbredden */
+}
+
+/* nyheter */
+.sec-2{
+    flex-grow: 2;
+    flex-basis: 100%; /* Lägg till detta för att ändra basbredden för .sec-2 på mindre skärmar */
+}
+
+/* stil för h3 i footer */
+.footer section h3 {
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+
+.footer section p {
+    margin-top: 10px;
+}
+
+/* länkar */
+.sec-1 a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+}
+
+/* mejl rutan */
+.form-footer input{
+    width: 100%; /* Ändra bredden till 100% för att fylla hela skärmbredden på mindre skärmar */
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none; 
+}
+
+/* knappen för nyheter */
+.form-footer button {
+    background: transparent;
+    border: 2px solid black;
+    color: black;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/* Media query för mindre skärmar (t.ex. mobil) */
+@media (max-width: 768px) {
+
+    .h3-footer{
+        font-size: 25px;
+    }
+    .footer {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .footer a {
+        font-size: 18px;
+    }
+    
+    .sec-2 {
+        flex-basis: 100%; /* Anpassa .sec-2 på mindre skärmar */
+        width: 100%;
+    }
+    
+    .form-footer input {
+        width: 100%; /* Fyll hela skärmbredden på mindre skärmar */
+    }
+
+    .form-footer button {
+        margin: 20px;
+    }
+}
