@@ -7,6 +7,11 @@ body{
 main{
     margin: 0 3%;
 }
+.header-background{
+    max-height: 10vh;
+    border-bottom: solid var(--siteColourPrimary);
+    border-top: solid var(--siteColourPrimary);
+}
 .rubrik{
     text-align: center;
     text-decoration: underline;
