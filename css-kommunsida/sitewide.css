@@ -759,7 +759,7 @@ width: 100%;
 height: 100%;
 border-radius: 15px;
 background-color: #f5f4f3;
-min-height: 435px;
+min-height: 500px;
 border: 2px solid #ffd700;
 box-shadow: 3px 3px 7px #00000057;}
 
@@ -773,10 +773,10 @@ box-shadow: 3px 3px 7px #00000057;}
 {width: 100%;}
 
 .nyheter-text
-{font-size: 13px;
+{font-size: 14px;
 margin-right: 10px;
 margin-left: 10px;
-margin-bottom: 20px;}
+margin-bottom: 50px;}
 
 .nyheter-rubrik
 {font-size: 14px;
@@ -784,7 +784,7 @@ margin-right: 10px;
 margin-left: 10px;}
 
 .nyheter-datum
-{font-size: 11px;}
+{font-size: 13px;}
 
 /* LÄGG DIN CSS HÄR CARINA */
 
