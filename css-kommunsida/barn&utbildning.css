@@ -2,7 +2,7 @@
 @import url(footer.css);
 body {
     margin: 0;
-    font-family: var(--fontPrimary);
+    font-family: var(--siteFontPrimary);
 }
 
 .header-background{
