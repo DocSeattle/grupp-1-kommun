@@ -108,8 +108,8 @@ main h1, main h2, main h3, main h4, main h5, main h6
 
 
 .km-imgContainer {
-    max-width: 40%;
-    width: 40%;
+    min-width: 192px;
+    max-width: 540px;
     overflow: hidden;
     margin-left: 0.5%;
     margin-right: 0.5%;
@@ -118,8 +118,9 @@ main h1, main h2, main h3, main h4, main h5, main h6
 }
 
 .km-imgContainer img {
-    height: auto; 
-    width: 200%;
+    margin: auto;
+    height: 100%;
+    object-fit: contain;
 }
 
 #mainContainer:last-of-type article.km-imgContainer {
