@@ -1,5 +1,6 @@
 @import url("/css-kommunsida/sitewide.css");
 @import url("/css-kommunsida/footer.css");
+
 * {
     margin: 0;
     padding: 0;
@@ -9,25 +10,31 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #FCFCFC;
-    width: 80%;
     margin: 0 auto;
 }
 
+main{
+    
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+
 .container {
-    max-width: 1200px;
+    width: 100%;
     margin: 0 auto;
     padding: 20px;
 }
 
 .header-politik {
-    background-color: #F1C40F;
-    color: #fff;
+    background-color: #ffd700;
+    color: black;
     text-align: center;
     padding: 20px 0;
 }
 
 .header-politik h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 #politik-nav {
@@ -57,11 +64,11 @@ body {
     font-weight: bold;
 }
 
-a:hover {
+#politik-nav a:hover {
     background-color: #ffd700;
 }
 
-section {
+main section {
     background-color: #FCFCFC;
     border: 2px solid #ffd700;
     margin: 20px 0;
@@ -99,14 +106,14 @@ section {
 }
 
 
-img {
+main img {
     width: 40%;
     height: 40%;
     transition: transform 0.2s; /* Lägg till en smidig övergångseffekt */
     box-shadow: 3px 2px #333;
 }
 
-img:hover {
+main img:hover {
     transform: scale(1.1); /* Förstora bilden till 110% av ursprunglig storlek */
 }
 
@@ -171,6 +178,10 @@ summary{
 /* mindre skärm */
 @media(max-width: 1272px) {
 
+main{
+    margin: 0;
+}
+    
 body{
     width: 95%;
 }
@@ -231,7 +242,7 @@ body {
     justify-content: center;
 }
 
-section {
+main section {
     background-color: #FCFCFC;
     border: 1px solid #ffd700;
     margin: 20px 0;
