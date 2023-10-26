@@ -7,6 +7,12 @@
     box-sizing: border-box;
 }
 
+.header-background{
+    max-height: 10vh;
+    border-bottom: solid var(--siteColourPrimary);
+    border-top: solid var(--siteColourPrimary);
+}
+
 body {
     font-family: 'IBM Sans Plexed', sans-serif; 
     background-color: #FCFCFC;
@@ -27,10 +33,11 @@ main{
 }
 
 .header-politik {
-    background-color: #ffd700;
     color: black;
     text-align: center;
     padding: 20px 0;
+     text-decoration: underline; 
+   text-decoration-color: #FFD700;
 }
 
 .header-politik h1 {
