@@ -66,7 +66,7 @@ main h1, main h2, main h3, main h4, main h5, main h6
 #mainContainer #topItem h2 {
     background-color: #fff;
     padding:0
-    
+
 }
 
 #mainContainer:first-of-type {
@@ -108,7 +108,6 @@ main h1, main h2, main h3, main h4, main h5, main h6
     border-top-left-radius: 10px;
 }
 
-
 .km-imgContainer {
     min-width: 192px;
     max-width: 540px;
@@ -141,15 +140,28 @@ h2#modalHeading {
 }
 
 #infoKultur {
+    display: flex;
+    flex-flow: column wrap;
     margin-left: auto;
     width: 60%;
+    row-gap: 5em;
+}
+
+#infoKultur h2 {
+    margin-top: 0;
 }
 
 #infoVerksamheter {
+    display: flex;
+    flex-flow: column wrap;
     margin-right: auto;
     width: 60%;
+    row-gap: 5em;
 }
 
+#infoVerksamheter h2 {
+    margin-top: 0;
+}
 
 
 @media only screen and (max-width: 500px) {
