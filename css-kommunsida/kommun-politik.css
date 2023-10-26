@@ -8,7 +8,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'IBM Sans Plexed', sans-serif; 
     background-color: #FCFCFC;
     margin: 0 auto;
 }
@@ -220,6 +220,9 @@ body {
     width: 95%;
 }
 
+.kommun-container {
+    width: 110%;
+  }
 #politik-nav {
     flex-direction: column;
     align-items: center;
@@ -257,7 +260,7 @@ main section {
 
 .h2-politik {
     color: black;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-bottom: 2%;
 }
 
