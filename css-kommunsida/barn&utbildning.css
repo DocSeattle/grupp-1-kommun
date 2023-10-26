@@ -1,7 +1,7 @@
 @import url(sitewide.css);
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--fontPrimary);
 }
 
 #section1{
@@ -13,6 +13,7 @@ body {
    text-align: center;
    background-color: #FFD700; 
    padding: 3%;
+   margin-top: 0;
 }
 
 #skol-info{
@@ -28,7 +29,6 @@ body {
 }
 
 .form-class {
-
     border: solid #FFD700; /* Border runt text */
     width: 75%;
     padding: 10px;
@@ -41,6 +41,11 @@ body {
 img{
     width: 40%; 
     height: auto;
+}
+
+.bu-link{
+    text-decoration: none;
+    color: #10639b;
 }
 
 .collapsible{
