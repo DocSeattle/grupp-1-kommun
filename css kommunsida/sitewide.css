@@ -11,3 +11,724 @@
     --siteFontSecondary: Arial, Helvetica, sans-serif;
     --siteTransitionDefault: all 0.4s ease-in;
 }
+
+
+body
+{margin: 0;
+padding: 0;
+font-family: Arial, Helvetica, sans-serif;}
+
+html{scroll-behavior: smooth;}
+
+
+/* OLIKA PSUDOUS FÖR HEMSIDAN */
+#hamburger-container:target
+{display: block;}
+
+#kultur-container:target
+{display: block;}
+
+#sok:target
+{display: block;}
+
+#dropdown-container:target
+{display: block;
+scroll-margin-top: 50px;}
+
+#sok-rutan-resultat:target
+{display: block;}
+
+/* GÖMMER MOBIL ELEMENT */
+.mobile
+{display: none;}
+
+.header-mobile-right
+{display: none;}
+
+.sok-main-mobile2
+{display: none;}
+
+
+/* mobile header */
+.mobile-header
+{display: flex;
+flex-direction: row;
+width: 100%;
+height: 60px;
+background: transparent;
+text-align: center;
+justify-content: center;
+margin: 0;
+padding: 0;
+border-bottom: 1px solid #1f2021;}
+
+.mobile-header-cointainer
+{display: flex;
+justify-content: center;
+align-items: center;
+background-color: transparent;
+height: 100%;
+z-index: 9999;
+width: 100%;
+border-right: 1px solid #1f2021;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);}
+
+.mobile-header-cointainer:last-child
+{border-right: 0px;}
+
+.mobile-header-button
+{display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 100%;
+background-color: #f0f0eb;
+text-decoration: 0;
+color: #1F2021;;}
+
+.mobile-header img
+{width: 25px;
+height: 25px;}
+
+/* div i headern som är satt till 80% */
+.header-container
+{display: flex;
+flex-direction: row;
+width: 100%;
+height: 100%;
+min-width: 1000px;
+background-color: #FCFCFC;}
+
+/* vänster box där vi har logon, min width 200px precis som logon */
+.header-left
+{display: flex;
+flex-direction: row;
+margin-left: 15%;
+min-width: 200px;
+height: 100%;
+text-align: left;
+background-color: transparent;} 
+
+
+/* höger box som innehåller menyn för desktop/tablet */
+.header-right
+{display: flex;
+justify-content: flex-end;
+margin-right: 15%;
+width: 100%;
+background-color: transparent;}
+/* class för storleken av loggon */
+.header-left img
+{width: 200px;
+height: 100%;}
+
+/* en div där vi i den har knapparna som också är divs desktop */
+.top-nav
+{display: flex;
+flex-direction: row;
+width: 450px;
+height: 100%;
+background: transparent;
+justify-content: right;}
+
+/* själv knapparna desktop */
+.top-nav button
+{display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 100px;
+height: 100%;
+background-color: transparent;
+border: 0;
+margin-right: 15px;
+cursor: pointer;}
+
+.top-nav button:hover
+{background-color: #f7dc6f}
+
+
+
+/* sista knappen satt utan margin right */
+.top-nav button:last-child
+{margin-right: 0px;}
+
+/* ikonen i lilla menyn desktop */
+.nav-buttons-ikon
+{width: 35px;
+height: 35px;}
+
+/* texten i lilla menyn desktop */
+.nav-buttons-text
+{width: 100%;
+height: 20px;
+text-decoration: none;}
+
+/* texten för lilla menyn */
+.top-nav a
+{text-decoration: none;
+color: #1F2021;}
+
+.top-nav button
+{cursor: pointer;}
+
+/* stora menyn för deksktop under logon */
+.bignav
+{display: flex;
+width: 100%;
+height: 70px;
+min-width: 1000px;
+background-color: #ffd700;
+justify-content: center;
+align-items: center;}
+
+.bignav-container
+{display: flex;
+flex-direction: row;
+height: 100%;
+margin-left: 15%;
+margin-right: 15%;
+width: 80%;
+background: transparent;
+text-align: center;}
+
+.bignav-button
+{display: flex;
+justify-content: center;
+align-items: center;
+height: 100%;
+width: 100%;
+background-color: #ffd700;
+border-right: 1px solid #1f2021;
+cursor: pointer;}
+
+.bignav-button:last-child
+{border-right: 0px;}
+
+.bignav-container a
+{text-decoration: none;
+color: #1f2021;}
+
+.bignav-button:hover
+{background-color: #f7dc6f;}
+
+/* DROPDOWN */
+#dropdown-container
+{display: none;
+z-index: 9999;
+position: absolute;
+height: 400px;
+width: 100%;
+min-width: 1000px;}
+
+.dropdown
+{width: 100%;
+height: 100%;
+background-color: red;}
+
+.dropdown-buttons
+{display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 100%;
+width: 100%;
+text-align: center;
+height: 35px;
+border: 1px solid #1f2021;
+width: 14%;
+margin-left: 28.95%;
+background-color: #ffd700;
+margin-top: 2px;}
+
+.droptown-text
+{font-size: 14px;
+width: 100%;
+height: 100%;
+text-decoration: none;
+color: #1F2021;
+margin: 10px;}
+
+.dropdown-buttons:hover
+{background-color: #f7dc6f;}
+
+
+.dropdown-buttons:last-child
+{background-color: #f7dc6f;}
+
+.dropdown-buttons:last-child:hover
+{background-color: #dbbe4a;}
+
+
+
+
+/* mobile versionen av NAV/HEADER */
+@media only screen and (max-width: 1000px)
+{.mobile
+{display: block;}
+
+.sok-main
+{display: none;}
+
+.sok-main-mobile2
+{display: block;}
+
+.header-right
+{display: none;
+height: 100%;
+width: 2;}
+
+.header-left
+{margin-left: 0%;
+height: 100%;
+width: 100%;
+min-width: 150px;}
+
+.header-left img
+{width: 145px;}
+
+.header-mobile-right
+{display: flex;
+flex-direction: row;
+width: 65px;
+height: 100%;
+justify-content: right;
+align-items: center;
+background-color: #ffd700;}
+
+.header-mobile-right img
+{width: 30px;
+height: 30px;
+margin: 10px;}
+
+.header-container
+{height: 70px;
+min-width: 0px;}
+
+.desktop
+{display: none;}
+
+
+
+/* SÖK MAIN MOBIL */
+
+.populara-sidor
+{display: flex;
+flex-direction: row;
+width: 100%;
+justify-content: center;
+align-items: center;
+height: 40px;
+background-color: #FCFCFC;}
+
+.populara-sidor-rubrik
+{font-weight: bold;}
+
+.populara-sidor-knapp
+{padding-left: 30px;
+padding-right: 30px;}
+
+.sok-rutan-main
+{display: flex;
+align-items: center;
+justify-content: center;
+height: 100px;}
+
+
+.search-box-main[type="text"] 
+{padding: 15px;
+font-size: 16px;
+width: 500px;
+border: none;
+border-radius: 5px;}
+
+.search-main-button[type="submit"] {
+font-size: 16px;
+background-color: #ffd700;
+color: #FCFCFC;
+border: none;
+border-radius: 5px;
+padding: 15px;
+margin-left: 10px;
+cursor: pointer;}}
+
+
+/* hamburgar menyn boxen */
+#kultur-container
+{display: none;
+position: fixed;
+top: 0;
+right: 0;
+z-index: 9999;
+width: 100%;
+height: 100%;
+background-color: transparent;}
+
+/* Ramen och översta delen med namn och stäng knapp */
+#hamburger-container
+{display: none;
+position: fixed;
+top: 0;
+right: 0;
+z-index: 9999;
+width: 100%;
+height: 100%;
+background-color: transparent;}
+
+.hamburger-button-container1
+{display: flex;
+font-size: 20px;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 50px;
+background-color: #FCFCFC;
+border-bottom: 2px solid #1f2021;}
+
+.hamburger-button-container1 img
+{width: 20px;
+height: 20px;}
+
+.hamburger-logo
+{width: 100%;
+text-align: left;
+padding-left: 15px;}
+
+.hamburger-logo a
+{text-decoration: none;
+color: #1F2021;}
+
+.hamburger-close
+{text-align: right;
+padding-right: 15px;}
+
+.hamburger-back
+{padding-right: 15px;}
+
+/* Knapparna updelade 2x2x2x2 */
+.hamburger-button-container2
+{display: flex;
+flex-direction: row;
+width: 100%;
+height: 50px;
+background-color: #ffd700;}
+
+.hamburger-button-container3
+{display: flex;
+flex-direction: row;
+width: 100%;
+height: 50px;
+background-color: #f7dc6f;}
+
+.hamburger-button-container4
+{display: flex;
+flex-direction: row;
+width: 100%;
+height: 50px;
+background-color: #ffd700;}
+
+.hamburger-button-container6
+{display: flex;
+flex-direction: row;
+width: 100%;
+height: 80px;
+border-top: 2px solid #1f2021;}
+
+.hamburger-button-container6 img
+{width: 35px;
+height: 35px;}
+
+.hamburger-buttons-ikons
+{display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+height: 100%;
+width: 100%;
+border-right: 1px solid #1f2021;
+background-color: rgba(248, 247, 246, 1);}
+
+.hamburger-buttons
+{display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+height: 100%;
+width: 100%;
+border-bottom: 1px solid #1f2021;}
+
+
+/* Utseende för knapparna */
+.hamburger-buttons a
+{font-size: 12px;
+text-decoration: none;
+color: #1F2021;}
+
+/* Längst ner för att stänga menyn mobil */
+.hamburger-button-container-close
+{display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 50px;
+background: #1f2021;}
+
+.hamburger-close-button
+{font-size: 14px;
+text-decoration: none;
+color: #FCFCFC;}
+
+/* Sökrutan för mobil */    
+
+#sok
+{display: none;
+position: fixed;
+top: 0;
+z-index: 9999;
+width: 100%;
+height: 100%;
+background: none;}
+
+/* onsynlig knapp för att stänga ner sök rutan */
+.search-bottom-container
+{width: 100%;
+height: 100%;
+background-color: transparent;}
+
+.big-button-search
+{width: 100%;
+height: 100%;
+background-color: transparent;
+border: 0px;}
+
+.sok-rutan
+{display: flex;
+align-items: center;
+justify-content: center;
+background-color: rgba(247, 220, 111, 0.95);
+height: 80px;
+border-bottom: 1px solid #1F2021;}
+
+
+.search-box[type="text"] 
+{padding: 9px;
+font-size: 10px;
+width: 50%;
+border: 1px solid #1F2021;
+border-radius: 5px;
+margin-right: 10px;}
+
+.search-button[type="submit"] {
+font-size: 10px;
+padding: 8px 14px;
+background-color: #FCFCFC;
+color: #1F2021;
+border: 1px solid #1F2021;
+border-radius: 5px;
+cursor: pointer;}
+
+/* SÖK RESULTAT EFTER TRYCK */
+#sok-rutan-resultat
+{display: none;
+position: fixed;
+text-align: center;
+top: 0;
+z-index: 9999;
+width: 100%;
+height: 80px;
+background-color: rgba(241, 51, 8, 0.95);
+border-bottom: 1px solid #1F2021;}
+
+.sok-resultat-big-container
+{width: 100%;
+z-index: 99999;
+position: fixed;
+height: 100%;
+background-color: transparent;}
+
+.sok-resultat-h3
+{font-size: 14px;
+color:#1F2021;
+margin-top: 25px;}
+
+.resultat-h3
+{font-size: 14px;
+font-weight: 100;}
+
+/* SÖKRUTAN FÖR MAIN */
+
+.sok-main
+{width: 800px;
+height: 150px;
+background: none;
+background-color: rgba(248, 247, 246, 0.8); 
+border: 1px solid #1f2021;
+margin-bottom: 50px;
+border-radius: 15px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);}
+
+.populara-sidor
+{display: flex;
+flex-direction: row;
+width: 100%;
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+justify-content: center;
+align-items: center;
+height: 40px;
+background-color: #ffd700; 
+border-bottom: 1px solid #1f2021;}
+
+.populara-sidor-rubrik
+{font-weight: bold;}
+
+.populara-sidor-knapp
+{padding-left: 30px;
+padding-right: 30px;
+border-right: 1px solid #1f2021;}
+
+.populara-sidor-knapp img
+{width: 15px;
+padding-right: 5px;}
+
+.populara-sidor-knapp:hover
+{font-weight: bold;
+font-size: 15px;}
+
+.populara-sidor-knapp:last-child
+{padding-right: 0px;
+border: 0px;}
+
+.populara-sidor-knapp a
+{text-decoration: none;
+color: #1F2021}
+
+.sok-rutan-main
+{display: flex;
+align-items: center;
+justify-content: center;
+height: 100px;}
+
+
+.search-box-main[type="text"] 
+{padding: 15px;
+font-size: 16px;
+width: 500px;
+border: none;
+border-radius: 5px;
+border: 1px solid #1F2021;}
+
+.search-main-button[type="submit"] {
+font-size: 15px;
+background-color: #FCFCFC;
+color: #1F2021;
+border: none;
+border-radius: 5px;
+padding: 15px;
+margin-left: 10px;
+cursor: pointer;
+border: 1px solid #1F2021;}
+
+.search-main-button:hover
+{background: #f7dc6f;}
+
+/* SÖKRUTAN FÖR MOBILE MAIN */
+
+.sok-main-mobile2
+{width: 90%;
+height: 110px;
+background: none;
+background-color: rgba(248, 247, 246, 0.7); 
+border: 1px solid #1f2021;
+margin-bottom: 150px;
+border-radius: 15px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);}
+
+.populara-sidor-mobile
+{display: flex;
+flex-direction: row;
+width: 100%;
+justify-content: center;
+align-items: center;
+height: 30px;
+background-color: #ffd700; 
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;}
+
+.populara-sidor-rubrik-mobile
+{font-weight: bold;
+font-size: 14px;}
+
+.populara-sidor-knapp-mobile
+{padding-left: 15px;
+padding-right: 15px;
+font-size: 14px;
+border-right: 1px solid #1f2021;}
+
+.populara-sidor-knapp-mobile:last-child
+{padding-right: 0px;
+border-right: 0px;}
+
+.populara-sidor-knapp-mobile a
+{text-decoration: none;
+color: #1F2021}
+
+
+.sok-rutan-main-mobile
+{display: flex;
+align-items: center;
+justify-content: center;
+height: 100px;}
+
+
+.search-box-main-mobile[type="text"] 
+{padding: 8px;
+font-size: 12px;
+width: 70%;
+border: none;
+border-radius: 5px;
+margin-bottom: 25px;
+border: 1px solid #1F2021;}
+
+.search-main-button-mobile[type="submit"] {
+font-size: 12px;
+background-color: #FCFCFC;
+color: #1F2021;
+border: none;
+border-radius: 5px;
+padding: 8px;
+margin-left: 5px;
+cursor: pointer;
+margin-bottom: 25px;
+border: 1px solid #1F2021;}
+
+/* mobile versionen av NAV/HEADER */
+@media only screen and (max-width: 550px){
+
+.populara-sidor-rubrik-mobile
+{display: none;}
+
+.populara-sidor-knapp-mobile
+{padding-left: 6px;
+padding-right: 6px;
+font-size: 11px;}
+
+.sok-resultat-h3
+{font-size: 12px;
+margin-top: 29px;}
+
+.resultat-h3
+{font-size: 12px;}}
+
+/* header background */
+.header-background
+{display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 400px;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;}
