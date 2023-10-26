@@ -760,11 +760,15 @@ width: 100%;
 height: 100%;
 border-radius: 15px;
 background-color: #f5f4f3;
-min-height: 420px;
-border: 1px solid #1F2021}
+min-height: 435px;
+border: 2px solid #ffd700;
+box-shadow: 3px 3px 7px #00000057;}
 
 .nyheter-container-img:last-child
 {margin-right: 0px;}
+
+.nyheter-container-img:hover
+{box-shadow: 2px 2px 7px #0000008b;}
 
 .nyheter-img img
 {width: 100%;}
