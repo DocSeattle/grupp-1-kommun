@@ -8,34 +8,48 @@
 </head>
 
 <body>
-
     <header>
         <nav>
             <div class="container">
-                <img src="img/test.jpg" alt="banner">
+                <img id="header-bild" src="img/test.jpg" alt="banner">
                 <div class="centered">Duckies Fritidsgård</div>
               </div>
         </nav>
     </header>
 
-    <section id="section-öppetider">
-        <form id="formöppetider" name="form" method="post" action=" ">
-            <div class="öppettider">
-                <h1 class="lila-bakgrund">Öppettider</h1>
-                <h2>Måndag-Torsdag: 13.00 - 21.00</h2>  
-                <h2 class="lila-bakgrund">Fredag: 13.00 - 23.00</h2>
-                <h2>Lördag: 11.00 - 23.00</h2>
-                <h2 class="lila-bakgrund">Söndag: 10.00 - 21.00 </h2>
-            </div>
-        </form>
-    </section>
-    
+    <div class="section-container">
+        <section id="section-öppetider">
+            <form id="formöppetider" name="form" method="post" action=" ">
+                <div class="öppettider">
+                    <h1 class="lila-bakgrund">Öppettider</h1>
+                    <h2>Måndag-Torsdag: 13.00 - 21.00</h2>  
+                    <h2 class="lila-bakgrund">Fredag: 13.00 - 23.00</h2>
+                    <h2>Lördag: 11.00 - 23.00</h2>
+                    <h2 class="lila-bakgrund">Söndag: 10.00 - 21.00 </h2>
+                </div>
+            </form>
+        </section>
+        
+        <section id="section-event">
+            <h1 id="kommande-event">Kommande event</h1>
+            <h2> Fredag 20 Mars - Yasin live 21.00</h2>
+            <h2> Lördag 21 Mars - Biljard turnering 12.00</h2>
+            <h2> Onsdag 25 Mars - Fortnite turnering 16.30</h2>
+            <h2> Lördag 1 April - Påskpyssel 11.00 </h2>  
+        </section>
+    </div>
 
-    <section id="section-event">
-        <h1 id="kommande-event">Kommande event</h1>
-        <h2>Länk till kommun sidan</h2>
+    <!-- Tanken är att vi ska ha en collapse'able med en kort text "På fritidsgården finns massa saker att låna gratis" 
+        - klicka här för att se vad som finns. Sen ska bilderna finnas inuti -->
+    <section id="section-bilder">
+        <img src="img/biljard.jpg" alt="biljard">
+        <img src="img/brädspel.jpg" alt="biljard">
+        <img src="img/dator.jpg" alt="biljard">
+        <img src="img/instrument.jpg" alt="biljard">
+        <img src="img/konsol.jpg" alt="biljard">
+        <img src="img/podcast.jpg" alt="biljard">
+        <img src="img/scooter.jpg" alt="biljard">
     </section>
-    
-    
+
 </body>
 </html>

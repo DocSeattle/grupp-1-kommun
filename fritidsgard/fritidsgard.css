@@ -5,8 +5,6 @@ body {background-color: rgb(227, 138, 13);}
 header {padding-bottom: 3%;}
 img {width: 100%; height: 30vh;}
 
-
-/* Ändrar allt i "containern" aka text-klasserna i bannern + bilden */
 .container {          
     position: relative;
     text-align: center;
@@ -24,9 +22,32 @@ img {width: 100%; height: 30vh;}
 
 .lila-bakgrund {background-color: rgb(170, 20, 190); width: 100%;}
 
-#formöppetider {border: solid black;
-    width: 380px;
-    padding: 10px;
-    border-width: 2px;
+#formöppetider{
+  border: solid black;
+  width: 50vh;
+  padding: 10px;
+  border-width: 2px;
 }
-/* form {margin: 0 auto;}  För att centrerar rutan */
+
+.section-container{
+  width: 80%;
+  padding-left: 10%;
+}
+
+#section-öppetider{
+  float: left;
+}
+
+#section-event {
+  border: solid black;
+  width: 60vh;
+  padding: 10px;
+  border-width: 2px;
+  color: aqua;
+  float: right;
+}
+
+#section-bilder{
+  width: 20%;
+  height: auto;
+}
