@@ -790,7 +790,54 @@ margin-left: 10px;}
 {font-size: 11px;}
 
 /* LÄGG DIN CSS HÄR CARINA */
+.knappar{
+    margin: 50px 15%;
+    
+    
+}
+.knappar-rad{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 1%;
+}
+.knapp-rubrik, .knapp-rubrik2{
+    width: 100%;
+    text-align: center;
+    height: auto;
+    margin: 5px 0;
+    text-decoration: none;
+    background-color: var(--siteColourPrimary);
+    border-radius: 10px;
+    box-shadow: 2px 2px 7px #0000008b;
+    padding: 2px;
+    border: solid black;
+    border-width: 2px;
+}
 
+
+.knappar-rad a:hover{
+    background-color: var(--siteColourSecondary);
+}
+
+.knappar-rad a:visited{
+    color:var(--text);
+}
+
+@media screen and (min-width: 1000px){
+    .knappar-rad{
+        flex-direction: row;
+    }
+    .knapp-rubrik, .knapp-rubrik2{
+        padding: 0;
+        width: 33%;
+        margin: 0;
+
+    }
+    .knapp-rubrik2{
+        margin: 0 10px;
+    }
+}
 
 
 /* LÄGGER MIN HÄR */
