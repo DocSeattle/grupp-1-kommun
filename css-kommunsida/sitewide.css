@@ -1168,5 +1168,114 @@ margin-top: -20px;}
 margin-top: 20px;
 font-weight: 100;
 background-color: #FFD700;
-border: 1px solid #1F2021;}
-}
+border: 1px solid #1F2021;}}
+
+/* 4buttons-container */
+
+.bottom-buttons-container
+{display: flex;
+flex-direction: row;
+gap: 40px; 
+width: 70%;
+margin: auto;
+background-color: transparent;
+margin-top: 50px;}
+
+.bottom-box-container
+{height: 430px;
+background-color: transparent;}
+
+.bottom-box-box
+{display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 200px;
+margin: auto;
+border-bottom: 2px solid #FFD700;}
+
+.bottom-box-img
+{width: 80px;
+height: 80px;}
+
+
+.bottom-box-h2
+{width: 100%;
+text-align: left;
+font-size: 16px;
+padding-left: 10px;
+padding-right: 10px;
+background-color: transparent;}
+
+.bottom-box-text
+{width: 100%;
+background-color: transparent;
+text-align: left;
+margin-top: 10px;
+padding-left: 10px;
+padding-right: 10px;}
+
+.bottom-box-button
+{border: 2px solid #FFD700;
+text-align: left;
+background-color: transparent;
+transition: background-color 1.0s, box-shadow 1.5s;
+cursor: pointer;}
+
+.bottom-box-button:hover
+{background-color: #FFD700;
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);}
+
+.bottom-box-button:hover .bottom-box-box 
+{border-bottom: 2px solid #1F2021;}
+
+.bottom-box-button:hover .bottom-box-img
+{width: 105px;
+height: 105px;}
+
+/* TABLET */
+
+@media only screen and (max-width: 1000px)
+{.bottom-buttons-container
+{flex-direction: column;}
+
+.bottom-box-container
+{height: 100%;}
+
+.bottom-box-h2
+{text-align: center;}
+
+.bottom-box-text
+{text-align: center;}}
+
+/* MOBILE */
+
+@media only screen and (max-width: 550px)
+{.bottom-buttons-container
+{flex-direction: column;
+margin-top: 0px;
+width: 90%;}
+
+.bottom-box-h2
+{text-align: center;
+font-size: 12px;}
+
+.bottom-box-text
+{text-align: center;
+font-size: 10px;}
+
+.bottom-box-box
+{height: 70px;
+border-bottom: 1px solid #FFD700;}
+
+.bottom-box-img
+{width: 40px;
+height: 40px;}
+
+.bottom-box-button
+{border: 1px solid #FFD700;
+background-color: #f0f0eb;}
+
+.bottom-box-button:hover .bottom-box-img
+{width: 45px;
+height: 45px;}}
