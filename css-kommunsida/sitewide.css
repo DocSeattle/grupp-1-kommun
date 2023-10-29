@@ -808,6 +808,7 @@ margin-left: 10px;}
     border-radius: 10px;
     box-shadow: 2px 2px 7px #0000008b;
     padding: 2px;
+    font-size: 12px;
     border: solid black;
     border-width: 2px;
     color: #1F2021;
@@ -830,11 +831,14 @@ margin-left: 10px;}
         padding: 0;
         width: 33%;
         margin: 0;
+        
 
     }
     .knapp-rubrik2{
         margin: 0 10px;
     }
+
+    
 }
 
 
@@ -994,7 +998,7 @@ color: #1F2021;}
 
 .nyheter-container
 {width: 90%;
-margin-top: 30px;
+margin-top: 0px;
 height: 100%;}
 
 .nyheter-container-img
@@ -1032,3 +1036,137 @@ justify-content: center;
 align-items: center;
 width: 100%;
 height: 100%;}
+
+
+
+
+
+
+
+/* fritidsgården på startsidan */
+
+.startsidan-FG
+{display: flex;
+flex-direction: row;
+margin: auto;
+margin-top: 70px;
+width: 70%;
+height: 400px;
+background-color: transparent;}
+
+.FG-img
+{display: flex;
+justify-content: left;
+align-items: center;
+width: 50%;
+min-width: 400px;
+background-color: transparent;}
+
+.FG-img img
+{width: 100%;
+border-radius: 15px;
+box-shadow: 3px 3px 7px #00000057;}
+
+.FG-text
+{display: flex;
+flex-direction: column;
+align-items: end;
+text-align: right;
+width: 50%;
+background-color: transparent;
+font-size: 14px;}
+
+.FG-text h2
+{margin-top: 50px;
+font-size: 30px;
+font-weight: 800;
+color: #1F2021;}
+
+.FG-text h3
+{font-size: 16px;
+font-weight: 100;
+margin-top: -25px;}
+
+.FG-text button
+{padding: 10px 15px;
+border-radius: 5px;
+color: #1F2021;
+font-size: 15px;
+font-weight: 200;
+background-color: #FFD700;
+border: 1px solid #1F2021;}
+
+.FG-text button:hover
+{background-color: #F7DC6F;}
+
+.FG-divider
+{width: 3px;
+min-width: 3px;
+height: 100%;
+background-color: #FFD700;
+margin-left: 20px;
+margin-right: 20px;}
+
+/* FG MOBILE */
+
+@media screen and (max-width: 1000px)
+{
+.FG-divider
+{background-color: green;}
+
+.startsidan-FG
+{flex-direction: column;
+height: auto;}
+
+.FG-img
+{justify-content: center;
+align-items: center;
+width: 100%;}
+
+.FG-divider
+{display: none;}
+
+.FG-text h2
+{margin-top: 30px;}
+
+.FG-text
+{width: 100%;
+justify-content: left;
+align-items: start;
+text-align: left;}}
+
+@media screen and (max-width: 550px)
+{
+
+.startsidan-FG
+{width: 90%;
+margin-top: 30px;}
+
+.FG-text
+{text-align: center;
+align-items: center;}
+
+.FG-img
+{width: 100%;
+min-width: 0px;}
+
+
+.FG-text h2
+{font-size: 20px;
+color: #1F2021;}
+
+.FG-text h3
+{font-size: 12px;
+font-weight: 100;
+margin-top: -20px;}
+
+.FG-text
+{font-size: 11px;}
+
+.FG-text button
+{font-size: 12px;
+margin-top: 20px;
+font-weight: 100;
+background-color: #FFD700;
+border: 1px solid #1F2021;}
+}
