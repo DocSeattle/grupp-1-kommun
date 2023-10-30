@@ -154,22 +154,7 @@ summary{
     border: 1px solid #ccc;
     margin-bottom: 2%;
     align-items: center;
-}
-
-.kommun-container:nth-child(1) {
-    background-color: #ffea00; /* Guldig färg för den första medlemmen */
-}
-
-.kommun-container:nth-child(2) {
-    background-color: #ff5733; /* Orangeröd färg för den andra medlemmen */
-}
-
-.kommun-container:nth-child(3) {
-    background-color: #33ff57; /* Grön färg för den tredje medlemmen */
-}
-
-.kommun-container:nth-child(4) {
-    background-color: #3366ff; /* Blå färg för den fjärde medlemmen */
+    background-color: #FFD700;
 }
 
 .kommun-container img {
