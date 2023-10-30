@@ -132,6 +132,9 @@ main h1, main h2, main h3, main h4, main h5, main h6
     #mainContainer {
         max-width: 95%;
     }
+    #mainContainer:first-of-type {
+        margin-bottom: 10%;
+    }
 
 }
 
