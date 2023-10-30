@@ -38,7 +38,7 @@ body {
     gap: 10%;
 }
 
-.form-class {
+.form-class{
     border: solid #FFD700; /* Border runt text */
     width: 70%;
     padding: 10px;
@@ -67,6 +67,7 @@ img{
 
 .collapsible p, h3{
     padding: 5px;
+    
 
 }
 .toggle-label{
@@ -108,5 +109,11 @@ input[type="checkbox"]:checked + label + .content {
     width: 90%; 
     height: auto;
 }
-  
 
+video{
+    min-width: 20vh;
+}
+
+#klicka-har:hover{
+    color: rgb(72, 140, 249);
+}
