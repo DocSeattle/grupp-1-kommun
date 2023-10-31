@@ -23,6 +23,28 @@ background-color: var(--background);}
 
 html{scroll-behavior: smooth;}
 
+#upp-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: var(--siteColourPrimary);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 1000px){
+    header{position: sticky;
+        top:0;
+        z-index: 6;;
+    
+    }
+    #upp-top{
+        display: none;
+    }
+}
+
 
 /* OLIKA PSUDOUS FÖR HEMSIDAN */
 #hamburger-container:target
@@ -1324,6 +1346,7 @@ text-decoration: underline;}
 
 .nyhets-box-scroll-inneholl p
 {font-size: 12px;}
+
 
 @media only screen and (max-width: 550px)
 {
