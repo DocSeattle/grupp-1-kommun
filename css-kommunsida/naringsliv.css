@@ -121,7 +121,6 @@ input[type="checkbox"]:checked + label + .content {
     padding-left: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
-    width: 450px;
     border: solid black;
     border-radius: 10px;
 }
@@ -170,5 +169,25 @@ input[type="checkbox"]:checked + label + .content {
         text-decoration: none;
         color: black;
     }
+    .formcontent{
+        padding-left: 10px;
+        padding-top: 5px;
+        width: 450px;
+        padding-bottom: 5px;
+        border: solid black;
+        border-radius: 10px;
+    }
     
 }
+@media screen and (min-width: 700px){
+    .formcontent{
+        padding-left: 10px;
+        padding-top: 5px;
+        width: 450px;
+        padding-bottom: 5px;
+        border: solid black;
+        border-radius: 10px;
+    }
+
+}
+
