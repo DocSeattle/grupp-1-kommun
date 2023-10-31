@@ -172,7 +172,7 @@ footer a{
 
 main{
 margin: 0 15%;
-height: 180vh;
+height: auto;
 }
 #section1{
   width: 100%;
