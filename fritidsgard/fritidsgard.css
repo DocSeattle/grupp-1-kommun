@@ -161,13 +161,18 @@ footer a{
   color: #F9B572;
 }
 .gif{
-    text-align: center;
+  text-align: center;
 }
+.gif img{
+  width: 100%;
+  max-width: 400px;
+}
+
 @media screen and (min-width: 1000px){
 
 main{
 margin: 0 15%;
-height: 130vh;
+height: 150vh;
 }
 #section1{
   width: 100%;
