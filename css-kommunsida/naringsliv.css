@@ -79,7 +79,7 @@ main{
 }
 
 .toggle-label:hover {
-    background-color: #FFD700;
+    background-color: #fff6cc;
 }
 
 /* Dölj inmatningsrutan */
@@ -114,6 +114,22 @@ input[type="checkbox"]:checked + label + .content {
 .lankregler{
     color: #1e00c5;
     text-decoration: none;
+}
+form{
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 450px;
+    border: solid black;
+    border-radius: 10px;
+}
+.knapp {
+    background-color: #FFD700;
+    border: solid black;
+    border-radius: 5px;
+}
+.knapp:hover{
+    background-color: navajowhite;
 }
 @media screen and (min-width: 1000px){
     main{

@@ -401,16 +401,34 @@
             <div class="content">
                 <p>
                 Önskar du söka tillstånd för marknad, torghandel eller 
-                gatuförsäljning görs det här. Du laddar ner dokumentet här nedan, 
-                fyller i och skickar in till <strong>tillstand@rubberduckes.se</strong>. <br>
-                Detta gäller gäller för marknad, torghandel, gatuförsäljning. <br>
-                Vi på Rubber Duckies kommun hjälper gärna till med frågor ni
-                kan tänkas ha. Vi hjälper även till med att bland annat placera 
+                gatuförsäljning görs det här. <br>Du fyller i formuläret nedan så
+                kommer vi behandla ditt ärende. <br>Detta gäller gäller för marknad, torghandel, gatuförsäljning.
+                <br>Vi på Rubber Duckies kommun hjälper gärna till med frågor ni
+                kan tänkas ha. <br>Vi hjälper även till med att bland annat placera 
                 ut stånd, matvagnar, numrering för besökare med mera.
                 <br><br>
-                <button class="button">
-                    <a class="buttontext" href="/assets/dokument/Tillstånd handel.docx" download> Tillstånd marknad, försäljning</a>
-                </button>
+                <form>
+                    <label for="fname">Ditt namn:</label><br>
+                    <input type="text" id="fname" name="fname" value=""><br>
+                    <label for="lname">Din mail:</label><br>
+                    <input type="text" id="lname" name="lname" value=""><br>
+                    <label for="nummer">Telefonnummer:</label><br>
+                    <input type="text" id="nummer" name="nummer" value=""><br>
+                    <label for="date">Väl mellan vilka datum ni önskar tillstånd:</label><br>
+                    <input type="date" id="fTime">
+                    <input type="date" id="fTime"> <br>
+                    <label for="Välj tillstånd">Typ av tillstånd:</label><br>
+                    <select name="Välj tillstånd" id="Välj tillstånd">
+                        <option value="Marknad">Välj här</option>
+                        <option value="Marknad">Marknad</option>
+                        <option value="Torghandel">Torghandel</option>
+                        <option value="Annan försäljning">Annan försäljning</option>
+                    </select> <br><br>
+                    <label for="message">Här skriver du typ av försäljning om din inte fanns med i 
+                        <br>listan samt om du har några önskemål ifrån kommunen:</label><br>
+                    <textarea name="message" style="width:400px; height:100px;"></textarea> <br><br>
+                    <input class="knapp" type="submit" value="Submit">
+                  </form> 
             </p>
             </div>
         </section>
@@ -429,9 +447,28 @@
                     kan tänkas ha. Vi hjälper även till med kontakt gällande 
                     matvagnar, säkerhet med mera gällande event.
                 <br><br>
-                <button class="button">
-                    <a class="buttontext" class="lankforetag" href="/assets/dokument/Tillstånd event.docx" download> Tillstånd event, tävling, festival</a>
-                </button>
+                <form>
+                    <label for="fname">Ditt namn:</label><br>
+                    <input type="text" id="fname" name="fname" value=""><br>
+                    <label for="lname">Din mail:</label><br>
+                    <input type="text" id="lname" name="lname" value=""><br>
+                    <label for="nummer">Telefonnummer:</label><br>
+                    <input type="text" id="nummer" name="nummer" value=""><br>
+                    <label for="date">Väl mellan vilka datum ni önskar tillstånd:</label><br>
+                    <input type="date" id="fTime">
+                    <input type="date" id="fTime"> <br>
+                    <label for="Välj tillstånd">Typ av tillstånd:</label><br>
+                    <select name="Välj tillstånd" id="Välj tillstånd">
+                        <option value="Marknad">Välj här</option>
+                        <option value="Event">Event</option>
+                        <option value="Tävling">Tävling</option>
+                        <option value="Festival">Festival</option>
+                    </select> <br><br>
+                    <label for="message">Här skriver du typ av Event om ditt inte fanns med i 
+                        <br>listan samt om du har några önskemål ifrån kommunen:</label><br>
+                    <textarea name="message" style="width:400px; height:100px;"></textarea> <br><br>
+                    <input class="knapp" type="submit" value="Submit">
+                  </form>
             </p>
             </div>
         </section>
