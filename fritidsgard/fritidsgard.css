@@ -1,10 +1,11 @@
 
 *{margin: 0; padding: 0;}
 
-body 
-{background-image: linear-gradient(rgb(250, 172, 3), rgb(183, 112, 241), #FFFB73);
+body {
+  background-image: linear-gradient(rgb(250, 172, 3), rgb(183, 112, 241), #FFFB73);
   background-repeat: no-repeat;
   height: 100%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 #header-bild {width: 100%; height: 13vh;
   border-bottom: solid black;}
@@ -14,6 +15,10 @@ main{
 }
 #doge{
   width: 100%;
+}
+
+.col1:hover {
+  background-color:black;
 }
 .content img{
   width: 100%;
@@ -107,8 +112,13 @@ h2{
 }
 
 .toggle-label:hover {
-  background-color: #F9B572;
+  background-color: #fef0e2;
+  transition: background-color 0s;
 }
+.toggle-label h3, .toggle-label p{
+  width: 97%;
+}
+
 
 /* Dölj inmatningsrutan */
 input[type="checkbox"] {
@@ -150,12 +160,19 @@ footer a{
   text-decoration: none;
   color: #F9B572;
 }
+.gif{
+  text-align: center;
+}
+.gif img{
+  width: 100%;
+  max-width: 400px;
+}
 
 @media screen and (min-width: 1000px){
 
 main{
 margin: 0 15%;
-height: 130vh;
+height: 150vh;
 }
 #section1{
   width: 100%;
@@ -182,7 +199,12 @@ height: 130vh;
   padding: 0 10px;
   box-sizing: border-box; }
 
+  .toggle-label:hover{
+  background-color: #F9B572;
+  cursor: default;
 }
+}
+
 
 
 
