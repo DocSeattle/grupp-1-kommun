@@ -8,7 +8,6 @@ body {
 .header-background{
     max-height: 10vh;
     border-bottom: solid var(--siteColourPrimary);
-    border-top: solid var(--siteColourPrimary);
 }
 
 #section1{
