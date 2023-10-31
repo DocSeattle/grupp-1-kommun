@@ -1,193 +1,127 @@
 @import url('/css-kommunsida/sitewide.css');
 
-
-main {
-    font-family: var(--siteFontPrimary)
-}
-main h1, main h2, main h3, main h4, main h5, main h6 
-{
-    font-family: var(--siteFontSecondary)
+#main-container {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 70%;
+    margin: 1em auto;
 }
 
-.topButton {
-    display: inline-block;
-    outline: none;
-    border-width: 0px;
-    border-radius: 3px;
-    box-sizing: border-box;
-    font-size: inherit;
-    font-weight: 500;
-    max-width: 100%;
-    text-align: center;
-    text-decoration: none;
-    transition: background 0.1s ease-out 0s,
-     box-shadow 0.15s cubic-bezier(0.47, 0.03, 0.49, 1.38) 0s;
-    background: var(--siteColourPrimary);
-    cursor: pointer;
-    height: 32px;
-    line-height: 32px;
-    padding: 0px 12px;
-    vertical-align: middle;
-    width: auto;
-    font-size: 14px;
-    color: #000;
-}
-.topButton:hover {
-    background: var(--siteColourSecondary);
-    text-decoration: inherit;
-    transition-duration: 0s, 0.15s;
-    color: #000;
-}
-
-#mainContainer {
-    max-width: 70%;
-    margin: auto auto;
-    display: flex;    
+#top-container {
+    display: flex;
     flex-flow: row nowrap;
-    place-items: start end;
-    margin-top: 2%;
-
-}
-
-#mainContainer h2 {
-    background-color: var(--siteColourAccent);
-    padding-left: 7px;
-    border-top-left-radius: 10px;
-}
-
-#mainContainer #topItem {
-    margin-top: 1%;
-    width: 45%;
-    padding-left: 2.5%;
-    padding-right: 2.5%;
-    border-left: medium solid var(--siteColourAccent);
-}
-
-#mainContainer #topItem h2 {
-    background-color: #fff;
-    padding:0
-
-}
-
-#mainContainer:first-of-type {
+    place-items: start center;
     gap: 10%;
-    place-items: center center;
-    margin: auto auto;
 }
 
-
-#mainContainer article {
-    width: 100%;
+#top-container section {
+    max-width: 45%;
 }
 
-#mainContainer:nth-of-type(2) h2 {
-    margin-top: 0;
-}
-#mainContainer:nth-of-type(2) p,
-#mainContainer:nth-of-type(3) p {
-    margin-left: 7px;
+.content-container {
+    margin: 0.5em;
 }
 
-#mainContainer:nth-of-type(2) article,
-#mainContainer:nth-of-type(3) article {
-    border: none;
-    border-radius: 5px;
-}
-#mainContainer:nth-of-type(2) section article {
-    border-left: medium solid var(--siteColourAccent);
-    border-top-left-radius: 10px;
+.content-container {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 2%;
 }
 
-#mainContainer:nth-of-type(3) {
+.content-container:last-of-type {
     flex-flow: row-reverse nowrap;
-    place-items: center end;
 }
 
-#mainContainer:nth-of-type(3) article {
-    border-left: medium solid var(--siteColourAccent);
-    border-top-left-radius: 10px;
+.flex-container {
+    display: flex;
+    flex-flow: column wrap;
 }
 
-.km-imgContainer {
-    min-width: 192px;
-    max-width: 540px;
+.image-container {
+    object-fit: cover;
     overflow: hidden;
-    margin-left: 0.5%;
-    margin-right: 0.5%;
-    border-radius: 3px;
-
+    width: auto;
+    max-width: 50%;
+    border-radius: 7px;
 }
 
-.km-imgContainer img {
-    margin: auto;
-    height: 100%;
-    object-fit: contain;
+.image-container#heightTarget1 {
+    border-left: thick solid var(--borderColor);
+}
+.image-container#heightTarget2 {
+    border-right: thick solid var(--borderColor);
 }
 
-#mainContainer:last-of-type article.km-imgContainer {
-    border-left: none;
+#heightTarget1 {
+    height: auto;
+}
+
+#heightTarget2 {
+    height: auto;
+}
+
+
+.text-container p {
+    margin: 0 auto;
+}
+.text-container h2 {
+    background-color: var(--siteColourPrimary, #FFD700);
+    padding-bottom: 0.25em;
+    padding-left: 0.15em;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.top-container section h2 {
+    background-color: var(--siteColourPrimary, #FFD700);
+    padding: 0 0.25em 0.25em 0.15em;
+    border-radius: 5px 5px 0px 0px;
+}
+
+
+
+.anchorButton {
+    display: block;
+    padding: 0.2em;
+    margin: 0.5em;
+
+    width: 160px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+
+    color: #000;
+    background-color: var(--siteColourPrimary);
+    border-radius: 7px;
+    border: medium solid var(--siteColourSecondary);
+    box-shadow: 3px 3px 5px #0000006c;
+}
+
+.anchorButton:visited {
+    color: #000;
+}
+
+.anchorButton:hover,
+.anchorButton:focus {
+    background-color: var(--siteColourSecondary);
+    border-color: var(--siteColourPrimary);
+    box-shadow: 2px 2px 4px #000;
+    transition: all 0.15s ease-in;
 }
 
 @media only screen and (max-width: 1000px) {
     #mainContainer {
         max-width: 95%;
-    }
-
-}
-
-h2#modalHeading {
-    background-color: #fff;
-}
-
-#infoKultur {
-    display: flex;
-    flex-flow: column wrap;
-    margin-left: auto;
-    width: 60%;
-    row-gap: 5em;
-}
-
-#infoKultur h2 {
-    margin-top: 0;
-}
-
-#infoVerksamheter {
-    display: flex;
-    flex-flow: column wrap;
-    margin-right: auto;
-    width: 60%;
-    row-gap: 5em;
-}
-
-#infoVerksamheter h2 {
-    margin-top: 0;
-}
-
-
-@media only screen and (max-width: 500px) {
-    .km-imgContainer {
-        display: none;
-    }
-    #mainContainer {
-        max-width: 100%;
-        place-items: start center;
-    }
-
-    #mainContainer:first-of-type {
-        gap: 2%;
-    }
-    #mainContainer #topItem {
-        width: 50%;
-        height: 195px;
-        align-self: start;
-    }
-
-    #mainContainer .small {
-        width: 100%;
-        margin: auto auto;
-    }
-    #mainContainer h2,
-    #mainContainer p {
         width: 95%;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    #mainContainer {
+        width: 100%;
+    }
+    
+    .image-container {
+        display: none;
     }
 }
